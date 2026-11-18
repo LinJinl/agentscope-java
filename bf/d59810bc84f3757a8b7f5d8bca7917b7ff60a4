@@ -1,0 +1,2591 @@
+.github/MAVEN_RELEASE.md
+  s_e15ab986b6c865::t_d4679e105851d0 1-54
+.github/MAVEN_RELEASE_zh.md
+  s_e15ab986b6c865::t_870384ec32f02d 1-48
+.github/scripts/check-maven-release-version.py
+  s_e15ab986b6c865::t_c21ac65c629a82 1-89
+.github/scripts/tests/test_maven_release_version.py
+  s_e15ab986b6c865::t_d04d2e9e1de9c3 1-121
+.github/workflows/maven-central-release.yml
+  s_e15ab986b6c865::t_98be0135e5e80a 1-82
+.github/workflows/maven-ci.yml
+  s_e15ab986b6c865::t_10aade55359984 45-46,107-110
+.gitignore
+  s_e15ab986b6c865::t_943778dce49957 11,100-143
+.licenserc.yaml
+  s_e15ab986b6c865::t_a4d139560d7898 53-54
+AGENTS.md
+  s_e15ab986b6c865::t_5790e848154924 48,58,60,83,95,105
+README.md
+  s_e15ab986b6c865::t_8529f420fc63ae 11,58-63,113,115,167,201
+README_ja.md
+  s_e15ab986b6c865::t_d2f23e4a315176 1-230
+README_zh.md
+  s_e15ab986b6c865::t_b566107e0a167a 11,58-63,113,115,167,201
+agentscope-core/src/main/java/io/agentscope/core/ReActAgent.java
+  s_e15ab986b6c865::t_f54efbd6b10b8d 20-21,23-24,28,32,74-81,103,117,143,176,268-276,282-288,355-360,367,411-414,417-419,422-423,426-428,439,444,454,457-462,475,486-488,493-497,515-517,520-521,533-535,538-539,541,545-593,597,599-603,605,607,616-620,623-660,664,675,678-680,690,692,733-735,739-743,752,759,761,767,778,789,800,803,808-809,818,821,823-827,856-858,861,864-874,876-877,882-884,895-899,902-910,913,918,920-921,943-944,950,952-1028,1031-1057,1059,1068-1069,1074-1076,1078,1108-1111,1119-1162,1168-1207,1239,1241,1245-1271,1275,1444,1552-1555,1558-1562,1565-1581,1589-1606,1616,1680,1692,1865-1868,1870-1872,1875-1876,1887-1888,2063-2069,2078-2115,2387-2398,2406,2527-2528,2532-2534,2551-2576,2598-2604,2621,2666,2670,2867,2871,2874-2882,3004-3008,3011,3013-3015,3105-3108,3175,3178-3179,3187,3208-3212,3216-3217,3221,3232,3253,3269-3270,3330-3332,3377,3383-3384,3447,3483-3486,3644-3649,3656-3669,3901-3907,4076-4090,4099-4100,4102,4124,4135-4140,4149-4161,4169-4182,4232-4233,4240-4241,4258-4284,4287,4348-4351,4401-4405,4467-4600,4624,4670,4698,4792-4793,5271-5277,5313,5320-5334,5621-5624,5627,5631-5632,5640-5642,5649-5650,5658,5664,5667,5669,5708-5712,5806,5813,5850-5856,5861-5918,5950,5952-5955,5958,5962-5964,5972-5981,5983-5984,6004-6011,6015,6017,6019,6031-6035,6041,6072-6076,6090,6113-6115,6118-6138,6161,6194,6210,6213-6219,6230-6234,6257,6262-6264,6267-6278,6288,6292-6293,6295-6297,6304-6305,6409,6411-6413,6417-6418,6420-6421,6426-6427,6436,6523-6525,6549-6551,6557,6563,6651-6653,6660,6665-6677,6679,6682-6684,6799,6975,6978,7008-7014,7167-7182,7226,7405-7420
+agentscope-core/src/main/java/io/agentscope/core/agent/AgentBase.java
+  s_e15ab986b6c865::t_4ed89d22fd5cf2 25-26,29,462-465,472-484,489-494,507-526,531-534,728-735,952,1231
+agentscope-core/src/main/java/io/agentscope/core/agent/AgentExecutionHost.java
+  s_e15ab986b6c865::t_48bd582f9a18ae 1-63
+agentscope-core/src/main/java/io/agentscope/core/agent/AgentExecutionPosition.java
+  s_e15ab986b6c865::t_ecbc6a75429a1a 1-33
+agentscope-core/src/main/java/io/agentscope/core/agent/AgentRun.java
+  s_e15ab986b6c865::t_332ad3608e245e 41,142-149
+agentscope-core/src/main/java/io/agentscope/core/agent/CapabilityResolver.java
+  s_e15ab986b6c865::t_7bf4ba66f25bb6 1-44
+agentscope-core/src/main/java/io/agentscope/core/agent/CapabilitySurface.java
+  s_e15ab986b6c865::t_bbfe90ad070034 1-215
+agentscope-core/src/main/java/io/agentscope/core/agent/ExecutionIdentity.java
+  s_e15ab986b6c865::t_4175e9427a963a 20-25,31,33-37
+agentscope-core/src/main/java/io/agentscope/core/agent/RunControl.java
+  s_e15ab986b6c865::t_087ef6ef487c9f 37-38,102,121-127,132-144,146-147,167-170
+agentscope-core/src/main/java/io/agentscope/core/agent/RunOutcome.java
+  s_e15ab986b6c865::t_f16b057ac57415 1-75
+agentscope-core/src/main/java/io/agentscope/core/agent/RuntimeContext.java
+  s_e15ab986b6c865::t_d0469fc26ba5eb 29,37-38,43-44,47-49,82-88,115,129-138,140-141,396-397,415-426,428-430,479-482
+agentscope-core/src/main/java/io/agentscope/core/agent/ThreadKey.java
+  s_e15ab986b6c865::t_0799a82053ba2f 1-68
+agentscope-core/src/main/java/io/agentscope/core/agent/accumulator/ToolCallsAccumulator.java
+  s_e15ab986b6c865::t_dfee37893da19b 155-163
+agentscope-core/src/main/java/io/agentscope/core/formatter/AbstractBaseFormatter.java
+  s_e15ab986b6c865::t_f7e1ba73ba214c 22-23,124-125,127-128,254-257,271,273-277,297-300
+agentscope-core/src/main/java/io/agentscope/core/formatter/DocumentReferenceRenderer.java
+  s_e15ab986b6c865::t_7262288a5f72f4 1-175
+agentscope-core/src/main/java/io/agentscope/core/formatter/MediaUtils.java
+  s_e15ab986b6c865::t_a832f44457a773 279-281
+agentscope-core/src/main/java/io/agentscope/core/hook/LegacyHookDispatcher.java
+  s_e15ab986b6c865::t_6bf2c1fded99d9 62-74,89-94,123,147-149,185-188,214
+agentscope-core/src/main/java/io/agentscope/core/hook/PreCallEvent.java
+  s_e15ab986b6c865::t_da90d0e69f6420 19,35-36,53,56,63-75,80-93
+agentscope-core/src/main/java/io/agentscope/core/journal/AtomicJournalStorage.java
+  s_e15ab986b6c865::t_b77578a63e34f5 1-62
+agentscope-core/src/main/java/io/agentscope/core/journal/AtomicThreadJournal.java
+  s_e15ab986b6c865::t_a667da791766fc 1-443
+agentscope-core/src/main/java/io/agentscope/core/journal/InMemoryThreadJournalStore.java
+  s_e15ab986b6c865::t_5a1087bce617c6 1-69
+agentscope-core/src/main/java/io/agentscope/core/journal/InvocationRecorder.java
+  s_e15ab986b6c865::t_d206f226f1212d 1-991
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalEvent.java
+  s_e15ab986b6c865::t_1a6f786d0972e4 1-52
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalEventCodecRegistry.java
+  s_e15ab986b6c865::t_a488bcac46efda 1-61
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalEventTypes.java
+  s_e15ab986b6c865::t_f4a1c1a0398bf2 1-80
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalException.java
+  s_e15ab986b6c865::t_bd577be24f476b 1-38
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalExportSink.java
+  s_e15ab986b6c865::t_f0b67e9d0337f5 1-38
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalExporter.java
+  s_e15ab986b6c865::t_769bc4f54883a8 1-46
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalProjection.java
+  s_e15ab986b6c865::t_2a6fca10d80528 1-153
+agentscope-core/src/main/java/io/agentscope/core/journal/JournalSchedulers.java
+  s_e15ab986b6c865::t_a20bafbabb7389 1-66
+agentscope-core/src/main/java/io/agentscope/core/journal/ModelCallPolicy.java
+  s_e15ab986b6c865::t_ee068d775c29b3 1-39
+agentscope-core/src/main/java/io/agentscope/core/journal/ModelInvocation.java
+  s_e15ab986b6c865::t_2d75c8327ed2b2 1-36
+agentscope-core/src/main/java/io/agentscope/core/journal/RecordedModelRequests.java
+  s_e15ab986b6c865::t_cbb9986c7ed2b0 1-137
+agentscope-core/src/main/java/io/agentscope/core/journal/RecordedModels.java
+  s_e15ab986b6c865::t_f30cc4f1ab7b0e 1-210
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadCheckpoints.java
+  s_e15ab986b6c865::t_3dfd5f4d089050 1-121
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadHistory.java
+  s_e15ab986b6c865::t_5129148c964eb6 1-57
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadInteractions.java
+  s_e15ab986b6c865::t_14b35a5db1d199 1-62
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadJournal.java
+  s_e15ab986b6c865::t_f8d922ac81c984 1-124
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadJournalStore.java
+  s_e15ab986b6c865::t_87989caaf5baa4 1-35
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadRecovery.java
+  s_e15ab986b6c865::t_bbd7d062e16f0d 1-118
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadStateAccess.java
+  s_e15ab986b6c865::t_eabfa3ffa362e6 1-179
+agentscope-core/src/main/java/io/agentscope/core/journal/ThreadTranscriptExport.java
+  s_e15ab986b6c865::t_50efc32c3bc561 1-175
+agentscope-core/src/main/java/io/agentscope/core/message/GenerateReason.java
+  s_e15ab986b6c865::t_8cfa4c7b452241 50-52
+agentscope-core/src/main/java/io/agentscope/core/middleware/ActivePointsResolver.java
+  s_e15ab986b6c865::t_b5745af85c859f 1-212
+agentscope-core/src/main/java/io/agentscope/core/middleware/MiddlewareBase.java
+  s_e15ab986b6c865::t_df405da01a5111 54-58,64-68,83-91,94-111,115-140,147-148,151,285-293
+agentscope-core/src/main/java/io/agentscope/core/model/GenerateOptions.java
+  s_e15ab986b6c865::t_6010c01190f618 49,80,250-262,491-494,554,723-737
+agentscope-core/src/main/java/io/agentscope/core/model/Model.java
+  s_e15ab986b6c865::t_d5abefc054b6aa 37-38
+agentscope-core/src/main/java/io/agentscope/core/model/ModelCreationContext.java
+  s_e15ab986b6c865::t_4b8445c2588a29 253-260,262-281
+agentscope-core/src/main/java/io/agentscope/core/model/ModelRegistry.java
+  s_e15ab986b6c865::t_3155b3126be97a 36,38,43-44,46-106,112-117,132-157,163-179,181-182,184-201,205-207,209-210,215,217-230,238-240,243-244,246,258-260,263-264,266,270-316,333-336,338,352-353,358,362-367,370,374-385,387-390,392-409,413-422,431,453-455,461-463,476,491-494,496,524-530,532-549,553-557,573-697,700,702-704,711-714,718-725,728,734,740-741,743-747,749-751,759-762,765,781-787,789-797,802-823,829,834-835,840-842,849,867-872,876-884,894,896,898,900,902,905-914,916,919-986,999,1025,1053,1064,1069,1074-1077,1093-1113
+agentscope-core/src/main/java/io/agentscope/core/model/ModelRequestObserver.java
+  s_e15ab986b6c865::t_b793855a8165d6 1-32
+agentscope-core/src/main/java/io/agentscope/core/model/ModelSchedulers.java
+  s_e15ab986b6c865::t_8a57d21a967dd9 1-80
+agentscope-core/src/main/java/io/agentscope/core/model/ModelUtils.java
+  s_e15ab986b6c865::t_31e128b17c5a19 103,105-118,150-154,170-174
+agentscope-core/src/main/java/io/agentscope/core/model/spi/ModelProvider.java
+  s_e15ab986b6c865::t_e76916eb349f6f 30-39,48-56
+agentscope-core/src/main/java/io/agentscope/core/model/transport/HttpTransportConfig.java
+  s_e15ab986b6c865::t_332ddaa1e05d0a 56,69,180-188,221-236
+agentscope-core/src/main/java/io/agentscope/core/model/transport/JdkHttpTransport.java
+  s_e15ab986b6c865::t_6ca0a30dd08299 18,52-53,56,81-82,99,113-120,123-124,224,233-235,240-242,244,249,253,256-275,337-348,350,513,560-576,602-621,654-659
+agentscope-core/src/main/java/io/agentscope/core/model/transport/OkHttpTransport.java
+  s_e15ab986b6c865::t_1b2f45fad19555 18,34,40,52,75-76,91,104,107-118,240-285,287-295,416-441,474-479
+agentscope-core/src/main/java/io/agentscope/core/observation/ActionObservations.java
+  s_e15ab986b6c865::t_34d7f3c0d8ff74 21,46,52-57,60
+agentscope-core/src/main/java/io/agentscope/core/permission/PermissionContextState.java
+  s_e15ab986b6c865::t_7a946428a48bdc 135-213
+agentscope-core/src/main/java/io/agentscope/core/permission/PermissionEngine.java
+  s_e15ab986b6c865::t_4d44b238575bac 92-96,102-104
+agentscope-core/src/main/java/io/agentscope/core/shutdown/GracefulShutdownManager.java
+  s_e15ab986b6c865::t_62ec4360cf1383 361-366
+agentscope-core/src/main/java/io/agentscope/core/skill/AgentSkill.java
+  s_e15ab986b6c865::t_41a1f9fad15de8 70,84-89,94,171-191,207,213-216,263-264,303-306,311,325-335,401,422,561-573,581
+agentscope-core/src/main/java/io/agentscope/core/skill/AgentSkillPromptProvider.java
+  s_e15ab986b6c865::t_931dc944b9b6fb 23,190-209,223
+agentscope-core/src/main/java/io/agentscope/core/skill/DynamicSkillMiddleware.java
+  s_e15ab986b6c865::t_be85a1efd84a11 19,244-271,326-333
+agentscope-core/src/main/java/io/agentscope/core/skill/SkillBox.java
+  s_e15ab986b6c865::t_52f50c095c84b2 18,118-119,163-189,304-308
+agentscope-core/src/main/java/io/agentscope/core/skill/SkillHook.java
+  s_e15ab986b6c865::t_7b73eecbf521fe 18-19,57-59
+agentscope-core/src/main/java/io/agentscope/core/skill/SkillRegistry.java
+  s_e15ab986b6c865::t_0ae9bd7b511190 19,82,94,113,124-126
+agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java
+  s_e15ab986b6c865::t_eaee8e14a8c1cc 18,48,131-136,216-222,236,271-276,294-295,299-301,303-304,306-307,309,345,354-357,368,387,421-447,457,460-461
+agentscope-core/src/main/java/io/agentscope/core/skill/util/SkillUtil.java
+  s_e15ab986b6c865::t_2c539099c1c5f7 60-68,120-134
+agentscope-core/src/main/java/io/agentscope/core/state/AgentState.java
+  s_e15ab986b6c865::t_56b10f7a40019e 46,61,75-77,103,114-115,161-165,284,299,316-317,331,350-354
+agentscope-core/src/main/java/io/agentscope/core/state/AgentStateStore.java
+  s_e15ab986b6c865::t_7829843b4f63b3 36-38
+agentscope-core/src/main/java/io/agentscope/core/state/JsonFileAgentStateStore.java
+  s_e15ab986b6c865::t_3f956353c8e3b2 23-25,42-44,74-79,89-92,111,113,119-123,125,129-130,136-145,147,162-163,168-179,181-187,192-212,220-226,228-238,245-248,250-261,264-266,268-269,275-282,287,292-294,296-307,310-311,317-318,334,359-361,384-385,388-389,392-393,412-440,442-448,485-487,489-490,492-509
+agentscope-core/src/main/java/io/agentscope/core/state/LegacyStateLoader.java
+  s_e15ab986b6c865::t_7acf002f4e686d 31,123-124
+agentscope-core/src/main/java/io/agentscope/core/tool/AgentTool.java
+  s_e15ab986b6c865::t_adeccd91bd9e58 148-157
+agentscope-core/src/main/java/io/agentscope/core/tool/MetaToolFactory.java
+  s_e15ab986b6c865::t_1962a348274a68 18,28-29,37-38,47-68,83-88,134-136,169-171,173,175-183,192-207
+agentscope-core/src/main/java/io/agentscope/core/tool/ReflectiveFunctionTool.java
+  s_e15ab986b6c865::t_2196c4b81c6e5c 149-150
+agentscope-core/src/main/java/io/agentscope/core/tool/SkillToolGroup.java
+  s_e15ab986b6c865::t_ec9802e58a8f71 55-56,86-95,115,172-186
+agentscope-core/src/main/java/io/agentscope/core/tool/Tool.java
+  s_e15ab986b6c865::t_7641e7ae892c8e 156-162
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolBase.java
+  s_e15ab986b6c865::t_3dfa106d03d1ee 73-75,96-97,131,146-147,159,194-204,353,413-425
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolCallParam.java
+  s_e15ab986b6c865::t_50a3e2e4b0b79d 47-48,55,63,125-134,181,191,266-278
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolExecutor.java
+  s_e15ab986b6c865::t_2d55d67edea29d 19,21-22,205-239,261-274,281-286,290-291,332-333,357-358,388-395,404,407,414-415,450-451,475,547,561-563,572-577,792-794,856
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolGroup.java
+  s_e15ab986b6c865::t_cdcee48a206c19 50-56,72-94,100,104-110,158-170,220,241,299-313
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolGroupManager.java
+  s_e15ab986b6c865::t_dfd57b5b598ed2 256-270,275-291,311-313,589-604
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolMethodInvoker.java
+  s_e15ab986b6c865::t_36956801b9bea2 20,27,34-35,94-99,116-121,134,368-375,390-394
+agentscope-core/src/main/java/io/agentscope/core/tool/ToolRequestConfig.java
+  s_e15ab986b6c865::t_b044178cf88a41 90-94,108-109,118-119
+agentscope-core/src/main/java/io/agentscope/core/tool/Toolkit.java
+  s_e15ab986b6c865::t_419e0826c7d218 19,39,279-285,422,447-468,473-478,484-486,489-598,600-653,655-679,683-690,692-714,817-822,828-829,873-875,879-880,1219-1229,1280-1286
+agentscope-core/src/main/java/io/agentscope/core/tool/coding/CommandValidator.java
+  s_e15ab986b6c865::t_13a7a665acd2f3 26-27,29,50-51,53,56-58,60,90-91
+agentscope-core/src/main/java/io/agentscope/core/tool/coding/ShellCommandTool.java
+  s_e15ab986b6c865::t_51453ec62d5554 65-71,115-121,126-130,173,190,209,400,473,493
+agentscope-core/src/main/java/io/agentscope/core/tool/coding/UnixCommandValidator.java
+  s_e15ab986b6c865::t_e5de2c5baed0ab 28-29,54-58,60,63,65-66,69-72,101-106,170-173,191-193,209-213,220-223,227
+agentscope-core/src/main/java/io/agentscope/core/tool/coding/WindowsCommandValidator.java
+  s_e15ab986b6c865::t_6c256d3b83ee52 28-29,57-61,63,66,68-69,72-76,106-111,209-212,219,224-237,244-245,256-257,264-266,270
+agentscope-core/src/main/java/io/agentscope/core/tool/file/WriteFileTool.java
+  s_e15ab986b6c865::t_1a8395d01fc145 250-254,307-311,335-357,371-381,386,392-393,395-397
+agentscope-core/src/main/java/io/agentscope/core/tool/subagent/SubAgentTool.java
+  s_e15ab986b6c865::t_f10bf74f36d1f7 20-21,26-30,35-36,44,162,245,255-259,273,285,307-342,420,427,432-446,490,492-505,596-600,602,611-614
+agentscope-core/src/main/java/io/agentscope/core/util/JacksonJsonCodec.java
+  s_e15ab986b6c865::t_a99ec25a803e42 19,21,38-40,77-90,128-131,140-143
+agentscope-core/src/main/java/io/agentscope/core/util/JsonUtils.java
+  s_e15ab986b6c865::t_bf19dcf11b2211 23,126-130,133-135,148-155,158-168,172-214,216
+agentscope-core/src/main/resources/io/agentscope/core/journal/journal-event-v2.schema.json
+  s_e15ab986b6c865::t_8389f453634070 1-56
+agentscope-core/src/test/java/io/agentscope/core/agent/AgentExecutionHostTest.java
+  s_e15ab986b6c865::t_b5c133e07cba0f 1-385
+agentscope-core/src/test/java/io/agentscope/core/agent/AgentExecutionPositionTest.java
+  s_e15ab986b6c865::t_db13b48022c319 1-104
+agentscope-core/src/test/java/io/agentscope/core/agent/AgentRunTest.java
+  s_e15ab986b6c865::t_c4fc3707cbac59 21,31,33,197-201,249-253,289,294,308-312,360-364
+agentscope-core/src/test/java/io/agentscope/core/agent/AgentThreadIsolationTest.java
+  s_e15ab986b6c865::t_2d07b6714a8145 1-218
+agentscope-core/src/test/java/io/agentscope/core/agent/CapabilityGrantIntegrationTest.java
+  s_e15ab986b6c865::t_13b533e1d78b37 1-1459
+agentscope-core/src/test/java/io/agentscope/core/agent/CapabilitySurfaceTest.java
+  s_e15ab986b6c865::t_c885dd867de243 1-403
+agentscope-core/src/test/java/io/agentscope/core/agent/ModelRequestPreparerIntegrationTest.java
+  s_e15ab986b6c865::t_6a26213a9a5c75 39,42,221-225
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentCallFailurePersistenceTest.java
+  s_e15ab986b6c865::t_2a7b50cac3342f 66-72,194-199,216-221,239-244,260-265
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentHitlTest.java
+  s_e15ab986b6c865::t_330a795d737e8f 47,50,52,56,126,155-167,376-455,1033-1260
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentInterruptToolCallTest.java
+  s_e15ab986b6c865::t_1d12caa18b08e9 43,47,114-118,256-261
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentMiddlewareIntegrationTest.java
+  s_e15ab986b6c865::t_fdbf8629cfea81 56,59,191-200,309-313,385-389,413-417,455-459,512-516
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentModelSelectionTest.java
+  s_e15ab986b6c865::t_274e0b9e49d02a 1-304
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentNewLoopBuilderTest.java
+  s_e15ab986b6c865::t_9d4ca1591dffd8 35,37,142-147
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentNewLoopE2ETest.java
+  s_e15ab986b6c865::t_642e228054e442 56,60,171-195,229-233,256-260,346-468
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentNewLoopReplyTest.java
+  s_e15ab986b6c865::t_7083d57de284e5 63,67,720-724
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentOnAgentStateReadyTest.java
+  s_e15ab986b6c865::t_e75a1d39eda5ed 43,121-125,239-246,256,262-266,301-305,359-363,386-390,416-420,445-449
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentPerSessionStateTest.java
+  s_e15ab986b6c865::t_edca1e6297d78a 53,56,58,64,68-70,130,179,293-379,767,772-774
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentPermissionPersistenceTest.java
+  s_e15ab986b6c865::t_96a2ad20327259 1-480
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentPermissionRulesTest.java
+  s_e15ab986b6c865::t_79d8a808e48f3e 1-282
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentPostActingFeedbackTest.java
+  s_e15ab986b6c865::t_3c6dea22641905 44,47,166-170
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentReturnDirectTest.java
+  s_e15ab986b6c865::t_d6b296a87107d4 35-36,69,778-831
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentRunIdVisibilityTest.java
+  s_e15ab986b6c865::t_2e38b8b644b5f3 26-27,34,76-83,232,237,245-246,249
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentRuntimeContextTest.java
+  s_e15ab986b6c865::t_062544508a8e8a 48,51,209-213,311-315
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentStateLoadFailureTest.java
+  s_e15ab986b6c865::t_5896f902cd6fb5 57-61,105-109
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentStructuredOutputCleanupTest.java
+  s_e15ab986b6c865::t_9b672e672fcdf0 1-299
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentStructuredOutputTest.java
+  s_e15ab986b6c865::t_50cb7431917977 43,618-659
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentStructuredOutputWithToolsTest.java
+  s_e15ab986b6c865::t_ed482320c1da8b 45,48,227-231
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentSyncInterruptTest.java
+  s_e15ab986b6c865::t_6c69f6ca483e11 1-185
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActAgentUnknownVersionPersistTest.java
+  s_e15ab986b6c865::t_075fe88e18bcb5 80,87-95,110-121,153-165
+agentscope-core/src/test/java/io/agentscope/core/agent/ReActNativeToolCancellationTest.java
+  s_e15ab986b6c865::t_7ddadc56027bea 1-189
+agentscope-core/src/test/java/io/agentscope/core/agent/RunOutcomeTest.java
+  s_e15ab986b6c865::t_79e2c573d6655c 1-147
+agentscope-core/src/test/java/io/agentscope/core/agent/RuntimeContextTest.java
+  s_e15ab986b6c865::t_3c36b02de56955 23,66-67,73-114,120-121,123,125-126
+agentscope-core/src/test/java/io/agentscope/core/agent/StructuredMixedBatchAuditTest.java
+  s_e15ab986b6c865::t_4b3c5a7a8a9cf8 1-253
+agentscope-core/src/test/java/io/agentscope/core/agent/StructuredOutputRequestPreparationTest.java
+  s_e15ab986b6c865::t_e0d84d4db84b8a 38,41,69-73
+agentscope-core/src/test/java/io/agentscope/core/agent/accumulator/ToolCallsAccumulatorTest.java
+  s_e15ab986b6c865::t_e05f8d5cd2eb27 352-434
+agentscope-core/src/test/java/io/agentscope/core/agent/test/MockModel.java
+  s_e15ab986b6c865::t_ac022d32d655be 33-34,48-63,141,179,214
+agentscope-core/src/test/java/io/agentscope/core/agent/test/MockModelRecordedMessagesTest.java
+  s_e15ab986b6c865::t_af09c4eee6211a 1-57
+agentscope-core/src/test/java/io/agentscope/core/formatter/AbstractBaseFormatterTest.java
+  s_e15ab986b6c865::t_b355840e93add3 1-158
+agentscope-core/src/test/java/io/agentscope/core/formatter/DocumentReferenceRendererTest.java
+  s_e15ab986b6c865::t_8669e72d70b828 1-250
+agentscope-core/src/test/java/io/agentscope/core/formatter/MediaUtilsTest.java
+  s_e15ab986b6c865::t_fc4b9b91c3a7f9 193-195
+agentscope-core/src/test/java/io/agentscope/core/hook/LegacyHookDispatcherChunkTest.java
+  s_e15ab986b6c865::t_5ab629c9afe906 1-114
+agentscope-core/src/test/java/io/agentscope/core/hook/LegacyHookDispatcherTest.java
+  s_e15ab986b6c865::t_78c1f0f4e37119 1-70
+agentscope-core/src/test/java/io/agentscope/core/journal/AtomicThreadJournalTest.java
+  s_e15ab986b6c865::t_b84c3fa3ea2ce3 1-229
+agentscope-core/src/test/java/io/agentscope/core/journal/InvocationIdentityTest.java
+  s_e15ab986b6c865::t_37a648d579df77 1-347
+agentscope-core/src/test/java/io/agentscope/core/journal/InvocationRecorderAsyncCommitTest.java
+  s_e15ab986b6c865::t_01652a02668dc5 1-272
+agentscope-core/src/test/java/io/agentscope/core/journal/InvocationRecorderAtomicFactTest.java
+  s_e15ab986b6c865::t_dae775634e0b7d 1-238
+agentscope-core/src/test/java/io/agentscope/core/journal/JournalExporterTest.java
+  s_e15ab986b6c865::t_eae80d10dfd406 1-95
+agentscope-core/src/test/java/io/agentscope/core/journal/JournalReadOptimizationTest.java
+  s_e15ab986b6c865::t_347eeecf547787 1-157
+agentscope-core/src/test/java/io/agentscope/core/journal/ModelCallPolicyExecutionTest.java
+  s_e15ab986b6c865::t_ad45fe279c5165 1-135
+agentscope-core/src/test/java/io/agentscope/core/journal/ReActThreadJournalTest.java
+  s_e15ab986b6c865::t_c15edb0af48432 1-362
+agentscope-core/src/test/java/io/agentscope/core/journal/RecordedModelNoOpSchedulingTest.java
+  s_e15ab986b6c865::t_29b9e6340b930f 1-156
+agentscope-core/src/test/java/io/agentscope/core/journal/RecordedModelRequestsTest.java
+  s_e15ab986b6c865::t_f79e73dbe7f602 1-230
+agentscope-core/src/test/java/io/agentscope/core/journal/ThreadCheckpointsTest.java
+  s_e15ab986b6c865::t_5f9563b2195e1b 1-90
+agentscope-core/src/test/java/io/agentscope/core/journal/ThreadTranscriptExportTest.java
+  s_e15ab986b6c865::t_2a849a86cf3024 1-231
+agentscope-core/src/test/java/io/agentscope/core/message/GenerateReasonTest.java
+  s_e15ab986b6c865::t_4c9c5574ca3cc5 38,45
+agentscope-core/src/test/java/io/agentscope/core/middleware/ActivePointsResolverTest.java
+  s_e15ab986b6c865::t_d80a933dde4830 1-152
+agentscope-core/src/test/java/io/agentscope/core/middleware/MiddlewareActivePointsTest.java
+  s_e15ab986b6c865::t_1d659d5005c0d9 42,44,49-50,64-68,82-91,139-165,201,203-204,212-308,314,316
+agentscope-core/src/test/java/io/agentscope/core/model/GenerateOptionsTest.java
+  s_e15ab986b6c865::t_a339fe5b803ac7 477-522
+agentscope-core/src/test/java/io/agentscope/core/model/ModelRegistryTest.java
+  s_e15ab986b6c865::t_5edcfe36ab8bc4 21,29-32,47,52,183,216,230,252-253,256,267-346,702-1288,1335-1374
+agentscope-core/src/test/java/io/agentscope/core/model/transport/JdkHttpTransportStreamCancelTest.java
+  s_e15ab986b6c865::t_68bcc7244ff764 1-203
+agentscope-core/src/test/java/io/agentscope/core/model/transport/JdkHttpTransportTest.java
+  s_e15ab986b6c865::t_612c901334cffc 1327,1330,1334-1335,1352-1356,1359,1528-1530,1532,1582,1586-1597,1604
+agentscope-core/src/test/java/io/agentscope/core/model/transport/ModelSchedulingIsolationTest.java
+  s_e15ab986b6c865::t_04e2ebcf8b38c3 1-320
+agentscope-core/src/test/java/io/agentscope/core/observation/ActionObservationsTest.java
+  s_e15ab986b6c865::t_dce5d0a39fc117 27,29-31,37,51-77
+agentscope-core/src/test/java/io/agentscope/core/permission/PermissionContextStateTest.java
+  s_e15ab986b6c865::t_57fa14afb2e827 24-26,124-277
+agentscope-core/src/test/java/io/agentscope/core/permission/PermissionEngineTest.java
+  s_e15ab986b6c865::t_813530bcf52662 375-419
+agentscope-core/src/test/java/io/agentscope/core/skill/DynamicSkillMiddlewareTest.java
+  s_e15ab986b6c865::t_d3effd604259d6 27,116-125,129,141,150-184,190,212-213,261,293,299,324-325,366,372,380,405,423,485,489,511-512,527,542,605,621
+agentscope-core/src/test/java/io/agentscope/core/skill/SkillBoxTest.java
+  s_e15ab986b6c865::t_f6e34cd94f5935 312
+agentscope-core/src/test/java/io/agentscope/core/skill/SkillUtilTest.java
+  s_e15ab986b6c865::t_41b5c5badaaa5b 92-101
+agentscope-core/src/test/java/io/agentscope/core/state/AgentStateTest.java
+  s_e15ab986b6c865::t_cc268e9fcecf5b 161,164,169-182
+agentscope-core/src/test/java/io/agentscope/core/state/JsonFileAgentStateStoreTest.java
+  s_e15ab986b6c865::t_af3349b4738c68 18,20,22,34-46,48,50,53-55,61-71,180-598,623-641
+agentscope-core/src/test/java/io/agentscope/core/state/PlanModeContextStatePersistenceTest.java
+  s_e15ab986b6c865::t_e4c98a80e4bfff 46-50
+agentscope-core/src/test/java/io/agentscope/core/tool/AsyncToolTest.java
+  s_e15ab986b6c865::t_5257dd7fc966af 26,67-71,91-95,115-119,140-144,175-177,217-219
+agentscope-core/src/test/java/io/agentscope/core/tool/ExternalToolSupportTest.java
+  s_e15ab986b6c865::t_472d777d03baef 27-28,283,287,309,313
+agentscope-core/src/test/java/io/agentscope/core/tool/MetaToolFactoryTest.java
+  s_e15ab986b6c865::t_036193b840e1ff 23,101-107,618,621-622,627-630
+agentscope-core/src/test/java/io/agentscope/core/tool/SystemCapabilityMarkerTest.java
+  s_e15ab986b6c865::t_ec17a56c9c4d43 1-330
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolCallInterceptorTest.java
+  s_e15ab986b6c865::t_a1d219def9f243 27-31,586-589,595,612,625,632,661
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolDispatchCheckTest.java
+  s_e15ab986b6c865::t_fa26d3014f8cf6 30,197,203
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolEmitterIntegrationTest.java
+  s_e15ab986b6c865::t_bef6e02a979654 34,102-106,160-164,216-221,232-237,315,340,362
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolExecutionContextIntegrationTest.java
+  s_e15ab986b6c865::t_444044bd336bc5 27,193,198-202,247,295-302,338-343,385-390,441-446
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolExecutorTest.java
+  s_e15ab986b6c865::t_fb39127b90c31c 22-23,60-69,98-99,140-227,241,289,325,367-368,417,474,554-555,612,647-651,710-714,790
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolInvocationOutcomeTest.java
+  s_e15ab986b6c865::t_5e6bb60f45a511 1-149
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolMethodInvokerTest.java
+  s_e15ab986b6c865::t_ab4ca418830a81 20,58-88
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolRequestConfigTest.java
+  s_e15ab986b6c865::t_afb8f7c47d5ddf 31,88-99,169,204,304-309
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolkitTest.java
+  s_e15ab986b6c865::t_754e022f075c33 39,507-512,518-523,554-559,584-589,623-628,637-642,650-655,663-668,713-718,727-732,799-804,848-853,890-895,910-915,1177-1182,1276-1281,1310-1315,1380-1385
+agentscope-core/src/test/java/io/agentscope/core/tool/ToolkitToolBaseIntegrationTest.java
+  s_e15ab986b6c865::t_2016e5c3b36091 26,85-90
+agentscope-core/src/test/java/io/agentscope/core/tool/coding/CommandValidatorTest.java
+  s_e15ab986b6c865::t_435ff3e0dcdd47 1-239
+agentscope-core/src/test/java/io/agentscope/core/tool/coding/ShellCommandToolTest.java
+  s_e15ab986b6c865::t_62e6a049b75379 1-176
+agentscope-core/src/test/java/io/agentscope/core/tool/file/WriteFileToolTest.java
+  s_e15ab986b6c865::t_5572c3dc3130bf 19,23,34-35,39,46-125,144-155
+agentscope-core/src/test/java/io/agentscope/core/tool/search/ToolSearchTest.java
+  s_e15ab986b6c865::t_7f00e576fd7d74 102,317,409-410
+agentscope-core/src/test/java/io/agentscope/core/tool/subagent/SubAgentInvocationStateTest.java
+  s_e15ab986b6c865::t_ac54317ff5913f 1-172
+agentscope-core/src/test/java/io/agentscope/core/tool/subagent/SubAgentToolDocumentTest.java
+  s_e15ab986b6c865::t_b45d029f86667c 1-94
+agentscope-core/src/test/java/io/agentscope/core/tool/subagent/SubAgentToolNameCollisionTest.java
+  s_e15ab986b6c865::t_e5b0b8f8e9080e 1-69
+agentscope-core/src/test/java/io/agentscope/core/tool/subagent/SubAgentToolSessionTest.java
+  s_e15ab986b6c865::t_41d5b6215da06d 31,34,36-39,147,167,172-181,183-184,198-200,203,210-212
+agentscope-core/src/test/java/io/agentscope/core/tool/test/GrantTestUtils.java
+  s_e15ab986b6c865::t_c14a2993de5fce 1-56
+agentscope-core/src/test/java/io/agentscope/core/util/ExceptionUtilsTest.java
+  s_e15ab986b6c865::t_2d796619aed8d4 1-148
+agentscope-core/src/test/java/io/agentscope/core/util/JacksonJsonCodecTest.java
+  s_e15ab986b6c865::t_10ea7d6178c436 276-291
+agentscope-core/src/test/java/io/agentscope/core/util/JacksonJsonCodecTrailingContentTest.java
+  s_e15ab986b6c865::t_e3feb0a859ce5f 1-68
+agentscope-core/src/test/java/io/agentscope/core/util/JsonUtilsTest.java
+  s_e15ab986b6c865::t_6afb5d8816a1d4 137,143-146,267-364
+agentscope-dependencies-bom/pom.xml
+  s_e15ab986b6c865::t_b7fa88c9b5e52f 70-72,80-81,83,102,134-135
+agentscope-distribution/agentscope-all/pom.xml
+  s_e15ab986b6c865::t_bb94e8740d809b 257-316,472,474-475,554-555
+agentscope-distribution/agentscope-bom/pom.xml
+  s_e15ab986b6c865::t_eb07b09ba45df0 95-151
+agentscope-durable/AGENTS.md
+  s_e15ab986b6c865::t_8eb981ca5586ad 1-74
+agentscope-durable/Makefile
+  s_e15ab986b6c865::t_77c5d6806ce92f 1-12
+agentscope-durable/README.md
+  s_e15ab986b6c865::t_fff09fc092b4b3 1-447
+agentscope-durable/durable-adapters/durable-adapter-agui/pom.xml
+  s_e15ab986b6c865::t_e6e37292b18eea 1-41
+agentscope-durable/durable-adapters/durable-adapter-agui/src/main/java/io/agentscope/durable/agui/DurableAguiEventAdapter.java
+  s_e15ab986b6c865::t_62d682acb906d0 1-217
+agentscope-durable/durable-adapters/durable-adapter-agui/src/main/java/io/agentscope/durable/agui/DurableAguiEventStreamSink.java
+  s_e15ab986b6c865::t_a07bc45cfc5f29 1-41
+agentscope-durable/durable-adapters/durable-adapter-agui/src/test/java/io/agentscope/durable/agui/DurableAguiEventAdapterTest.java
+  s_e15ab986b6c865::t_3fb7eff0a352d5 1-114
+agentscope-durable/durable-adapters/durable-adapter-claude/pom.xml
+  s_e15ab986b6c865::t_86ea3d178319e8 1-36
+agentscope-durable/durable-adapters/durable-adapter-claude/src/main/java/io/agentscope/durable/claude/ClaudeEventAdapter.java
+  s_e15ab986b6c865::t_bde709e9b2ef6c 1-189
+agentscope-durable/durable-adapters/durable-adapter-claude/src/main/java/io/agentscope/durable/claude/ClaudeEventStreamSink.java
+  s_e15ab986b6c865::t_8cb1630d8e75c6 1-41
+agentscope-durable/durable-adapters/durable-adapter-claude/src/test/java/io/agentscope/durable/claude/ClaudeEventAdapterTest.java
+  s_e15ab986b6c865::t_b949e9a27dc22f 1-182
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/pom.xml
+  s_e15ab986b6c865::t_186fcf5b8cbf53 1-75
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeAdapter.java
+  s_e15ab986b6c865::t_e0c6a4124a50cd 1-673
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeExecutionHost.java
+  s_e15ab986b6c865::t_16187044a974a3 1-394
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeMessageEvents.java
+  s_e15ab986b6c865::t_f6369966eb91e7 1-208
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeMessages.java
+  s_e15ab986b6c865::t_b416a732161404 1-99
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeToolEvents.java
+  s_e15ab986b6c865::t_00bff6ee6add8b 1-199
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeToolExecutor.java
+  s_e15ab986b6c865::t_52993b56f2de56 1-220
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/AgentScopeToolResults.java
+  s_e15ab986b6c865::t_29563a95a63ab9 1-113
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/BackendThreadJournal.java
+  s_e15ab986b6c865::t_232e711e31e0d2 1-581
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/DurableWorkspaceStore.java
+  s_e15ab986b6c865::t_8d81ee962e407c 1-120
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/agentscope/ModelCapture.java
+  s_e15ab986b6c865::t_7187f51bc1b5a3 1-137
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/codec/agentscope/AgentScopeCheckpointCodec.java
+  s_e15ab986b6c865::t_e86061500ba7ca 1-135
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/codec/agentscope/AgentScopeCheckpoints.java
+  s_e15ab986b6c865::t_369f646cb11ebc 1-140
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/main/java/io/agentscope/durable/codec/agentscope/DurableEventSchemas.java
+  s_e15ab986b6c865::t_67a72cb066042f 1-92
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/agentscope/AgentScopeAdapterTest.java
+  s_e15ab986b6c865::t_7379b198c842d3 1-2574
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/agentscope/AgentScopeToolEventsTest.java
+  s_e15ab986b6c865::t_e679e35504809f 1-164
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/agentscope/AgentScopeToolExecutorTest.java
+  s_e15ab986b6c865::t_f80e13f3821ddf 1-304
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/agentscope/HarnessExternalToolProcessRecoveryTest.java
+  s_e15ab986b6c865::t_45b8b6ff791e7d 1-243
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/agentscope/ProcessRecoveryTest.java
+  s_e15ab986b6c865::t_2ee76e4ac63a1f 1-282
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/codec/agentscope/AgentScopeCheckpointCodecTest.java
+  s_e15ab986b6c865::t_d6a4206df5de2d 1-106
+agentscope-durable/durable-adapters/durable-adapter-harness-agentscope/src/test/java/io/agentscope/durable/codec/agentscope/AgentScopeCheckpointsTest.java
+  s_e15ab986b6c865::t_456ee5f56bbdd8 1-192
+agentscope-durable/durable-adapters/pom.xml
+  s_e15ab986b6c865::t_5159a5f86b0f5b 1-37
+agentscope-durable/durable-runtime/pom.xml
+  s_e15ab986b6c865::t_fc4ed82180fe8a 1-69
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DelegationExecutor.java
+  s_e15ab986b6c865::t_fdac418718626a 1-113
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableException.java
+  s_e15ab986b6c865::t_b3702bf256e4c1 1-45
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableJson.java
+  s_e15ab986b6c865::t_a79317dccfa74a 1-121
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableMessages.java
+  s_e15ab986b6c865::t_c0ab43fd86f4f0 1-86
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableOperations.java
+  s_e15ab986b6c865::t_2660a6e5251ec2 1-201
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableProtocol.java
+  s_e15ab986b6c865::t_f5b560d1310579 1-124
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableRuntime.java
+  s_e15ab986b6c865::t_5af4375b7f8c7d 1-970
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableSession.java
+  s_e15ab986b6c865::t_bfaa192f1abad9 1-271
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableThread.java
+  s_e15ab986b6c865::t_459dec86a5e163 1-215
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableTurn.java
+  s_e15ab986b6c865::t_9d3fd56798040b 1-246
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/DurableTypes.java
+  s_e15ab986b6c865::t_844666a2cb3641 1-935
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/EventProjection.java
+  s_e15ab986b6c865::t_3ae599df294cd0 1-348
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/EventStreamOptions.java
+  s_e15ab986b6c865::t_ed165874ee1e1a 1-91
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/ExecutionMessages.java
+  s_e15ab986b6c865::t_35ff37cdd21af3 1-133
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/ExecutionRecovery.java
+  s_e15ab986b6c865::t_9294d9d8fbc6ac 1-97
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/Executor.java
+  s_e15ab986b6c865::t_ce7afb12719b7c 1-62
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/HarnessAdapter.java
+  s_e15ab986b6c865::t_5765a982c01f56 1-77
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/HarnessContext.java
+  s_e15ab986b6c865::t_923867ac8ae4f1 1-171
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/InvocationRecords.java
+  s_e15ab986b6c865::t_7dfe5c2b744298 1-581
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/LiveEvents.java
+  s_e15ab986b6c865::t_b9669c28673c59 1-47
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/LocalLiveEvents.java
+  s_e15ab986b6c865::t_8290383092208f 1-50
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/LocalWakeups.java
+  s_e15ab986b6c865::t_8462feeea1c9d8 1-51
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/ManagedExecutor.java
+  s_e15ab986b6c865::t_8c06087ca4b01b 1-30
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/NotifyingSessionBackend.java
+  s_e15ab986b6c865::t_f32dc20cad0aaa 1-431
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/SessionBackend.java
+  s_e15ab986b6c865::t_0cfffb0b91767e 1-234
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/SessionEventClient.java
+  s_e15ab986b6c865::t_2b1d8bf0f127b1 1-214
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/SessionEventStream.java
+  s_e15ab986b6c865::t_85156c54556a36 1-269
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/SessionEventSubscription.java
+  s_e15ab986b6c865::t_ef231dc6a5adc9 1-266
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/SessionResources.java
+  s_e15ab986b6c865::t_0dcc6ba30a1aa8 1-75
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/SessionStreamEvent.java
+  s_e15ab986b6c865::t_323e4b7eccaa17 1-124
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/ToolBinding.java
+  s_e15ab986b6c865::t_9c5d3699ac4568 1-88
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/TransactionalSessionBackend.java
+  s_e15ab986b6c865::t_0091bf7e002883 1-2762
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/Wakeups.java
+  s_e15ab986b6c865::t_3d9751f38ab469 1-49
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/codec/NativeCheckpointCodec.java
+  s_e15ab986b6c865::t_b344bbad54d923 1-46
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/store/ObjectStore.java
+  s_e15ab986b6c865::t_8c82cc93b17af6 1-71
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/store/RecordObjectStore.java
+  s_e15ab986b6c865::t_f62bdd7f14cb89 1-95
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/store/RecordStore.java
+  s_e15ab986b6c865::t_0309a5b4dbc0f1 1-77
+agentscope-durable/durable-runtime/src/main/java/io/agentscope/durable/store/TransactionMap.java
+  s_e15ab986b6c865::t_f13fc2b8737121 1-110
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/DurableProtocolTest.java
+  s_e15ab986b6c865::t_dd46d8de1515cf 1-508
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/EventProjectionTest.java
+  s_e15ab986b6c865::t_755f08525c396a 1-436
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/ExecutionRecoveryTest.java
+  s_e15ab986b6c865::t_e65d11d28b0b43 1-140
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/SessionEventClientTest.java
+  s_e15ab986b6c865::t_b189e8996628c1 1-145
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/SessionStreamEventTest.java
+  s_e15ab986b6c865::t_cd4601f350e4cc 1-108
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/contract/SessionBackendContract.java
+  s_e15ab986b6c865::t_13914639e389c6 1-3410
+agentscope-durable/durable-runtime/src/test/java/io/agentscope/durable/contract/UserApiContract.java
+  s_e15ab986b6c865::t_19880c87655486 1-1060
+agentscope-durable/durable-worker/pom.xml
+  s_e15ab986b6c865::t_8f70c261ab6eaf 1-32
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/BatchExecutor.java
+  s_e15ab986b6c865::t_1231a9f105a9e3 1-382
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/ExecutionStore.java
+  s_e15ab986b6c865::t_11f53d22411d16 1-96
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/LocalWorkerExecutor.java
+  s_e15ab986b6c865::t_0a65d967a23261 1-64
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/QueuedExecutor.java
+  s_e15ab986b6c865::t_03321122e5ca0a 1-294
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/TransactionalExecutionStore.java
+  s_e15ab986b6c865::t_c40f0dbae3a0b4 1-591
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/WorkerRuntime.java
+  s_e15ab986b6c865::t_42801bbbd9e714 1-556
+agentscope-durable/durable-worker/src/main/java/io/agentscope/durable/worker/package-info.java
+  s_e15ab986b6c865::t_3ba8e63403bb6b 1-28
+agentscope-durable/durable-worker/src/test/java/io/agentscope/durable/worker/BatchExecutorTest.java
+  s_e15ab986b6c865::t_1385cc2c9fe0f6 1-264
+agentscope-durable/durable-worker/src/test/java/io/agentscope/durable/worker/QueuedExecutorTest.java
+  s_e15ab986b6c865::t_bf6d6fd8762d73 1-568
+agentscope-durable/durable-worker/src/test/java/io/agentscope/durable/worker/WorkerRuntimeTest.java
+  s_e15ab986b6c865::t_2401f45200e244 1-595
+agentscope-durable/pom.xml
+  s_e15ab986b6c865::t_82ef71094a07b2 1-68
+agentscope-durable/protocol/README.md
+  s_e15ab986b6c865::t_86308249c4a932 1-500
+agentscope-durable/protocol/projection-vector.json
+  s_e15ab986b6c865::t_49ebd05e69a8d6 1-321
+agentscope-durable/protocol/public-interaction-contract.en.md
+  s_e15ab986b6c865::t_24cb4955029564 1-357
+agentscope-durable/protocol/public-interaction-contract.md
+  s_e15ab986b6c865::t_a669cd88e814b4 1-310
+agentscope-durable/protocol/schema.json
+  s_e15ab986b6c865::t_b7fb1bd6bf30c8 1-11806
+agentscope-durable/protocol/user-workflows.json
+  s_e15ab986b6c865::t_b438e9e58f5814 1-437
+agentscope-durable/protocol/vectors.json
+  s_e15ab986b6c865::t_2349211b22c2da 1-858
+agentscope-durable/scripts/verify-independent.py
+  s_e15ab986b6c865::t_7374f11f608f0d 1-66
+agentscope-examples/README.md
+  s_e15ab986b6c865::t_862b7e9aa48e88 17-27
+agentscope-examples/agents/agentscope-chat/README.md
+  s_e15ab986b6c865::t_c085429e1f6aad 3,5,9-11,14,18,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,71,73,75,77-87,89,91,93,96-98,100-101
+agentscope-examples/agents/agentscope-chat/README_zh.md
+  s_e15ab986b6c865::t_e39869488ea6f2 3,5,9-11,14,18,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,71,73,75,77-87,89,91,93,96-98,100-101
+agentscope-examples/agents/agentscope-chat/pom.xml
+  s_e15ab986b6c865::t_a2d33de7190b13 17-18,21
+agentscope-examples/agents/agentscope-chat/src/main/java/io/agentscope/examples/chat/ChatController.java
+  s_e15ab986b6c865::t_382963f5f764bf 18-19,22,26,42,46-51,59,68-72,79-80,83-86,89-98,102-104,107-110,113-128,136,146-154,175-179,181-187,200-215,219-232
+agentscope-examples/agents/agentscope-chat/src/main/java/io/agentscope/examples/chat/ChatSessions.java
+  s_e15ab986b6c865::t_636c8026c71ceb 21-35,38-39,43,47-48,53-124,126,139-140,143-144,147-148,152-159,162-163,166,168,171-173,176-178,181-182,185-191,194-207,210-211,221-225
+agentscope-examples/agents/agentscope-chat/src/main/java/io/agentscope/examples/chat/DemoChatModel.java
+  s_e15ab986b6c865::t_9a93f4ecf9b0fd 41,48-51,54-58,77-81,83,86,152
+agentscope-examples/agents/agentscope-chat/src/main/resources/static/chat-view.mjs
+  s_e15ab986b6c865::t_a1daf18317f073 1-25
+agentscope-examples/agents/agentscope-chat/src/main/resources/static/chat.js
+  s_e15ab986b6c865::t_ee6a97c7d36cfe 1-2,5-9,12-14,18,28-39,42,44-45,48,53-58,60,63,66,69-82,88,90,92-93,96-99,101-108,112-113,115,118,121-122,130,138,141-143,147-149,155,159,162,167,172-175,178-179,181,183-189,203,207,209-213,216-222
+agentscope-examples/agents/agentscope-chat/src/main/resources/static/index.html
+  s_e15ab986b6c865::t_fda50cc898ffd2 14-17
+agentscope-examples/agents/agentscope-chat/src/test/java/io/agentscope/examples/chat/ChatControllerTest.java
+  s_e15ab986b6c865::t_89d0c4fb3d9122 1-197
+agentscope-examples/agents/agentscope-chat/src/test/java/io/agentscope/examples/chat/ChatSessionsTest.java
+  s_e15ab986b6c865::t_e006c0a8e50f3a 24-32,35-36,39-41,44-45,47,50-68,71-72,74-79,84-109,112-113,115-121,126-131,134-146,148-154,156-160,165-192,194-211,213-216,218-219,221-228,233-248,250-253,255-269,274-292,297-310,313-319,321-326,328-342,347-352,354-356,360-365,368-374,377-402,405-407
+agentscope-examples/agents/agentscope-chat/src/test/js/chat-view.test.mjs
+  s_e15ab986b6c865::t_b0e6b15756ea76 1-51
+agentscope-examples/agents/agentscope-codingagent/README.md
+  s_e15ab986b6c865::t_7866ff41416342 27-28,175
+agentscope-examples/agents/agentscope-codingagent/README_zh.md
+  s_e15ab986b6c865::t_b044efc7128e2b 16,113
+agentscope-examples/agents/agentscope-codingagent/src/main/java/io/agentscope/harness/coding/gateway/HarnessGateway.java
+  s_e15ab986b6c865::t_c96bdf684bdfb0 464
+agentscope-examples/agents/agentscope-codingagent/src/main/java/io/agentscope/harness/coding/middleware/MessageQueueMiddleware.java
+  s_e15ab986b6c865::t_e3acac7b207d47 23,25,68-73
+agentscope-examples/agents/agentscope-codingagent/src/main/java/io/agentscope/harness/coding/middleware/ModelCallLimitMiddleware.java
+  s_e15ab986b6c865::t_a3ba8686e9a676 23-24,52-57
+agentscope-examples/agents/agentscope-codingagent/src/main/java/io/agentscope/harness/coding/middleware/ThreadBudgetMiddleware.java
+  s_e15ab986b6c865::t_b5fa7bca0fb37d 23-24,52-57
+agentscope-examples/agents/agentscope-codingagent/src/main/java/io/agentscope/harness/coding/session/SessionAgentManager.java
+  s_e15ab986b6c865::t_3fdc6f3101eae4 21-23,747,750-751,956
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/runtime/gateway/HarnessGateway.java
+  s_e15ab986b6c865::t_a57dcd637af312 239,532
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/runtime/session/SessionAgentManager.java
+  s_e15ab986b6c865::t_d8e579597f18ca 21-23,786,789-790,995
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/web/api/AgentToolsController.java
+  s_e15ab986b6c865::t_688859a5d1c957 122
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/web/api/SessionController.java
+  s_e15ab986b6c865::t_e69b5d20baa4ac 20,303
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/web/catalog/AgentCatalogService.java
+  s_e15ab986b6c865::t_04fdd8338f47d4 664
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/web/scaffold/WorkspaceScaffolder.java
+  s_e15ab986b6c865::t_8b7ca92837ec4d 106
+agentscope-examples/agents/agentscope-dataagent/src/main/java/io/agentscope/dataagent/web/toolbus/ToolNotificationMiddleware.java
+  s_e15ab986b6c865::t_66dd85f34658a2 24,27,52-57
+agentscope-examples/agents/agentscope-paw/README.md
+  s_e15ab986b6c865::t_cbf1b2d117cb18 18-19,578,580,591
+agentscope-examples/agents/agentscope-paw/README_zh.md
+  s_e15ab986b6c865::t_9b408843d74869 11,171,173,184,188
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/runtime/gateway/HarnessGateway.java
+  s_e15ab986b6c865::t_c9f13d4902d001 195,466
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/runtime/session/SessionAgentManager.java
+  s_e15ab986b6c865::t_18cb56e87e1426 22-24,793,796-797,1018
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/web/api/AgentToolsController.java
+  s_e15ab986b6c865::t_a8b32e310e9a50 108
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/web/api/SessionController.java
+  s_e15ab986b6c865::t_b995bdd1df4146 28,250
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/web/catalog/AgentCatalogService.java
+  s_e15ab986b6c865::t_b183e63ba0d1a2 25,71,82,88-89,314,366
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/web/config/BuilderConfig.java
+  s_e15ab986b6c865::t_ee8e1fa05a3edb 23,30,111-112,124,150-151
+agentscope-examples/agents/agentscope-paw/src/main/java/io/agentscope/claw2/web/toolbus/ToolNotificationMiddleware.java
+  s_e15ab986b6c865::t_effe59dbd57587 24,27,51-56
+agentscope-examples/agents/agentscope-paw/src/main/resources/application.yml
+  s_e15ab986b6c865::t_4860f9fa5375e9 17
+agentscope-examples/agents/agentscope-paw/src/main/resources/prompts/agent-draft.md
+  s_e15ab986b6c865::t_2e59bd75e516b8 24-26
+agentscope-examples/agents/agentscope-paw/src/main/resources/scaffold/default/tools.json
+  s_e15ab986b6c865::t_0eac9add8a27f9 3
+agentscope-examples/agents/agentscope-paw/src/main/resources/templates/blank/tools.json
+  s_e15ab986b6c865::t_47f33a50b6a341 3
+agentscope-examples/agents/agentscope-paw/src/main/resources/templates/customer-support/skills/triage-ticket/SKILL.md
+  s_e15ab986b6c865::t_75e826b06e9751 29
+agentscope-examples/agents/agentscope-paw/src/main/resources/templates/customer-support/subagents/escalation-router.md
+  s_e15ab986b6c865::t_47e17b35838581 4
+agentscope-examples/agents/agentscope-paw/src/main/resources/templates/customer-support/tools.json
+  s_e15ab986b6c865::t_cc5f6cda7b567c 3,11-12
+agentscope-examples/agents/agentscope-paw/src/main/resources/templates/research-assistant/tools.json
+  s_e15ab986b6c865::t_f61bdbc3bfec4a 3
+agentscope-examples/agents/agentscope-paw/src/test/java/io/agentscope/builder/BuilderAppContextLoadTest.java
+  s_e15ab986b6c865::t_cd3c61fbebc8d3 58
+agentscope-examples/agents/agentscope-paw/src/test/java/io/agentscope/builder/BuilderBootstrapSmokeTest.java
+  s_e15ab986b6c865::t_8080c20302fec8 121
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/agui/config/AgentConfiguration.java
+  s_e15ab986b6c865::t_c85506dfc83738 36,225-229
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/copilotkit/config/AgentConfiguration.java
+  s_e15ab986b6c865::t_d8a67f1172feaa 55,59,395-399
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/copilotkit/workbench/WorkbenchEventMiddleware.java
+  s_e15ab986b6c865::t_725d86820b93da 35,87-92
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/harness/context/ContextStatePersistenceExample.java
+  s_e15ab986b6c865::t_e0af96dadfd8c4 98-102,104-108,138-142
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/hitl/HookStopAgentExample.java
+  s_e15ab986b6c865::t_8fe4394e7996cc 39,211-215
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/hitl/InterruptionExample.java
+  s_e15ab986b6c865::t_d083649eac18a3 35-36,163-167
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/judge/JevAutoModeMiddlewareExample.java
+  s_e15ab986b6c865::t_164bd0ed2e6f4e 37-38,174-178
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/judge/JevModelRouterMiddlewareExample.java
+  s_e15ab986b6c865::t_b1b1ba072eb3d3 35,37,166-170
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/judge/JevToolSelectionMiddlewareExample.java
+  s_e15ab986b6c865::t_3e9430da853d1c 40,42,260-264,290-294
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/judge/OpenAIDecisionsMiddlewareExample.java
+  s_e15ab986b6c865::t_909f31c68ac191 44,46,195-199
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/model/ModelTransportExample.java
+  s_e15ab986b6c865::t_2750e0a2ec6879 1-69
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/multimodal/DocumentExample.java
+  s_e15ab986b6c865::t_8d5bd93d06a05a 1-196
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/multimodal/MultiModalToolExample.java
+  s_e15ab986b6c865::t_e451e5f2011edf 36-37,177-181
+agentscope-examples/documentation/src/main/java/io/agentscope/examples/documentation2/state/StateAutoSaveExample.java
+  s_e15ab986b6c865::t_10f554181deeb3 35-36,39,46
+agentscope-examples/durable/README.en.md
+  s_e15ab986b6c865::t_9b1827a406c8db 1-111
+agentscope-examples/durable/README.md
+  s_e15ab986b6c865::t_ca40ea893deb80 1-101
+agentscope-examples/durable/brain-hands/echo-tool/README.en.md
+  s_e15ab986b6c865::t_58dc73d3b2a933 1-101
+agentscope-examples/durable/brain-hands/echo-tool/README.md
+  s_e15ab986b6c865::t_683b4cc6485535 1-96
+agentscope-examples/durable/brain-hands/echo-tool/pom.xml
+  s_e15ab986b6c865::t_3b83f4ab2adc01 1-99
+agentscope-examples/durable/brain-hands/echo-tool/run.sh
+  s_e15ab986b6c865::t_1a9d22248396c3 1-59
+agentscope-examples/durable/brain-hands/echo-tool/src/main/java/io/agentscope/durable/examples/brainhands/echo/EchoBrainApplication.java
+  s_e15ab986b6c865::t_711b6a534bae20 1-38
+agentscope-examples/durable/brain-hands/echo-tool/src/main/java/io/agentscope/durable/examples/brainhands/echo/EchoBrainExample.java
+  s_e15ab986b6c865::t_5a8a57e6d115ee 1-203
+agentscope-examples/durable/brain-hands/echo-tool/src/main/java/io/agentscope/durable/examples/brainhands/echo/EchoHandsApplication.java
+  s_e15ab986b6c865::t_b28c6e4ad93514 1-38
+agentscope-examples/durable/brain-hands/echo-tool/src/main/java/io/agentscope/durable/examples/brainhands/echo/EchoHandsExample.java
+  s_e15ab986b6c865::t_3b4cab40380a6e 1-123
+agentscope-examples/durable/brain-hands/echo-tool/src/main/java/io/agentscope/durable/examples/brainhands/echo/EchoToolProperties.java
+  s_e15ab986b6c865::t_0518ee39121605 1-95
+agentscope-examples/durable/brain-hands/echo-tool/src/main/resources/application.yml
+  s_e15ab986b6c865::t_69554209866d20 1-16
+agentscope-examples/durable/brain-hands/echo-tool/src/test/java/io/agentscope/durable/examples/brainhands/echo/EchoRoundTripTest.java
+  s_e15ab986b6c865::t_0c10451b2d8019 1-226
+agentscope-examples/durable/brain-hands/echo-tool/src/test/java/io/agentscope/durable/examples/brainhands/echo/EchoToolExampleTest.java
+  s_e15ab986b6c865::t_3606fce498a762 1-206
+agentscope-examples/durable/brain-hands/pom.xml
+  s_e15ab986b6c865::t_2c6b83d425f2d3 1-34
+agentscope-examples/durable/brain-hands/tool-in-sandbox/README.en.md
+  s_e15ab986b6c865::t_c90d5b3b57b00f 1-128
+agentscope-examples/durable/brain-hands/tool-in-sandbox/README.md
+  s_e15ab986b6c865::t_0aac5031322bdc 1-121
+agentscope-examples/durable/brain-hands/tool-in-sandbox/pom.xml
+  s_e15ab986b6c865::t_af60ab59ea3dba 1-103
+agentscope-examples/durable/brain-hands/tool-in-sandbox/run.sh
+  s_e15ab986b6c865::t_959ce7f780fdbb 1-59
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxBrainApplication.java
+  s_e15ab986b6c865::t_1208356b8a4756 1-38
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxBrainExample.java
+  s_e15ab986b6c865::t_74b484823c6962 1-216
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxHandsApplication.java
+  s_e15ab986b6c865::t_80efab240b85de 1-38
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxHandsExample.java
+  s_e15ab986b6c865::t_4e0d5279f63ee7 1-127
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxTool.java
+  s_e15ab986b6c865::t_df63eada741797 1-60
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxToolProperties.java
+  s_e15ab986b6c865::t_0c31738dbfa71a 1-106
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/main/resources/application.yml
+  s_e15ab986b6c865::t_8788c4e9c62f1c 1-17
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/test/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxRoundTripTest.java
+  s_e15ab986b6c865::t_c471d169c4e5e8 1-337
+agentscope-examples/durable/brain-hands/tool-in-sandbox/src/test/java/io/agentscope/durable/examples/brainhands/toolinsandbox/SandboxToolExampleTest.java
+  s_e15ab986b6c865::t_f49f9483fc26d9 1-325
+agentscope-examples/durable/integrated/http-server/README.en.md
+  s_e15ab986b6c865::t_07b74bfd2d57f6 1-87
+agentscope-examples/durable/integrated/http-server/README.md
+  s_e15ab986b6c865::t_c84d1c2fe7aa32 1-81
+agentscope-examples/durable/integrated/http-server/pom.xml
+  s_e15ab986b6c865::t_9bcd6cecf08af3 1-81
+agentscope-examples/durable/integrated/http-server/run.sh
+  s_e15ab986b6c865::t_9cf50b950e90eb 1-13
+agentscope-examples/durable/integrated/http-server/src/main/java/io/agentscope/durable/examples/httpserver/HttpServerApplication.java
+  s_e15ab986b6c865::t_747326e0013965 1-29
+agentscope-examples/durable/integrated/http-server/src/main/java/io/agentscope/durable/examples/httpserver/HttpServerConfiguration.java
+  s_e15ab986b6c865::t_81df748a83be8c 1-42
+agentscope-examples/durable/integrated/http-server/src/main/java/io/agentscope/durable/examples/httpserver/HttpServerController.java
+  s_e15ab986b6c865::t_935d8430a558fa 1-203
+agentscope-examples/durable/integrated/http-server/src/main/java/io/agentscope/durable/examples/httpserver/HttpServerProperties.java
+  s_e15ab986b6c865::t_60bbe7a22610b4 1-42
+agentscope-examples/durable/integrated/http-server/src/main/java/io/agentscope/durable/examples/httpserver/SpringSseWriter.java
+  s_e15ab986b6c865::t_45caf89dcef566 1-89
+agentscope-examples/durable/integrated/http-server/src/main/resources/application.yml
+  s_e15ab986b6c865::t_42e177db545122 1-12
+agentscope-examples/durable/integrated/http-server/src/test/java/io/agentscope/durable/examples/httpserver/HttpServerApplicationTest.java
+  s_e15ab986b6c865::t_63bb9d29d35335 1-140
+agentscope-examples/durable/integrated/pom.xml
+  s_e15ab986b6c865::t_97036c4cc9fca4 1-35
+agentscope-examples/durable/integrated/quickstart/README.en.md
+  s_e15ab986b6c865::t_779f24854707dd 1-49
+agentscope-examples/durable/integrated/quickstart/README.md
+  s_e15ab986b6c865::t_445ced7950a7f2 1-46
+agentscope-examples/durable/integrated/quickstart/pom.xml
+  s_e15ab986b6c865::t_a04adac2a2d021 1-76
+agentscope-examples/durable/integrated/quickstart/run.sh
+  s_e15ab986b6c865::t_c672c9ed946a89 1-27
+agentscope-examples/durable/integrated/quickstart/src/main/java/io/agentscope/durable/examples/quickstart/QuickstartExample.java
+  s_e15ab986b6c865::t_c41a2f036d3e64 1-160
+agentscope-examples/durable/integrated/quickstart/src/main/java/io/agentscope/durable/examples/quickstart/QuickstartExampleApplication.java
+  s_e15ab986b6c865::t_24ae7c8b74a882 1-34
+agentscope-examples/durable/integrated/quickstart/src/main/java/io/agentscope/durable/examples/quickstart/QuickstartExampleProperties.java
+  s_e15ab986b6c865::t_514ba46e84b67b 1-70
+agentscope-examples/durable/integrated/quickstart/src/main/resources/application.yml
+  s_e15ab986b6c865::t_371bb2608bd8a7 1-16
+agentscope-examples/durable/integrated/quickstart/src/test/java/io/agentscope/durable/examples/quickstart/QuickstartExampleTest.java
+  s_e15ab986b6c865::t_e26727e39ee5b3 1-75
+agentscope-examples/durable/integrated/tool-in-sandbox/README.en.md
+  s_e15ab986b6c865::t_f0f188428bb5a7 1-73
+agentscope-examples/durable/integrated/tool-in-sandbox/README.md
+  s_e15ab986b6c865::t_b8403cd8209c00 1-71
+agentscope-examples/durable/integrated/tool-in-sandbox/pom.xml
+  s_e15ab986b6c865::t_634f7998b6ee71 1-86
+agentscope-examples/durable/integrated/tool-in-sandbox/run.sh
+  s_e15ab986b6c865::t_1b8d027c84f71d 1-26
+agentscope-examples/durable/integrated/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/toolinsandbox/ToolInSandboxExample.java
+  s_e15ab986b6c865::t_2fd70d283c873f 1-350
+agentscope-examples/durable/integrated/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/toolinsandbox/ToolInSandboxExampleApplication.java
+  s_e15ab986b6c865::t_efd9a00a0d550e 1-34
+agentscope-examples/durable/integrated/tool-in-sandbox/src/main/java/io/agentscope/durable/examples/toolinsandbox/ToolInSandboxExampleProperties.java
+  s_e15ab986b6c865::t_d776c0f483de46 1-85
+agentscope-examples/durable/integrated/tool-in-sandbox/src/main/resources/application.yml
+  s_e15ab986b6c865::t_15d567efd7805a 1-17
+agentscope-examples/durable/integrated/tool-in-sandbox/src/test/java/io/agentscope/durable/examples/toolinsandbox/ToolInSandboxExampleTest.java
+  s_e15ab986b6c865::t_46c53cef6be250 1-83
+agentscope-examples/durable/pom.xml
+  s_e15ab986b6c865::t_3b3710202659fc 1-63
+agentscope-examples/jev/README.md
+  s_e15ab986b6c865::t_0226d01ed36bc0 36
+agentscope-examples/jev/benchmarks/tool-guard/README.md
+  s_e15ab986b6c865::t_6a9437c56c9ebd 3
+agentscope-examples/jev/benchmarks/tool-guard/publish_example.py
+  s_e15ab986b6c865::t_3ba5bcf9b1ddc2 31
+agentscope-examples/jev/src/test/java/io/agentscope/examples/jev/JevToolGuardBenchmarkTest.java
+  s_e15ab986b6c865::t_1b129b4d7ffd8c 3,6-9,27,395
+agentscope-examples/pom.xml
+  s_e15ab986b6c865::t_c3a858336a2a8a 37
+agentscope-extensions/agentscope-extensions-channel/agentscope-extensions-channel-common/src/test/java/io/agentscope/extensions/channel/common/BotLoopGuardTest.java
+  s_e15ab986b6c865::t_0a57f38b61c528 83-88,90-93
+agentscope-extensions/agentscope-extensions-channel/agentscope-extensions-channel-weixin/src/test/java/io/agentscope/extensions/channel/weixin/WeixinChannelLoopbackTest.java
+  s_e15ab986b6c865::t_2d0042eb39ceab 140,194
+agentscope-extensions/agentscope-extensions-cos/src/test/java/io/agentscope/extensions/cos/CosAgentStateStoreTest.java
+  s_e15ab986b6c865::t_dc6a126a484432 107-108,111,115-117
+agentscope-extensions/agentscope-extensions-durable-http/pom.xml
+  s_e15ab986b6c865::t_5f593cbd00f60f 1-20
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/DurableHttp.java
+  s_e15ab986b6c865::t_42a54e058ec936 1-272
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/DurableRuntimeHandler.java
+  s_e15ab986b6c865::t_4f0dfa44605008 1-73
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/ExecutorHandler.java
+  s_e15ab986b6c865::t_a735dce0b564e0 1-76
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/HttpExecutor.java
+  s_e15ab986b6c865::t_3cffd189bad126 1-84
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/HttpSessionBackend.java
+  s_e15ab986b6c865::t_18aab127857da0 1-486
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/SessionBackendHandler.java
+  s_e15ab986b6c865::t_7c21782c78c5b5 1-375
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/SessionEventHandler.java
+  s_e15ab986b6c865::t_1533619927629a 1-128
+agentscope-extensions/agentscope-extensions-durable-http/src/main/java/io/agentscope/extensions/durable/http/SseEventWriter.java
+  s_e15ab986b6c865::t_12eccbabafdb83 1-94
+agentscope-extensions/agentscope-extensions-durable-http/src/test/java/io/agentscope/extensions/durable/http/DurableHttpTest.java
+  s_e15ab986b6c865::t_a38d360ee27a88 1-624
+agentscope-extensions/agentscope-extensions-durable-http/src/test/java/io/agentscope/extensions/durable/http/HttpBackendContractTest.java
+  s_e15ab986b6c865::t_4589d1d389b7f3 1-55
+agentscope-extensions/agentscope-extensions-durable-http/src/test/java/io/agentscope/extensions/durable/http/PublicHttpBoundaryTest.java
+  s_e15ab986b6c865::t_13e33cb5de8b05 1-166
+agentscope-extensions/agentscope-extensions-durable-http/src/test/java/io/agentscope/extensions/durable/http/PublicHttpUserApiTest.java
+  s_e15ab986b6c865::t_8e8e89252fde30 1-73
+agentscope-extensions/agentscope-extensions-durable-jdbc/pom.xml
+  s_e15ab986b6c865::t_51310f22051841 1-38
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/main/java/io/agentscope/extensions/durable/jdbc/FileObjectStore.java
+  s_e15ab986b6c865::t_eca5e7c2eca69f 1-88
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/main/java/io/agentscope/extensions/durable/jdbc/JdbcRecordStore.java
+  s_e15ab986b6c865::t_91ec6d5233550d 1-383
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/main/java/io/agentscope/extensions/durable/jdbc/LocalBackend.java
+  s_e15ab986b6c865::t_07630d4af0c96b 1-40
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/main/java/io/agentscope/extensions/durable/jdbc/PostgresBackend.java
+  s_e15ab986b6c865::t_5743b9ceace5d4 1-107
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/test/java/io/agentscope/extensions/durable/jdbc/BackendAssemblyTest.java
+  s_e15ab986b6c865::t_d1fdd1de39bbaa 1-333
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/test/java/io/agentscope/extensions/durable/jdbc/DurableBackendTest.java
+  s_e15ab986b6c865::t_fcca6f9e5a670b 1-56
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/test/java/io/agentscope/extensions/durable/jdbc/DurableUserApiTest.java
+  s_e15ab986b6c865::t_fbbcbf4cc7f99f 1-63
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/test/java/io/agentscope/extensions/durable/jdbc/PostgresBackendConfigurationTest.java
+  s_e15ab986b6c865::t_3f73f9842d4c5d 1-112
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/test/java/io/agentscope/extensions/durable/jdbc/RuntimeHostTest.java
+  s_e15ab986b6c865::t_1955197cbb713a 1-416
+agentscope-extensions/agentscope-extensions-durable-jdbc/src/test/java/io/agentscope/extensions/durable/jdbc/ScopedWorkStoreTest.java
+  s_e15ab986b6c865::t_425bda9e6d455f 1-294
+agentscope-extensions/agentscope-extensions-durable-mcp/pom.xml
+  s_e15ab986b6c865::t_69f753babc73a7 1-10
+agentscope-extensions/agentscope-extensions-durable-mcp/src/main/java/io/agentscope/extensions/durable/mcp/McpConnections.java
+  s_e15ab986b6c865::t_57a6a7fdabe073 1-323
+agentscope-extensions/agentscope-extensions-durable-mcp/src/main/java/io/agentscope/extensions/durable/mcp/McpExecutor.java
+  s_e15ab986b6c865::t_625b4c9c3e1812 1-329
+agentscope-extensions/agentscope-extensions-durable-mcp/src/main/java/io/agentscope/extensions/durable/mcp/McpRecovery.java
+  s_e15ab986b6c865::t_c45b26098fd56a 1-51
+agentscope-extensions/agentscope-extensions-durable-mcp/src/test/java/io/agentscope/extensions/durable/mcp/McpConnectionsTest.java
+  s_e15ab986b6c865::t_e0be6c31b92630 1-199
+agentscope-extensions/agentscope-extensions-durable-mcp/src/test/java/io/agentscope/extensions/durable/mcp/McpExecutorTest.java
+  s_e15ab986b6c865::t_368cae60b86693 1-77
+agentscope-extensions/agentscope-extensions-durable-mcp/src/test/java/io/agentscope/extensions/durable/mcp/McpRecoveryTest.java
+  s_e15ab986b6c865::t_36c2380fad0fed 1-340
+agentscope-extensions/agentscope-extensions-durable-objects/pom.xml
+  s_e15ab986b6c865::t_441ba88d800200 1-12
+agentscope-extensions/agentscope-extensions-durable-objects/src/main/java/io/agentscope/extensions/durable/objects/OssObjectStore.java
+  s_e15ab986b6c865::t_72c6864396d9c1 1-82
+agentscope-extensions/agentscope-extensions-durable-objects/src/main/java/io/agentscope/extensions/durable/objects/S3ObjectStore.java
+  s_e15ab986b6c865::t_9bf42bdeddbce0 1-82
+agentscope-extensions/agentscope-extensions-durable-objects/src/test/java/io/agentscope/extensions/durable/objects/CloudObjectStoreTest.java
+  s_e15ab986b6c865::t_b45cb5fed0949e 1-96
+agentscope-extensions/agentscope-extensions-durable-rocketmq/pom.xml
+  s_e15ab986b6c865::t_66d177ea813d4f 1-22
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/main/java/io/agentscope/extensions/durable/rocketmq/RocketMqExecutionTopology.java
+  s_e15ab986b6c865::t_515ab03a7c9c40 1-55
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/main/java/io/agentscope/extensions/durable/rocketmq/RocketMqLoop.java
+  s_e15ab986b6c865::t_cb9d15fa28cb3e 1-282
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/main/java/io/agentscope/extensions/durable/rocketmq/RocketMqRejections.java
+  s_e15ab986b6c865::t_c68645ddca8df4 1-87
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/main/java/io/agentscope/extensions/durable/rocketmq/RocketMqRemoteExecutor.java
+  s_e15ab986b6c865::t_575cabec3cb354 1-265
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/main/java/io/agentscope/extensions/durable/rocketmq/RocketMqWakeups.java
+  s_e15ab986b6c865::t_3f89c6a9535e08 1-173
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/main/java/io/agentscope/extensions/durable/rocketmq/RocketMqWorker.java
+  s_e15ab986b6c865::t_7f36ffe1a72e7c 1-381
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/test/java/io/agentscope/extensions/durable/rocketmq/RocketMqExecutionTest.java
+  s_e15ab986b6c865::t_7b7cdef6d9949f 1-668
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/test/java/io/agentscope/extensions/durable/rocketmq/RocketMqLoopTest.java
+  s_e15ab986b6c865::t_568d2963f2c58c 1-147
+agentscope-extensions/agentscope-extensions-durable-rocketmq/src/test/java/io/agentscope/extensions/durable/rocketmq/RocketMqWakeupsTest.java
+  s_e15ab986b6c865::t_45f7ebe2148d61 1-193
+agentscope-extensions/agentscope-extensions-durable-sandbox/pom.xml
+  s_e15ab986b6c865::t_a05fdc692a018d 1-18
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/main/java/io/agentscope/extensions/durable/sandbox/DirectSandboxExecutor.java
+  s_e15ab986b6c865::t_510f7f3ca9a5e0 1-182
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/main/java/io/agentscope/extensions/durable/sandbox/LocalSandboxClient.java
+  s_e15ab986b6c865::t_c86331c9e7fa5d 1-341
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/main/java/io/agentscope/extensions/durable/sandbox/SandboxBindings.java
+  s_e15ab986b6c865::t_a4e52099ac6453 1-808
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/main/resources/durable-executions.py
+  s_e15ab986b6c865::t_3fcf81dc673922 1-237
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/test/java/io/agentscope/extensions/durable/sandbox/DirectSandboxExecutorTest.java
+  s_e15ab986b6c865::t_8071ff6a79ab3e 1-177
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/test/java/io/agentscope/extensions/durable/sandbox/LocalSandboxClientTest.java
+  s_e15ab986b6c865::t_7948d1a0962db4 1-197
+agentscope-extensions/agentscope-extensions-durable-sandbox/src/test/java/io/agentscope/extensions/durable/sandbox/SandboxBindingsTest.java
+  s_e15ab986b6c865::t_c6df2eb1267bd0 1-555
+agentscope-extensions/agentscope-extensions-jdbc/src/main/java/io/agentscope/extensions/jdbc/dialect/vendor/H2Dialect.java
+  s_e15ab986b6c865::t_536e0aed5ab218 47
+agentscope-extensions/agentscope-extensions-jdbc/src/main/java/io/agentscope/extensions/jdbc/dialect/vendor/PostgresDialect.java
+  s_e15ab986b6c865::t_b360bc07966117 61
+agentscope-extensions/agentscope-extensions-jdbc/src/main/java/io/agentscope/extensions/jdbc/store/JdbcStore.java
+  s_e15ab986b6c865::t_398dcaaa317648 110
+agentscope-extensions/agentscope-extensions-jdbc/src/test/java/io/agentscope/extensions/jdbc/store/JdbcStoreJournalKeyLengthTest.java
+  s_e15ab986b6c865::t_7a1912ead3f1fd 1-120
+agentscope-extensions/agentscope-extensions-jdbc/src/test/java/io/agentscope/extensions/jdbc/store/JdbcStoreLongKeyH2Test.java
+  s_e15ab986b6c865::t_31455e8c17e0c9 1-84
+agentscope-extensions/agentscope-extensions-judge/agentscope-extensions-jev/src/main/java/io/agentscope/extensions/judge/jev/JevClient.java
+  s_e15ab986b6c865::t_6f222e09d4f2f5 67,76,178-186,480-490,494,512-523
+agentscope-extensions/agentscope-extensions-judge/agentscope-extensions-jev/src/main/java/io/agentscope/extensions/judge/jev/evaluation/JevTraceEvaluationMiddleware.java
+  s_e15ab986b6c865::t_8e61d100ac7917 29,33,72-77
+agentscope-extensions/agentscope-extensions-judge/agentscope-extensions-jev/src/main/java/io/agentscope/extensions/judge/jev/integration/JevResponseMiddleware.java
+  s_e15ab986b6c865::t_7b0c10fed39b06 39,44,98-103
+agentscope-extensions/agentscope-extensions-judge/agentscope-extensions-jev/src/main/java/io/agentscope/extensions/judge/jev/supervision/JevSupervisionMiddleware.java
+  s_e15ab986b6c865::t_04841cd145305f 20,32,35,106-111,219-225
+agentscope-extensions/agentscope-extensions-judge/agentscope-extensions-jev/src/main/resources/META-INF/jev-references/NOTICE.txt
+  s_e15ab986b6c865::t_38a6b8fe10b22b 3,24
+agentscope-extensions/agentscope-extensions-judge/agentscope-extensions-jev/src/test/java/io/agentscope/extensions/judge/jev/JevClientTest.java
+  s_e15ab986b6c865::t_93e37ed4ddb1fa 142-231
+agentscope-extensions/agentscope-extensions-mem/agentscope-extensions-mem0/src/main/java/io/agentscope/core/memory/mem0/Mem0LongTermMemory.java
+  s_e15ab986b6c865::t_fb3b975c29d15e 18,180,202-210,229-232
+agentscope-extensions/agentscope-extensions-mem/agentscope-extensions-memory-bailian/src/main/java/io/agentscope/core/memory/bailian/BailianLongTermMemory.java
+  s_e15ab986b6c865::t_9530939fbe8821 18,172-176,302-305
+agentscope-extensions/agentscope-extensions-mem/agentscope-extensions-reme/src/main/java/io/agentscope/core/memory/reme/ReMeLongTermMemory.java
+  s_e15ab986b6c865::t_7a04ff2f808588 18,135-139,197-200
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/AnthropicChatModel.java
+  s_e15ab986b6c865::t_7ec3fe324f5239 62,378-382
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicBaseFormatter.java
+  s_e15ab986b6c865::t_6b39dce036cad2 252-255
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicChatFormatter.java
+  s_e15ab986b6c865::t_7f20d8a7eea97c 33
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicCitationConverter.java
+  s_e15ab986b6c865::t_729adb9d4e0030 1-152
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicConversationMerger.java
+  s_e15ab986b6c865::t_cd921fb4db9e1a 20,67-72
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicMediaConverter.java
+  s_e15ab986b6c865::t_7302828ccf9d30 19-22,25,29-30,34-35,42-43,53-56,59-60,69-71,93-151,154-164,166-167,170,174-212
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicMessageConverter.java
+  s_e15ab986b6c865::t_127c9c774cc450 75-76,84,86-89,91-92,95-99,103,108-113,116-127,132-134,140-141,146,187-194,234,236,251,261-263,267-274,315-319,326,328
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicMultiAgentFormatter.java
+  s_e15ab986b6c865::t_398032146fe6f6 24,210-211,215-224
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/main/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicResponseParser.java
+  s_e15ab986b6c865::t_0b9a62ab6c5ad6 56,59-61,65-76,93,141-151,162,203,234-242,359-364,371
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/test/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicChatFormatterTest.java
+  s_e15ab986b6c865::t_2472666ce171ad 32-34,508-552,595-681
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/test/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicCitationConverterTest.java
+  s_e15ab986b6c865::t_4ad2750c6c475e 1-116
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/test/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicMediaConverterTest.java
+  s_e15ab986b6c865::t_0499f98571b9cb 24,29-30,34-35,80-91,253-286,303-316,324-493
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/test/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicMessageConverterTest.java
+  s_e15ab986b6c865::t_e375ada81348e8 20,90,112-139,158-181,454-490,551-661,663-672,674-684,686,743-744,757,759-762
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/test/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicMultiAgentFormatterGroundTruthTest.java
+  s_e15ab986b6c865::t_a5a6f2566b13db 19-20,23,26-28,471-517
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-anthropic/src/test/java/io/agentscope/extensions/model/anthropic/formatter/AnthropicResponseParserTest.java
+  s_e15ab986b6c865::t_3c067fa757b333 29,49-50,54,58-64,66,71-72,74-75,77,151-210,280-374,585-641
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/DashScopeChatModel.java
+  s_e15ab986b6c865::t_3508527ca75e88 19,21,27,39,44,340-343,349-351,357-358,381-443,445
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/DashScopeHttpClient.java
+  s_e15ab986b6c865::t_0072ea8b7f2d36 209,636-677
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/dto/DashScopeContentPart.java
+  s_e15ab986b6c865::t_b63813e2439c60 27,43-46,51-60,97-110,118-171,347-371,379-406
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/dto/DashScopeParameters.java
+  s_e15ab986b6c865::t_3e0f881a3e6244 118-128,299-316,429-439
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/dto/DashScopeSkill.java
+  s_e15ab986b6c865::t_6d5283149f9e44 1-253
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeChatFormatter.java
+  s_e15ab986b6c865::t_677f0330c52d99 19,26,37,43,61,64-66,89,106,111,114-115,117-122,127-128,137-140,143-144,146-147,167-313,376,386,390-416
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeConversationMerger.java
+  s_e15ab986b6c865::t_dbad1306ff4083 21,28,90,92,142-160,183-184,190,193-202,322-329
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeMessageConverter.java
+  s_e15ab986b6c865::t_a1bfdbb645649f 18,22,32,39-40,145-169,187-199,295,300-331,418-421
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeMultiAgentFormatter.java
+  s_e15ab986b6c865::t_8bc7d7f7671f9f 37-38,51-52,147,212,265,347,350,377
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/test/java/io/agentscope/extensions/model/dashscope/DashScopeChatModelTest.java
+  s_e15ab986b6c865::t_df73a3a55721d1 41,205-366
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/test/java/io/agentscope/extensions/model/dashscope/DashScopeHttpClientTest.java
+  s_e15ab986b6c865::t_6d2e53eb1994c2 38,1784-1820
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/test/java/io/agentscope/extensions/model/dashscope/dto/DashScopeDtoSerializationTest.java
+  s_e15ab986b6c865::t_eb86bc1b6f219c 22,455-534
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/test/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeChatFormatterTest.java
+  s_e15ab986b6c865::t_283e7e7c7641e1 20,22,109-142,174-176,195-301,305-368,383-406,409-461,1087-1115
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/test/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeMessageConverterTest.java
+  s_e15ab986b6c865::t_96933efba4a1eb 25-26,214-292
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/test/java/io/agentscope/extensions/model/dashscope/formatter/DashScopeMultiAgentFormatterTest.java
+  s_e15ab986b6c865::t_2501d82a6c1aac 20,32,45,125-157,170,174,176-219,1040-1094
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/main/java/io/agentscope/extensions/model/gemini/GeminiChatModel.java
+  s_e15ab986b6c865::t_879419e801bb3e 27,35,44,301,305-332,421-422
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/main/java/io/agentscope/extensions/model/gemini/formatter/GeminiConversationMerger.java
+  s_e15ab986b6c865::t_0eee86d5583d45 23,149-158
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/main/java/io/agentscope/extensions/model/gemini/formatter/GeminiMediaConverter.java
+  s_e15ab986b6c865::t_62ee66c23e8414 19,25-26,40,42,48-50,56-103,184-341,350-363,370,377-378,388-392
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/main/java/io/agentscope/extensions/model/gemini/formatter/GeminiMessageConverter.java
+  s_e15ab986b6c865::t_a51c30d41f167f 26,31-32,217-230,416-420,444-448,470-473
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/main/java/io/agentscope/extensions/model/gemini/formatter/GeminiResponseParser.java
+  s_e15ab986b6c865::t_b18a1ffc4c0eab 50,359
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/test/java/io/agentscope/extensions/model/gemini/GeminiThinkingConfigTest.java
+  s_e15ab986b6c865::t_4c22661a28545b 1-141
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/test/java/io/agentscope/extensions/model/gemini/formatter/GeminiMessageConverterTest.java
+  s_e15ab986b6c865::t_843f53f62bba4c 31-33,419-449,474-511,1457-1758
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-gemini/src/test/java/io/agentscope/extensions/model/gemini/formatter/GeminiMultiAgentFormatterTest.java
+  s_e15ab986b6c865::t_4ea0ef388ee300 23-24,109-145
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/main/java/io/agentscope/extensions/model/ollama/OllamaChatModel.java
+  s_e15ab986b6c865::t_159f32cc471b53 24,260
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/main/java/io/agentscope/extensions/model/ollama/formatter/OllamaChatFormatter.java
+  s_e15ab986b6c865::t_2f69eb28cc43de 19,21,146-156,207-211
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/main/java/io/agentscope/extensions/model/ollama/formatter/OllamaConversationMerger.java
+  s_e15ab986b6c865::t_456e31910597ee 18,21,87-92
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/main/java/io/agentscope/extensions/model/ollama/formatter/OllamaMessageConverter.java
+  s_e15ab986b6c865::t_24b5d71c696775 18,20,131-141,194-197,220-223,255-270
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/main/java/io/agentscope/extensions/model/ollama/formatter/OllamaMultiAgentFormatter.java
+  s_e15ab986b6c865::t_f2d5e6a6ebba52 19,21,420-425,471-475,477-481
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/test/java/io/agentscope/extensions/model/ollama/formatter/OllamaChatFormatterTest.java
+  s_e15ab986b6c865::t_00121d5f2357e2 24-25,46,605-701,706-738
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/test/java/io/agentscope/extensions/model/ollama/formatter/OllamaConversationMergerTest.java
+  s_e15ab986b6c865::t_3de33e40ce2de1 24,29,288-320
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/test/java/io/agentscope/extensions/model/ollama/formatter/OllamaMessageConverterTest.java
+  s_e15ab986b6c865::t_15af35681613f2 24-25,304-335
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-ollama/src/test/java/io/agentscope/extensions/model/ollama/formatter/OllamaMultiAgentFormatterTest.java
+  s_e15ab986b6c865::t_09a7f3e7ac034a 24-25,626-660
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai-official/src/main/java/io/agentscope/extensions/model/openaiofficial/OpenAIResponsesChatModel.java
+  s_e15ab986b6c865::t_297ddac032ef3b 35,125-156,172,191-192
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai-official/src/main/java/io/agentscope/extensions/model/openaiofficial/ResponsesMultiAgentFormatter.java
+  s_e15ab986b6c865::t_7d381c17b52682 23,26,223,309-320
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai-official/src/main/java/io/agentscope/extensions/model/openaiofficial/ResponsesRequestMapper.java
+  s_e15ab986b6c865::t_ce9e052e475023 32,44,46,51-52,70-73,89-91,503-504,544,568-569,743-748,936-1069
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai-official/src/test/java/io/agentscope/extensions/model/openaiofficial/OpenAIResponsesChatModelTest.java
+  s_e15ab986b6c865::t_6efbedd1bc7f85 28,36,41,44,53-55,60,65-67,70-73,148-388
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai-official/src/test/java/io/agentscope/extensions/model/openaiofficial/ResponsesMultiAgentFormatterTest.java
+  s_e15ab986b6c865::t_8305d34f835db2 21,31-32,43-44,52,754-884
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai-official/src/test/java/io/agentscope/extensions/model/openaiofficial/ResponsesRequestMapperTest.java
+  s_e15ab986b6c865::t_18d35b927380e2 26-27,33-34,43,46-47,50,65-66,69,74-76,633-652,773-805,863-1334
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/OpenAIChatModel.java
+  s_e15ab986b6c865::t_925f82b7ad92f0 27,176,196
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/formatter/OpenAIConversationMerger.java
+  s_e15ab986b6c865::t_2ac86b490f8ea1 18,24,324-329
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/formatter/OpenAIMessageConverter.java
+  s_e15ab986b6c865::t_331426604dc5ec 18,49,304,307,326-328,357,438-457,483,530,535-537,539,541-545,547,552-553,555-561
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/test/java/io/agentscope/extensions/model/openai/formatter/OpenAIChatFormatterTest.java
+  s_e15ab986b6c865::t_0540ceb46cd144 29,33,102-131
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/test/java/io/agentscope/extensions/model/openai/formatter/OpenAIConversationMergerTest.java
+  s_e15ab986b6c865::t_cc3a277178a15d 25,1019-1051
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/test/java/io/agentscope/extensions/model/openai/formatter/OpenAIMessageConverterTest.java
+  s_e15ab986b6c865::t_b7d76c2eca254a 50,114-115,137-213
+agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/test/java/io/agentscope/extensions/model/openai/formatter/StreamingReasoningDetailsReplayTest.java
+  s_e15ab986b6c865::t_65e31e58d296fa 19,22,24,28,32-33,37-46,54-55,59,61-63,67-78,86-103
+agentscope-extensions/agentscope-extensions-mongodb/src/main/java/io/agentscope/extensions/mongodb/store/MongoBaseStore.java
+  s_e15ab986b6c865::t_3de6b9d75a0698 150
+agentscope-extensions/agentscope-extensions-mysql/src/main/java/io/agentscope/extensions/mysql/store/JdbcStore.java
+  s_e15ab986b6c865::t_eb4f06b8d44cbb 178
+agentscope-extensions/agentscope-extensions-oss/src/test/java/io/agentscope/extensions/oss/OssAgentStateStoreTest.java
+  s_e15ab986b6c865::t_69ffb35914f5ca 94-95,99,104-106
+agentscope-extensions/agentscope-extensions-postgresql/src/main/java/io/agentscope/extensions/postgresql/store/PostgresBaseStore.java
+  s_e15ab986b6c865::t_b485a56ebf1759 236
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/A2aAgent.java
+  s_e15ab986b6c865::t_ba54924ad0b7e3 55,63-64,78,367-371,375-382,461-496,577-589,591,593,609,612-615,649-653,657-668,674-680
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/StreamTrackingHttpClient.java
+  s_e15ab986b6c865::t_f874a4f0d01e2c 1-174
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/event/ClientEventContext.java
+  s_e15ab986b6c865::t_4b57dcc1fdc347 57
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/event/TaskEventHandler.java
+  s_e15ab986b6c865::t_9faa1f80131fb0 19,23-25,29,63-68,101-141
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/event/TaskUpdateEventHandler.java
+  s_e15ab986b6c865::t_f0e8be53609f6e 153-157
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/message/ContentBlockParserRouter.java
+  s_e15ab986b6c865::t_4e8ee7eea7b481 22,67-68
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/message/DocumentBlockParser.java
+  s_e15ab986b6c865::t_0dd75bc795fb65 1-143
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/message/FilePartParser.java
+  s_e15ab986b6c865::t_658689715b6d89 22,27-29,42-46,51-71,75-91,96,100-105,124-162,170-172,178-198
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/main/java/io/agentscope/core/a2a/agent/message/MessageConstants.java
+  s_e15ab986b6c865::t_aecb72247c83ef 38-39,71-82
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/test/java/io/agentscope/core/a2a/agent/A2aAgentTest.java
+  s_e15ab986b6c865::t_0a8c5e7107bfd8 63,77,91,141-144,330-434,742-854,884-888,1553-1579,1611-1615,1696-1732
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/test/java/io/agentscope/core/a2a/agent/StreamTrackingHttpClientTest.java
+  s_e15ab986b6c865::t_fa746dc6133cdc 1-145
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/test/java/io/agentscope/core/a2a/agent/message/ContentBlockParserRouterTest.java
+  s_e15ab986b6c865::t_0245ceccc34d6d 28-29,36,40,43,179-253
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/test/java/io/agentscope/core/a2a/agent/message/DocumentBlockParserTest.java
+  s_e15ab986b6c865::t_40ead9295c08bd 1-90
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-client/src/test/java/io/agentscope/core/a2a/agent/message/FilePartParserTest.java
+  s_e15ab986b6c865::t_d9a88ab9b5593f 24,26,29,46-47,117-129,139-143,147-148,151-153,155,157-159,163-164,167-168,170-299,304-335
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/main/java/io/agentscope/core/a2a/server/AgentScopeA2aServer.java
+  s_e15ab986b6c865::t_1c1b78a206f433 43,102-104,110-111,117,121-125,130-132,456,463-472,509-517,520-524,534-535,578,589
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/main/java/io/agentscope/core/a2a/server/executor/AgentExecuteProperties.java
+  s_e15ab986b6c865::t_d4effb42c37ceb 43-65,68-69,80-87,95-96,108-118,120-124
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/main/java/io/agentscope/core/a2a/server/executor/AgentScopeAgentExecutor.java
+  s_e15ab986b6c865::t_70fc6a795865dd 36,46,53,59,70,81-82,106,112,119-125,134-145,270,273,277-278,285-292,318,322,328-329,333,335,338-344,346-367,369-402,601-605,612,628-635,650,655-660,672-673,689-704,717-720,724-725,727-732,739
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/main/java/io/agentscope/core/a2a/server/executor/runner/BaseReActAgentRunner.java
+  s_e15ab986b6c865::t_897e935bae345a 23,27-28,39,58-59,63-73,77-82,84-85,90-101,120-151
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/main/java/io/agentscope/core/a2a/server/request/AgentScopeA2aRequestHandler.java
+  s_e15ab986b6c865::t_163b6a6c7dfe23 186-189,243-269,327-331
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/test/java/io/agentscope/core/a2a/server/AgentScopeA2aServerTest.java
+  s_e15ab986b6c865::t_dffcd4e2198c51 20,22-23,26,38,44-46,48-49,55,66,94-106,136-137,148-149,160-163,194,217,232,247-248,263,278,292,302,312,326,453,466,481,505,517-640
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/test/java/io/agentscope/core/a2a/server/executor/AgentScopeAgentExecutorInputRequiredTest.java
+  s_e15ab986b6c865::t_6ea806c93946e2 1-586
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/test/java/io/agentscope/core/a2a/server/executor/AgentScopeAgentExecutorTest.java
+  s_e15ab986b6c865::t_d37d0350c61792 90,154-164,616-762,1089,1235-1265
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/test/java/io/agentscope/core/a2a/server/executor/runner/AgentRunnerTest.java
+  s_e15ab986b6c865::t_db2c0318f17c1b 21,40-46,50-51,66,221-265,388-389,463-465,477-520
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-a2a/agentscope-extensions-a2a-server/src/test/java/io/agentscope/core/a2a/server/request/AgentScopeA2aRequestHandlerTest.java
+  s_e15ab986b6c865::t_a1230531b350c6 29,55,73-85,554-592
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agent-protocol/src/main/java/io/agentscope/extensions/agentprotocol/AgentProtocolTaskStore.java
+  s_e15ab986b6c865::t_956a74ee31689f 24,40,72,94-95,150-159,161-162,164-172,174-179,198,227-236,307-309
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agent-protocol/src/test/java/io/agentscope/extensions/agentprotocol/AgentProtocolAgentFactoryTest.java
+  s_e15ab986b6c865::t_98d8fb23640887 74,95,97
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agent-protocol/src/test/java/io/agentscope/extensions/agentprotocol/AgentProtocolTaskStoreConcurrentSubmitTest.java
+  s_e15ab986b6c865::t_70040a9007f5f1 1-213
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/main/java/io/agentscope/core/agui/converter/AguiMessageConverter.java
+  s_e15ab986b6c865::t_b7da5c9e204e54 36,44-45,49-51,93-95,124-126,136-140,143,153-154,161-163,173-200,204-214,219-240,242-283,324,326-327,329,331-348,518,525-526,538-560,562-568,600-606,613-631,639-641,654-657,661-685
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/main/java/io/agentscope/core/agui/model/DocumentInputContent.java
+  s_e15ab986b6c865::t_2e0c106d9c8c90 27-28,30,32-33,41,49,56-65
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/main/java/io/agentscope/core/agui/model/InputContentDataSource.java
+  s_e15ab986b6c865::t_7135dc0559ef9b 18,35
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/main/java/io/agentscope/core/agui/model/InputContentFileSource.java
+  s_e15ab986b6c865::t_e96afbfdad5925 1-56
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/main/java/io/agentscope/core/agui/model/InputContentSource.java
+  s_e15ab986b6c865::t_a5586722917adf 28,32-33,41-42,44-45
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/main/java/io/agentscope/core/agui/model/InputContentUrlSource.java
+  s_e15ab986b6c865::t_e785a7df2eb60d 18,35
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/test/java/io/agentscope/core/agui/adapter/AguiAgentAdapterTest.java
+  s_e15ab986b6c865::t_096d3f997f64d8 308-310
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/test/java/io/agentscope/core/agui/adapter/AguiInputErrorTest.java
+  s_e15ab986b6c865::t_7c507012724100 57
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/test/java/io/agentscope/core/agui/converter/AguiMessageConverterTest.java
+  s_e15ab986b6c865::t_f4e02914cf7d36 20,37,46-48,329-358,418-459,956-1132,1149,1153,1229,1235-1236,1239-1494,1498-1563,1570,1572-1633
+agentscope-extensions/agentscope-extensions-protocol/agentscope-extensions-agui/src/test/java/io/agentscope/core/agui/converter/AguiReasoningMediaTest.java
+  s_e15ab986b6c865::t_0478ed382465c0 1-145
+agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-haystack/src/main/java/io/agentscope/core/rag/integration/haystack/HayStackClient.java
+  s_e15ab986b6c865::t_1d1d798fdfc0d7 240-241
+agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-haystack/src/test/java/io/agentscope/core/rag/integration/haystack/HayStackClientTest.java
+  s_e15ab986b6c865::t_d198383f1f2e61 260-278
+agentscope-extensions/agentscope-extensions-redis/src/main/java/io/agentscope/extensions/redis/snapshot/LettuceRemoteSnapshotClient.java
+  s_e15ab986b6c865::t_7e2035097c75f4 1-149
+agentscope-extensions/agentscope-extensions-redis/src/main/java/io/agentscope/extensions/redis/snapshot/RedisSnapshotSpec.java
+  s_e15ab986b6c865::t_5229cfbae9681e 20-22,27-29,34,43-87
+agentscope-extensions/agentscope-extensions-redis/src/main/java/io/agentscope/extensions/redis/store/RedisStore.java
+  s_e15ab986b6c865::t_124c1e2779ea01 149
+agentscope-extensions/agentscope-extensions-redis/src/test/java/io/agentscope/extensions/redis/snapshot/LettuceRemoteSnapshotClientTest.java
+  s_e15ab986b6c865::t_98b3620c37ca08 1-161
+agentscope-extensions/agentscope-extensions-redis/src/test/java/io/agentscope/extensions/redis/store/RedisSessionStorageIntegrationTest.java
+  s_e15ab986b6c865::t_c749821f0e09e3 22-25,69-70,72-73,76,79-80,86,88,93-94
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-agentrun/src/main/java/io/agentscope/extensions/sandbox/agentrun/AgentRunFilesystemSpec.java
+  s_e15ab986b6c865::t_cff45d802d7aa0 90
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-agentrun/src/main/java/io/agentscope/extensions/sandbox/agentrun/AgentRunSandboxClient.java
+  s_e15ab986b6c865::t_582a4b19871c4e 25-26,30,76,81,89,109-118,153-166,173,194-200
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-agentrun/src/test/java/io/agentscope/extensions/sandbox/agentrun/AgentRunSandboxClientRemoteSnapshotTest.java
+  s_e15ab986b6c865::t_5988b24ab893aa 1-74
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-agentrun/src/test/java/io/agentscope/extensions/sandbox/agentrun/AgentRunSandboxWorkspaceRootTest.java
+  s_e15ab986b6c865::t_3b8dd16477dc5b 1-162
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bEnvdProcessClient.java
+  s_e15ab986b6c865::t_86c3e4c48bc9ed 39,41,43-44,123-131,154-159,167,176,203-373,455-458,476-480,531-540,581-586,597-598,604-607,613-618,851-854,872-883,980-983
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bFilesystemSpec.java
+  s_e15ab986b6c865::t_35b472a6d834be 33-34,75-81,84,178-185,193,209-234
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bPlatformHttp.java
+  s_e15ab986b6c865::t_f6f28d07e3c09e 113-127
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bSandbox.java
+  s_e15ab986b6c865::t_51c71d55c06ea6 26,76,82-93,303-309,317-319,328
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bSandboxApiException.java
+  s_e15ab986b6c865::t_e87dc0cdc3a591 1-33
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bSandboxClient.java
+  s_e15ab986b6c865::t_448748253a7a2d 25-26,28,64-65,71,79,89-115,122-126,156-169,187-195,253-268,270-271,274-275,278,292-294
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/main/java/io/agentscope/extensions/sandbox/e2b/E2bSandboxClientOptions.java
+  s_e15ab986b6c865::t_f2126e62157e02 34-36,136-167
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/test/java/io/agentscope/extensions/sandbox/e2b/E2bRemoteExecutionTest.java
+  s_e15ab986b6c865::t_dbc86ca963b9a2 1-218
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/test/java/io/agentscope/extensions/sandbox/e2b/E2bSandboxClientRemoteSnapshotTest.java
+  s_e15ab986b6c865::t_d9a51aa12a9eb4 1-83
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/test/java/io/agentscope/extensions/sandbox/e2b/E2bSandboxOptionsAndStateTest.java
+  s_e15ab986b6c865::t_42115f4c83f65b 21,24,26,30,32,36,40-41,44,49-219,314-333
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/test/java/io/agentscope/extensions/sandbox/e2b/E2bSandboxWorkspaceRootTest.java
+  s_e15ab986b6c865::t_d6b4f77b871a83 1-123
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-e2b/src/test/java/io/agentscope/extensions/sandbox/e2b/E2bVolumeMountTest.java
+  s_e15ab986b6c865::t_771d3ae8abb98e 175,184-185,286-290,297,345,406-409,411
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesFilesystemSpec.java
+  s_e15ab986b6c865::t_3a9162ac37a299 18,25,56-60,96-100
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesSandbox.java
+  s_e15ab986b6c865::t_41bcf8d734d9ac 20,105-109,117-119,187,249,297-302,314-327
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesSandboxClient.java
+  s_e15ab986b6c865::t_e3b4f436e6246d 126,129,256-258,292-294,304,317
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesSandboxClientOptions.java
+  s_e15ab986b6c865::t_ac91d79175df3b 18,23,34,60-61,67-75,208-218
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/CommandExecutor.java
+  s_e15ab986b6c865::t_e500857d76cd16 18,28-29,34,38-57,76-78,81-82,87-97,99-107,110-111,118-119,121-129,131-140,142-144,147-149,151-159,163-247
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/CreateSandboxOptions.java
+  s_e15ab986b6c865::t_79adf66c562fb2 18,20,38,45,106-109,120,167-171
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/SandboxClient.java
+  s_e15ab986b6c865::t_a3a1f1b683590f 109-110
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/crd/SandboxClaimSpec.java
+  s_e15ab986b6c865::t_b51554a263dc9d 21,38-54
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/exceptions/SandboxRequestException.java
+  s_e15ab986b6c865::t_cc2f70933574b7 22,33-37,40-45,51-58
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/internal/K8sHelper.java
+  s_e15ab986b6c865::t_6274eb06197a63 84-104,120
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/internal/SandboxConnector.java
+  s_e15ab986b6c865::t_195181bbd36b2e 70,102-106,133-137,217-221,244-268,275-279,287-290,293,381,414-417,419
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/main/java/io/agentscope/extensions/sandbox/kubernetes/client/model/ExecutionResult.java
+  s_e15ab986b6c865::t_de6022dd27a218 34-36,40-43,47,73-80
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/test/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesClaimEnvTest.java
+  s_e15ab986b6c865::t_bc059b2a17f6c3 1-176
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/test/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesClaimLifetimeTest.java
+  s_e15ab986b6c865::t_5db79c13e88508 1-169
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/test/java/io/agentscope/extensions/sandbox/kubernetes/KubernetesSandboxTest.java
+  s_e15ab986b6c865::t_a5abf5e528f895 33-34,38,40,44,94-139,347-374
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/test/java/io/agentscope/extensions/sandbox/kubernetes/client/CommandExecutorTest.java
+  s_e15ab986b6c865::t_241d946d7c0fea 19,21,23-26,30-31,33-38,43-56,58-109,111-115,117-201,205-219,221-230,232-242,246-249,251-255,257-260,266-275,277-286,288-296,300-313,315-331
+agentscope-extensions/agentscope-extensions-sandbox/agentscope-extensions-sandbox-kubernetes/src/test/java/io/agentscope/extensions/sandbox/kubernetes/client/internal/SandboxConnectorRedirectTest.java
+  s_e15ab986b6c865::t_55b07a809ea147 25,35,38,57,60,65-66,92-111,126,192-226
+agentscope-extensions/agentscope-extensions-scheduler/agentscope-extensions-scheduler-quartz/src/main/java/io/agentscope/extensions/scheduler/quartz/QuartzAgentScheduler.java
+  s_e15ab986b6c865::t_60c284d9b352e7 412-415,418
+agentscope-extensions/agentscope-extensions-scheduler/agentscope-extensions-scheduler-quartz/src/test/java/io/agentscope/extensions/scheduler/quartz/QuartzAgentSchedulerTest.java
+  s_e15ab986b6c865::t_95b495a6b50a5d 817-828
+agentscope-extensions/agentscope-extensions-scheduler/agentscope-extensions-scheduler-quartz/src/test/java/io/agentscope/extensions/scheduler/quartz/QuartzFixedDelayIntegrationTest.java
+  s_e15ab986b6c865::t_de78bb0225eab9 41-43,63-72,74-79
+agentscope-extensions/agentscope-extensions-scheduler/agentscope-extensions-scheduler-xxl-job/src/main/java/io/agentscope/extensions/scheduler/xxljob/XxlJobAgentScheduler.java
+  s_e15ab986b6c865::t_31d37ec3a1b8df 275-276
+agentscope-extensions/agentscope-extensions-scheduler/agentscope-extensions-scheduler-xxl-job/src/test/java/io/agentscope/extensions/scheduler/xxljob/XxlJobAgentSchedulerTest.java
+  s_e15ab986b6c865::t_b458ada6895f7e 26-34,38,52,650-700
+agentscope-extensions/agentscope-extensions-studio/src/main/java/io/agentscope/core/tracing/telemetry/AttributesExtractors.java
+  s_e15ab986b6c865::t_2230c3f4bcdf8d 63,66-67,324-327,550,559-651
+agentscope-extensions/agentscope-extensions-studio/src/test/java/io/agentscope/core/tracing/telemetry/AttributesExtractorsTest.java
+  s_e15ab986b6c865::t_1716859d181b8c 19-20,22,24-28,30,33-34,37,96-235
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-a2a-spring-boot-starter/src/main/java/io/agentscope/spring/boot/a2a/AgentscopeA2aAutoConfiguration.java
+  s_e15ab986b6c865::t_b866ef12929245 329-331
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-a2a-spring-boot-starter/src/main/java/io/agentscope/spring/boot/a2a/properties/A2aCommonProperties.java
+  s_e15ab986b6c865::t_2a4fa2802e13ff 30-31,36-37
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-a2a-spring-boot-starter/src/test/java/io/agentscope/spring/boot/a2a/A2aHttpEndToEndTest.java
+  s_e15ab986b6c865::t_044650b46fff0d 83,325-352,493-541
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-a2a-spring-boot-starter/src/test/java/io/agentscope/spring/boot/a2a/AgentscopeA2aAutoConfigurationTest.java
+  s_e15ab986b6c865::t_1a4e47821646ef 26,34,39-40,42,291-341
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-admin-spring-boot-starter/src/main/java/io/agentscope/spring/boot/admin/metrics/MetricsHook.java
+  s_e15ab986b6c865::t_688284e2960873 70-76
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-admin-spring-boot-starter/src/main/java/io/agentscope/spring/boot/admin/service/ModelSummarizationStrategy.java
+  s_e15ab986b6c865::t_96c1db365c8cca 18,20,103-108,112-113,115-123
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-admin-spring-boot-starter/src/main/java/io/agentscope/spring/boot/admin/service/SessionOperations.java
+  s_e15ab986b6c865::t_2cbcffd54105af 20,187-188,190,443-448,453-454
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-admin-spring-boot-starter/src/test/java/io/agentscope/spring/boot/admin/service/ModelSummarizationStrategyTest.java
+  s_e15ab986b6c865::t_782d6ff336986a 1-105
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-agui-spring-boot-starter/src/main/java/io/agentscope/spring/boot/agui/mvc/AguiMvcController.java
+  s_e15ab986b6c865::t_6c10f4c263889b 84-99,381-397,502,505
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-agui-spring-boot-starter/src/main/java/io/agentscope/spring/boot/agui/webflux/AguiWebFluxHandler.java
+  s_e15ab986b6c865::t_f161aabda0e3bc 87-102,304-321,426,429
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-agui-spring-boot-starter/src/test/java/io/agentscope/spring/boot/agui/mvc/AguiMvcControllerTest.java
+  s_e15ab986b6c865::t_f8dc7dcd5f4af2 22-23,54,63-125,137,151,166,179,182,198,235,247,267,274,291,326,330,388,407
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-agui-spring-boot-starter/src/test/java/io/agentscope/spring/boot/agui/webflux/AguiWebFluxHandlerTest.java
+  s_e15ab986b6c865::t_3d86eb44cb5b9c 19-21,23-26,28-33,35-37,40-41,43,45,47,51-109,124-131
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-jev-spring-boot-starter/src/main/java/io/agentscope/spring/boot/jev/JevAutoConfiguration.java
+  s_e15ab986b6c865::t_e7f0a6019ba0f1 58-62
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-jev-spring-boot-starter/src/main/java/io/agentscope/spring/boot/jev/JevProperties.java
+  s_e15ab986b6c865::t_04fd7a1bcb82a1 36-38,72-79
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-jev-spring-boot-starter/src/test/java/io/agentscope/spring/boot/jev/JevAutoConfigurationTest.java
+  s_e15ab986b6c865::t_310c12ce587fb5 50,67,75-95
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-nacos-spring-boot-starter/src/main/java/io/agentscope/spring/boot/nacos/AgentscopeNacosReActAgentAutoConfiguration.java
+  s_e15ab986b6c865::t_14ac3b4fbafb79 58
+agentscope-extensions/agentscope-spring-boot-starters/agentscope-nacos-spring-boot-starter/src/test/java/io/agentscope/spring/boot/nacos/AgentscopeNacosReActAgentAutoConfigurationTest.java
+  s_e15ab986b6c865::t_6cea2e26a470cd 1-90
+agentscope-extensions/pom.xml
+  s_e15ab986b6c865::t_6a68140e5cd783 44-49
+agentscope-harness/src/main/java/io/agentscope/harness/agent/HarnessAgent.java
+  s_e15ab986b6c865::t_7d7184b221db07 23-24,28,34-38,47,57,86,125,127,140,217-220,254,274,288-289,292-293,296-297,300-301,306,392-398,403-409,414-416,479,484,519-528,609-615,793,803-805,814-815,836,842-843,849,859,870-871,881-882,908,920,931,936-938,947-949,1024,1044-1046,1050,1052,1054,1056,1062,1066,1076,1079-1080,1083,1085,1087,1089,1098,1101,1103,1105,1107,1115-1155,1164,1178-1180,1184,1198-1201,1206,1222-1225,1246-1247,1263-1264,1276-1282,1377-1378,1380-1382,1384-1385,1389-1392,1397-1398,1488,1494,1534,1552,1563,1593-1595,1640,1686-1688,1818-1828,1929-1931,2372-2387,2441-2458,2627,2646,2652-2653,2826,2866-2868,2871,2873,2886,2990-2995,2999-3001,3011,3042-3044,3046-3047,3141,3143-3146,3164-3167,3173-3174,3386-3389,3391-3392,3439
+agentscope-harness/src/main/java/io/agentscope/harness/agent/HarnessAgentBuilderSupport.java
+  s_e15ab986b6c865::t_534d94a052d6a3 339,361,382,410,463,491,562,581
+agentscope-harness/src/main/java/io/agentscope/harness/agent/bus/MessageBus.java
+  s_e15ab986b6c865::t_60eb27e511f7a9 29-30,47,54-55,61-64,158-159,184-185
+agentscope-harness/src/main/java/io/agentscope/harness/agent/bus/WorkspaceMessageBus.java
+  s_e15ab986b6c865::t_3d1b0afcc47a31 24,31,41-44,54-56,60-73,87-88,120-121,123-149,159,161-187,189,193,196,212-229,242,347-350,356-363,372,377-406
+agentscope-harness/src/main/java/io/agentscope/harness/agent/context/ContextModelCalls.java
+  s_e15ab986b6c865::t_52b3d54b87b021 18,20,46,49
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/AbstractFilesystem.java
+  s_e15ab986b6c865::t_246c4938bb8f0c 51,77-79
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/BakedContextFilesystem.java
+  s_e15ab986b6c865::t_1618a9201cb445 19,54-55
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/CompositeFilesystem.java
+  s_e15ab986b6c865::t_1a0cd807bb4ce8 69-70,74,86-101,115-116
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/OverlayFilesystem.java
+  s_e15ab986b6c865::t_8d7867853d3705 59-60
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/RoutedSandboxFilesystem.java
+  s_e15ab986b6c865::t_4156c9776918c1 19,79-80
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/local/LocalFilesystem.java
+  s_e15ab986b6c865::t_e6f02b65d5e373 41,79-82,96-118,268-309,402,409-410,412-413,700-714,716-717,733,762,767-771,783-784,793,801-803,817-952
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/local/LocalFilesystemWithShell.java
+  s_e15ab986b6c865::t_c6592e88b21261 384
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/model/ExecuteResponse.java
+  s_e15ab986b6c865::t_73d9b08a809a00 24,26-31,34
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/model/WriteResult.java
+  s_e15ab986b6c865::t_a5cd896ea1fd0c 23,25-33,43-47,51-55
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/remote/RemoteFilesystem.java
+  s_e15ab986b6c865::t_170bc3c7a22e36 149-150,155,224-233,356
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/remote/store/BaseStore.java
+  s_e15ab986b6c865::t_7823a42594eb3d 29
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/remote/store/InMemoryStore.java
+  s_e15ab986b6c865::t_176c3f634d9e8b 62
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/sandbox/BaseSandboxFilesystem.java
+  s_e15ab986b6c865::t_5f883e3fbaba76 49-54,56-60,218-219,221-224,226-228,231-236,238-242,252-257,463-465,482,489-495
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/sandbox/SandboxBackedFilesystem.java
+  s_e15ab986b6c865::t_adedc9e1741e39 35,108-109,111,118,277-281
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/spec/LocalFilesystemSpec.java
+  s_e15ab986b6c865::t_1943d57fecd466 65-71,216-241,374-385
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/spec/RemoteFilesystemSpec.java
+  s_e15ab986b6c865::t_0834e540f382ba 282,286-287,298
+agentscope-harness/src/main/java/io/agentscope/harness/agent/filesystem/spec/SandboxFilesystemSpec.java
+  s_e15ab986b6c865::t_52b4f7c5ac5739 41-47,145
+agentscope-harness/src/main/java/io/agentscope/harness/agent/gateway/HarnessGateway.java
+  s_e15ab986b6c865::t_1e86940b26266a 581-582,584,696,698,709-710,718,720,731
+agentscope-harness/src/main/java/io/agentscope/harness/agent/gateway/LocalSessionTurnGate.java
+  s_e15ab986b6c865::t_289df6f81fa65e 20,30,34-54,59-90
+agentscope-harness/src/main/java/io/agentscope/harness/agent/journal/LocalJournalStorage.java
+  s_e15ab986b6c865::t_b45a81a4d5f121 1-197
+agentscope-harness/src/main/java/io/agentscope/harness/agent/journal/SqliteJournalStorage.java
+  s_e15ab986b6c865::t_40d1c9aba1f1fc 1-166
+agentscope-harness/src/main/java/io/agentscope/harness/agent/journal/StoreJournalStorage.java
+  s_e15ab986b6c865::t_137ae8307469ab 1-74
+agentscope-harness/src/main/java/io/agentscope/harness/agent/journal/WorkspaceThreadJournalStore.java
+  s_e15ab986b6c865::t_8f2c4742ccc5f8 1-100
+agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/MemoryConfig.java
+  s_e15ab986b6c865::t_be3eb494e1c1df 244-245
+agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/MemoryFlushManager.java
+  s_e15ab986b6c865::t_5662bda08401df 19-20,22,34-35,127,199,203,209-213,219-221,290-291,339-343
+agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/CompactionConfig.java
+  s_e15ab986b6c865::t_6f378fb17fe9b7 420-421,615
+agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java
+  s_e15ab986b6c865::t_ac7eb3243d54bf 19-21,23,134,161,308,321,323,327-328,585-587,628-632,660,666-679
+agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ToolResultEvictionConfig.java
+  s_e15ab986b6c865::t_14dd57d8df644b 61,65-66,69
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/AgentTraceMiddleware.java
+  s_e15ab986b6c865::t_529acf8690a181 27,34,84-86,110,270-286
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/CompactionMiddleware.java
+  s_e15ab986b6c865::t_98b9cf9deb1384 26,110,131-148,152-156,163,172,212-215,343-352,355-356,372
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/ContextConventionsMiddleware.java
+  s_e15ab986b6c865::t_3972f7623cfe60 24,26,50-55
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/DynamicSubagentsMiddleware.java
+  s_e15ab986b6c865::t_823a94dfdf1d0a 143-149
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/HarnessSkillMiddleware.java
+  s_e15ab986b6c865::t_8acf2016ffdb76 19,254-255,260-278,280,287,290-293,295-303,322-323,405-425,447
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/MemoryFlushMiddleware.java
+  s_e15ab986b6c865::t_9536d264b38bbd 18,20-21,24-25,96-98,167,177,179,189-199,211-214,310-315,317,323-324,330-342,377-378
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/MemoryMaintenanceMiddleware.java
+  s_e15ab986b6c865::t_6d0613c7ac050f 19-20,23-25,37,143,153-154,169-185,240,256-259
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/SandboxLifecycleMiddleware.java
+  s_e15ab986b6c865::t_55db27db74e494 18,22,27-31,33-35,75-76,93-111,116-117,122-143,148-150,163-169,172,175-178,181-183,186-217,300-406
+agentscope-harness/src/main/java/io/agentscope/harness/agent/middleware/WorkspaceContextMiddleware.java
+  s_e15ab986b6c865::t_f98ce9ec5c21b1 30,251,374-375,433-435
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/AbstractBaseSandbox.java
+  s_e15ab986b6c865::t_6bac4dc0f119d4 22-25,28-29,62-64,83,99,101,118,120,131-135,231-234,301-442,445-454,457-475,478-510,515-516,518-563
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/SandboxContext.java
+  s_e15ab986b6c865::t_5b6b5f34f330af 63-68,73-79
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/SandboxErrorCode.java
+  s_e15ab986b6c865::t_8df687c52796de 29-31
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/SandboxException.java
+  s_e15ab986b6c865::t_6a569bad155f20 218-225,234,244-247,254,283-286,309-322
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/SandboxState.java
+  s_e15ab986b6c865::t_40d503e11a96f7 18,22,46-54,89-96
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/SandboxWorkspaceRoot.java
+  s_e15ab986b6c865::t_1c1286c31bb7af 1-48
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/WorkspaceArchiveExtractor.java
+  s_e15ab986b6c865::t_c6e69e9c053525 19,58-63
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/WorkspaceProjectionApplier.java
+  s_e15ab986b6c865::t_0e707f749ba444 23,30,33,50-91,111-117,138-139,206-208,210-225
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/WorkspaceSpec.java
+  s_e15ab986b6c865::t_7fd715286a79b5 18,47,59-70,96
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/layout/WorkspaceProjectionEntry.java
+  s_e15ab986b6c865::t_ac22a3e1eb2036 18,36-46,69-90
+agentscope-harness/src/main/java/io/agentscope/harness/agent/sandbox/snapshot/LocalSandboxSnapshot.java
+  s_e15ab986b6c865::t_a0647afaa666c7 25,83-85
+agentscope-harness/src/main/java/io/agentscope/harness/agent/skill/runtime/MarketplaceStager.java
+  s_e15ab986b6c865::t_3786618adeb049 50,119-125,127-128,170-175,190-191,194,204-226,228-231,236-238,267-272,287-289,297-323,601-603,622,626,655-671,689
+agentscope-harness/src/main/java/io/agentscope/harness/agent/skill/runtime/SkillLoadTool.java
+  s_e15ab986b6c865::t_54af4a3245493e 18,102-109,176-179,189-224,286-288
+agentscope-harness/src/main/java/io/agentscope/harness/agent/subagent/DefaultAgentManager.java
+  s_e15ab986b6c865::t_df6db55c282282 20-21,24,27-29,32-33,42,191-201,262-264,266-280,282-293
+agentscope-harness/src/main/java/io/agentscope/harness/agent/subagent/SubagentDeclaration.java
+  s_e15ab986b6c865::t_fb3e45723f896a 499-500
+agentscope-harness/src/main/java/io/agentscope/harness/agent/subagent/SubagentExecution.java
+  s_e15ab986b6c865::t_6ed2adac39faaa 1-42
+agentscope-harness/src/main/java/io/agentscope/harness/agent/subagent/task/WorkspaceTaskRepository.java
+  s_e15ab986b6c865::t_c90683faa6b95f 56-57,112,114,117,119,126,298,525,546,569,794,821-827,932
+agentscope-harness/src/main/java/io/agentscope/harness/agent/tool/AgentSpawnTool.java
+  s_e15ab986b6c865::t_ccdaf60ca4ac1a 22,31-32,42,50,393-396,399-402,435-438,447,460,469-470,472-474,533,679-683,711,781-785,928-931,983-989,998,1108-1111,1226-1231,1233,1778
+agentscope-harness/src/main/java/io/agentscope/harness/agent/tool/FilesystemTool.java
+  s_e15ab986b6c865::t_e3bc983c18ff50 43-48,52,60-77,80,170-171,175
+agentscope-harness/src/main/java/io/agentscope/harness/agent/tool/MemoryGetTool.java
+  s_e15ab986b6c865::t_a406290c4852aa 43-44,60-64,69-77
+agentscope-harness/src/main/java/io/agentscope/harness/agent/tool/ShellExecuteTool.java
+  s_e15ab986b6c865::t_9e0bbeef6b8f3b 71-73,93-96,101-103
+agentscope-harness/src/main/java/io/agentscope/harness/agent/tool/ThreadHistoryTool.java
+  s_e15ab986b6c865::t_850f5a713ea194 1-230
+agentscope-harness/src/main/java/io/agentscope/harness/agent/tool/WebTools.java
+  s_e15ab986b6c865::t_92842d39839ab5 48-55,57-58,63-67,72,134
+agentscope-harness/src/main/java/io/agentscope/harness/agent/verification/VerificationService.java
+  s_e15ab986b6c865::t_6f53df746a62b7 21,111
+agentscope-harness/src/main/java/io/agentscope/harness/agent/workspace/WorkspaceManager.java
+  s_e15ab986b6c865::t_01d46b65809e6b 37,124-130,249-256,258,261-264,294,315,399-402,483,615,625,631-662,966,970,1078-1079,1089-1126,1233-1242
+agentscope-harness/src/main/java/io/agentscope/harness/agent/workspace/WorkspacePathNormalizer.java
+  s_e15ab986b6c865::t_f1c07478265bc0 20,39,42-46,49-59,141-144,171-173,184-185
+agentscope-harness/src/test/java/io/agentscope/harness/agent/AguiPermissionResumeTest.java
+  s_e15ab986b6c865::t_7ff9c339518778 175,214
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentCapabilityResolverTest.java
+  s_e15ab986b6c865::t_3a974c967ec1f2 1-316
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentDistributedSandboxTest.java
+  s_e15ab986b6c865::t_556022f2c4eea5 107
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentIdTest.java
+  s_e15ab986b6c865::t_91ca33b3817fe7 78,95,115
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentIntegrationExampleTest.java
+  s_e15ab986b6c865::t_e9ba684d6b5160 58-59,94-99
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentOverflowRecoveryTest.java
+  s_e15ab986b6c865::t_1d6bbf35da8834 22,39,51,56,133-182,190,263-313
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentSubagentStreamTest.java
+  s_e15ab986b6c865::t_f8f7a7b15155af 26-27,35,42,44-45,52,59,133-190
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessAgentTest.java
+  s_e15ab986b6c865::t_03562e178770f6 40,44-45,51,53-55,77,97,100,186,226,242-272,392-393,418-419,629-633,673-677,722-726,741,758-759,763-767,801,841-842,846-850,1114-1118,1187-1191,1325-1351,1383,2081-2139
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessBuilderReuseTest.java
+  s_e15ab986b6c865::t_58adbaa9100985 91,180,201,224
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessMiddlewareActivePointsTest.java
+  s_e15ab986b6c865::t_2b9d4be892ad87 26,46-50,106-133
+agentscope-harness/src/test/java/io/agentscope/harness/agent/HarnessMiddlewareOrderTest.java
+  s_e15ab986b6c865::t_ca853c0968996c 31,33,51-55
+agentscope-harness/src/test/java/io/agentscope/harness/agent/JsonSessionDefaultLocationTest.java
+  s_e15ab986b6c865::t_31cb75346242c1 32-33,80,91-98,119,141-150,152-161,175
+agentscope-harness/src/test/java/io/agentscope/harness/agent/PlanModeSubagentPropagationTest.java
+  s_e15ab986b6c865::t_55c95da3e28fc7 54-90
+agentscope-harness/src/test/java/io/agentscope/harness/agent/SandboxWorkspaceRootTest.java
+  s_e15ab986b6c865::t_ea32f858c4ec86 1-119
+agentscope-harness/src/test/java/io/agentscope/harness/agent/SubagentFactoryDeclarationTest.java
+  s_e15ab986b6c865::t_e63decbea9db8a 46,49,135-139
+agentscope-harness/src/test/java/io/agentscope/harness/agent/SubagentInvocationIdentityTest.java
+  s_e15ab986b6c865::t_5848fe720efd37 1-264
+agentscope-harness/src/test/java/io/agentscope/harness/agent/SubagentPendingToolRecoveryTest.java
+  s_e15ab986b6c865::t_abf656a3244acc 26,29,45,53,56,187-191,202,204,216,218,266,299-303,330-332,362-363
+agentscope-harness/src/test/java/io/agentscope/harness/agent/bus/WorkspaceMessageBusTest.java
+  s_e15ab986b6c865::t_324a4c6c6217bb 18,20,24,29,31-33,35-37,40,45-47,49,54-55,126-389,491-555,587,589,591,675-793
+agentscope-harness/src/test/java/io/agentscope/harness/agent/example/LocalFilesystemUserIsolationExampleTest.java
+  s_e15ab986b6c865::t_8cd171e90b6dc8 31-32,42-43,430-521,537-546
+agentscope-harness/src/test/java/io/agentscope/harness/agent/example/SandboxFilesystemIsolationScopeExampleTest.java
+  s_e15ab986b6c865::t_18d4b85b8decc8 35,122-123,155-156,192-193,224-225,260-261
+agentscope-harness/src/test/java/io/agentscope/harness/agent/filesystem/CompositeFilesystemTest.java
+  s_e15ab986b6c865::t_d66402a240b47b 20-21,26,30,56-91
+agentscope-harness/src/test/java/io/agentscope/harness/agent/filesystem/LocalFilesystemModeTest.java
+  s_e15ab986b6c865::t_3f5a5ed4c77f9d 23,28,279-353,359-591,593-597
+agentscope-harness/src/test/java/io/agentscope/harness/agent/filesystem/LocalFilesystemSpecSharedWorkspaceTest.java
+  s_e15ab986b6c865::t_a3096f5bbc1695 19,97-134
+agentscope-harness/src/test/java/io/agentscope/harness/agent/filesystem/model/WriteResultTest.java
+  s_e15ab986b6c865::t_53d5567ab6e438 1-33
+agentscope-harness/src/test/java/io/agentscope/harness/agent/filesystem/sandbox/BaseSandboxFilesystemTest.java
+  s_e15ab986b6c865::t_3a8ad35928e05c 37,41,43,75-145,362,366-370,373-374,377,384-394,398,403-404,408,413,415-416,1063-1066,1080,1298-1357,1471-1528,1567-1576,1600-1602
+agentscope-harness/src/test/java/io/agentscope/harness/agent/filesystem/sandbox/SandboxBackedFilesystemTest.java
+  s_e15ab986b6c865::t_7e5888d9bf6e30 81-101
+agentscope-harness/src/test/java/io/agentscope/harness/agent/gateway/HarnessGatewayTurnGateTest.java
+  s_e15ab986b6c865::t_e24504ad3bb98b 1-203
+agentscope-harness/src/test/java/io/agentscope/harness/agent/gateway/LocalSessionTurnGateTest.java
+  s_e15ab986b6c865::t_2786b795e19544 22,24,26,140-224
+agentscope-harness/src/test/java/io/agentscope/harness/agent/journal/HarnessInlineMemoryAccountingTest.java
+  s_e15ab986b6c865::t_03abbe1ab1f54e 1-158
+agentscope-harness/src/test/java/io/agentscope/harness/agent/journal/HarnessInvocationRecoveryTest.java
+  s_e15ab986b6c865::t_86bda9c4b6bd82 1-206
+agentscope-harness/src/test/java/io/agentscope/harness/agent/journal/RemoteJournalRoutingTest.java
+  s_e15ab986b6c865::t_73c028d03d2087 1-110
+agentscope-harness/src/test/java/io/agentscope/harness/agent/journal/SqliteJournalStorageTest.java
+  s_e15ab986b6c865::t_16fdb64b509429 1-164
+agentscope-harness/src/test/java/io/agentscope/harness/agent/journal/WorkspaceThreadJournalStoreTest.java
+  s_e15ab986b6c865::t_8777448e1a0e06 1-245
+agentscope-harness/src/test/java/io/agentscope/harness/agent/memory/MemoryFlushManagerTest.java
+  s_e15ab986b6c865::t_a8c5a783672560 23-24,28-30,84-142
+agentscope-harness/src/test/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactorSummaryShapeTest.java
+  s_e15ab986b6c865::t_c163c0bfd84e8c 24-27,29-30,37,86-179,329,331-333,338
+agentscope-harness/src/test/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactorTest.java
+  s_e15ab986b6c865::t_3b92b3f22f1936 27-29,503,506-508,540,543-548
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/CompactionMiddlewareTest.java
+  s_e15ab986b6c865::t_5d9b9ba48875e0 21,29,43,78,196,237,248,551-624
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/ContextConventionsResetOrderTest.java
+  s_e15ab986b6c865::t_d2dfa6511a6347 36,38,55-59
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/HarnessSkillManageNamespaceTest.java
+  s_e15ab986b6c865::t_92e3d4c5e82f8a 27,67,166
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/HarnessSkillMiddlewareContextIsolationTest.java
+  s_e15ab986b6c865::t_1201772444a5a9 97,100
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/HarnessSkillMiddlewareGrantTest.java
+  s_e15ab986b6c865::t_3aedf893de0dda 1-344
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/InboxMiddlewareTest.java
+  s_e15ab986b6c865::t_e0b609b0c63e98 282-285,308-324
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/MemoryFlushMiddlewareAsyncFlushTest.java
+  s_e15ab986b6c865::t_8970bd3eb3984b 43-44,277-279,295,301-302,350
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/MemoryFlushMiddlewareEffectiveModelTest.java
+  s_e15ab986b6c865::t_2e96c5db4a97e3 1-90
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/MemoryMaintenanceMiddlewareAsyncGateTest.java
+  s_e15ab986b6c865::t_3929a5bc13e558 18,20,25-26,49-76
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/SandboxLifecycleMiddlewareCallbackTest.java
+  s_e15ab986b6c865::t_578ebf98bf3566 19,22,149-256
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/SandboxLifecycleMiddlewareProjectionNarrowingTest.java
+  s_e15ab986b6c865::t_5198b0bd0b6873 1-325
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/ToolResultEvictionMiddlewareTest.java
+  s_e15ab986b6c865::t_4253e75156680c 418-446,636-640
+agentscope-harness/src/test/java/io/agentscope/harness/agent/middleware/WorkspaceContextMiddlewareSandboxPromptTest.java
+  s_e15ab986b6c865::t_5bf89298aa7bcd 59-77
+agentscope-harness/src/test/java/io/agentscope/harness/agent/observation/HarnessActionObservationTest.java
+  s_e15ab986b6c865::t_7bbe465fd5cb0a 34,39,78,85-86,106
+agentscope-harness/src/test/java/io/agentscope/harness/agent/sandbox/AbstractBaseSandboxSnapshotCleanupTest.java
+  s_e15ab986b6c865::t_1af8c3885f4fde 1-112
+agentscope-harness/src/test/java/io/agentscope/harness/agent/sandbox/SandboxProjectionStateShapeTest.java
+  s_e15ab986b6c865::t_43a77b423b2c6d 1-73
+agentscope-harness/src/test/java/io/agentscope/harness/agent/sandbox/WorkspaceProjectionApplierTest.java
+  s_e15ab986b6c865::t_3069fa65f0df7c 22,42-52,82-119
+agentscope-harness/src/test/java/io/agentscope/harness/agent/sandbox/WorkspaceProjectionRevocationTest.java
+  s_e15ab986b6c865::t_1b25698c3a8df0 1-661
+agentscope-harness/src/test/java/io/agentscope/harness/agent/sandbox/impl/docker/DockerSandboxFileTransferIntegrationTest.java
+  s_e15ab986b6c865::t_6debdb242b052f 19,24-28,102-125
+agentscope-harness/src/test/java/io/agentscope/harness/agent/sandbox/json/HarnessSandboxJacksonModuleTest.java
+  s_e15ab986b6c865::t_d342200512f1f2 19,28,44-67
+agentscope-harness/src/test/java/io/agentscope/harness/agent/skill/runtime/LazyFileSystemSkillLoadingTest.java
+  s_e15ab986b6c865::t_7b11b83016118a 26,38,119-120
+agentscope-harness/src/test/java/io/agentscope/harness/agent/skill/runtime/MarketplaceStagerPathTest.java
+  s_e15ab986b6c865::t_fd191261c0b505 1-512
+agentscope-harness/src/test/java/io/agentscope/harness/agent/skill/runtime/SharedWorkspaceSkillStagingE2ETest.java
+  s_e15ab986b6c865::t_857bac5931b2d9 23,282
+agentscope-harness/src/test/java/io/agentscope/harness/agent/subagent/task/WorkspaceTaskRepositoryNamespaceTest.java
+  s_e15ab986b6c865::t_652b51ec72782a 1-418
+agentscope-harness/src/test/java/io/agentscope/harness/agent/subagent/task/WorkspaceTaskRepositoryTest.java
+  s_e15ab986b6c865::t_4b2864c650a612 19,27,29,445-478
+agentscope-harness/src/test/java/io/agentscope/harness/agent/tool/AgentSpawnToolExecutionHostTest.java
+  s_e15ab986b6c865::t_19de97c5d61e89 1-181
+agentscope-harness/src/test/java/io/agentscope/harness/agent/tool/BoundedFileReadTest.java
+  s_e15ab986b6c865::t_d401fb06757732 20,36-37,89,105-152
+agentscope-harness/src/test/java/io/agentscope/harness/agent/tool/KeywordSearchModesTest.java
+  s_e15ab986b6c865::t_455ea5e7d9e900 24-25,36,55,62,67-69,71,81-82,99,108-109,152,167-168,176
+agentscope-harness/src/test/java/io/agentscope/harness/agent/tool/SessionSearchToolCeilingTest.java
+  s_e15ab986b6c865::t_8d174bb3cc0167 22-23,30,39-40,45,48-49,52,61-62,74-75,83,87,93,97,103,109,115,124
+agentscope-harness/src/test/java/io/agentscope/harness/agent/tool/ShellExecuteToolTest.java
+  s_e15ab986b6c865::t_b0483ab87d2050 77-79,100-108,192-202
+agentscope-harness/src/test/java/io/agentscope/harness/agent/tools/HarnessAgentToolsConfigTest.java
+  s_e15ab986b6c865::t_190c43c07a2659 90
+docs/.mintignore
+  s_e15ab986b6c865::t_03e5365f7db53c 15-24
+docs/README.md
+  s_e15ab986b6c865::t_4c2778fd701f3f 4-5,29-35,39-84,86,88,90-94,96,114-115,126,148-149
+docs/baidu-analytics.js
+  s_e15ab986b6c865::t_7a6c8bf947180c 1-45
+docs/dev/en/blogs/best-practices/session-chat.md
+  s_e15ab986b6c865::t_5176f8f5327c31 1-107
+docs/dev/en/docs/building-blocks/agent.md
+  s_e15ab986b6c865::t_5ffd60d7649fb1 1-718
+docs/dev/en/docs/building-blocks/capability-grant.md
+  s_e15ab986b6c865::t_535f144eef2892 1-121
+docs/dev/en/docs/building-blocks/context.md
+  s_e15ab986b6c865::t_d053a69cadbedf 1-381
+docs/dev/en/docs/building-blocks/message-and-event.md
+  s_e15ab986b6c865::t_4c25219ae1fd3f 1-483
+docs/dev/en/docs/building-blocks/middleware.md
+  s_e15ab986b6c865::t_2d93937e4f8eaa 1-674
+docs/dev/en/docs/building-blocks/model.md
+  s_e15ab986b6c865::t_1e40629367aae0 1-659
+docs/dev/en/docs/building-blocks/permission-system.md
+  s_e15ab986b6c865::t_15021448fdb8a5 1-525
+docs/dev/en/docs/building-blocks/tool.md
+  s_e15ab986b6c865::t_4fad94f53e2beb 1-673
+docs/dev/en/docs/change-log.md
+  s_e15ab986b6c865::t_56444e7f5243d1 1-342
+docs/dev/en/docs/harness/architecture.md
+  s_e15ab986b6c865::t_5882cf396a4bfb 1-88
+docs/dev/en/docs/harness/channel.md
+  s_e15ab986b6c865::t_49bc464dd1f682 1-336
+docs/dev/en/docs/harness/context.md
+  s_e15ab986b6c865::t_3d713c63025308 1-401
+docs/dev/en/docs/harness/durable.md
+  s_e15ab986b6c865::t_619a91ff86d17e 1-994
+docs/dev/en/docs/harness/filesystem.md
+  s_e15ab986b6c865::t_a1a3ca8ef41b04 1-544
+docs/dev/en/docs/harness/jev/concepts.md
+  s_e15ab986b6c865::t_81a1aa78bd6e77 1-40
+docs/dev/en/docs/harness/jev/evaluation.md
+  s_e15ab986b6c865::t_e776cfe0f13da2 1-69
+docs/dev/en/docs/harness/jev/guides/agent-integration-example.md
+  s_e15ab986b6c865::t_db455196620b4b 1-62
+docs/dev/en/docs/harness/jev/guides/answer-refinement-api.md
+  s_e15ab986b6c865::t_fcb6d606a6974c 1-95
+docs/dev/en/docs/harness/jev/guides/application-api.md
+  s_e15ab986b6c865::t_30bfbfd54066b7 1-78
+docs/dev/en/docs/harness/jev/guides/browser-execution-api.md
+  s_e15ab986b6c865::t_2a4ac17b2f6a94 1-131
+docs/dev/en/docs/harness/jev/guides/browser-proposals.md
+  s_e15ab986b6c865::t_e809da1ee0fcb8 1-64
+docs/dev/en/docs/harness/jev/guides/client.md
+  s_e15ab986b6c865::t_3fe5b6c72d88d6 1-107
+docs/dev/en/docs/harness/jev/guides/code-review-api.md
+  s_e15ab986b6c865::t_e5db384de161f2 1-114
+docs/dev/en/docs/harness/jev/guides/content-guardrail-api.md
+  s_e15ab986b6c865::t_3d28b0bb215ca1 1-88
+docs/dev/en/docs/harness/jev/guides/context-archive.md
+  s_e15ab986b6c865::t_43128a615210fa 1-60
+docs/dev/en/docs/harness/jev/guides/context-compaction-api.md
+  s_e15ab986b6c865::t_b426ca30dfa676 1-96
+docs/dev/en/docs/harness/jev/guides/context-planner-api.md
+  s_e15ab986b6c865::t_6ca1ecd86e5ea1 1-65
+docs/dev/en/docs/harness/jev/guides/draft-pipeline-api.md
+  s_e15ab986b6c865::t_d3926d0af1cf20 1-88
+docs/dev/en/docs/harness/jev/guides/evaluator-api.md
+  s_e15ab986b6c865::t_46858da37011a8 1-84
+docs/dev/en/docs/harness/jev/guides/evidence-pipeline-api.md
+  s_e15ab986b6c865::t_b585383558f2fc 1-111
+docs/dev/en/docs/harness/jev/guides/harness-runtime.md
+  s_e15ab986b6c865::t_057da1f6cf3eb4 1-80
+docs/dev/en/docs/harness/jev/guides/judge-api.md
+  s_e15ab986b6c865::t_16a57232a86f79 1-95
+docs/dev/en/docs/harness/jev/guides/knowledge-adapter-api.md
+  s_e15ab986b6c865::t_749ead099a9371 1-80
+docs/dev/en/docs/harness/jev/guides/memory-api.md
+  s_e15ab986b6c865::t_a026839fadc25a 1-62
+docs/dev/en/docs/harness/jev/guides/metric-definitions.md
+  s_e15ab986b6c865::t_94f68b2e4987a7 1-78
+docs/dev/en/docs/harness/jev/guides/model-routing-api.md
+  s_e15ab986b6c865::t_2e500d7e322010 1-93
+docs/dev/en/docs/harness/jev/guides/phase-routing-api.md
+  s_e15ab986b6c865::t_9b0765086526df 1-126
+docs/dev/en/docs/harness/jev/guides/rag-api.md
+  s_e15ab986b6c865::t_c846994feb8528 1-64
+docs/dev/en/docs/harness/jev/guides/supervision-api.md
+  s_e15ab986b6c865::t_1ff43e986bc71f 1-102
+docs/dev/en/docs/harness/jev/guides/supervision-evidence.md
+  s_e15ab986b6c865::t_dd804cfb21bb2e 1-64
+docs/dev/en/docs/harness/jev/guides/support-api.md
+  s_e15ab986b6c865::t_2c25bce63b0c06 1-62
+docs/dev/en/docs/harness/jev/guides/task-review.md
+  s_e15ab986b6c865::t_152a923848179b 1-62
+docs/dev/en/docs/harness/jev/guides/team-routing.md
+  s_e15ab986b6c865::t_8ae95b198d45f7 1-57
+docs/dev/en/docs/harness/jev/guides/tool-guard-api.md
+  s_e15ab986b6c865::t_7ff29792c09b43 1-126
+docs/dev/en/docs/harness/jev/guides/tool-selection-api.md
+  s_e15ab986b6c865::t_91a46996436be6 1-88
+docs/dev/en/docs/harness/jev/guides/trace-evaluation-api.md
+  s_e15ab986b6c865::t_06846a847c9c15 1-153
+docs/dev/en/docs/harness/jev/index.md
+  s_e15ab986b6c865::t_bda114c93cf892 1-55
+docs/dev/en/docs/harness/jev/operations.md
+  s_e15ab986b6c865::t_0bb427c33b8737 1-55
+docs/dev/en/docs/harness/jev/sdk-reference.md
+  s_e15ab986b6c865::t_c2c7c2ee0151cd 1-26
+docs/dev/en/docs/harness/memory.md
+  s_e15ab986b6c865::t_1f447125748f96 1-296
+docs/dev/en/docs/harness/plan-mode.md
+  s_e15ab986b6c865::t_3701287d62bf84 1-208
+docs/dev/en/docs/harness/sandbox.md
+  s_e15ab986b6c865::t_ea3e869996cd4f 1-304
+docs/dev/en/docs/harness/session-log.md
+  s_e15ab986b6c865::t_9520d50b127395 1-147
+docs/dev/en/docs/harness/skill.md
+  s_e15ab986b6c865::t_3cffc2b13c6f4b 1-420
+docs/dev/en/docs/harness/subagent.md
+  s_e15ab986b6c865::t_def65461e93ebf 1-521
+docs/dev/en/docs/harness/workspace.md
+  s_e15ab986b6c865::t_471766a0b31c4b 1-500
+docs/dev/en/docs/index.md
+  s_e15ab986b6c865::t_5d67079ea8e8d2 1-64
+docs/dev/en/docs/others/faq.md
+  s_e15ab986b6c865::t_983231527d7126 1-41
+docs/dev/en/docs/others/going-to-production.md
+  s_e15ab986b6c865::t_bd0f0e69bc078e 1-486
+docs/dev/en/docs/others/release-notes.md
+  s_e15ab986b6c865::t_175023def34c62 1-672
+docs/dev/en/docs/quickstart.md
+  s_e15ab986b6c865::t_08d78c7b7b3eb2 1-154
+docs/dev/en/integration/channel/dingtalk.md
+  s_e15ab986b6c865::t_cf8adf597c9959 1-90
+docs/dev/en/integration/channel/feishu.md
+  s_e15ab986b6c865::t_d4b1ee50aefa1f 1-71
+docs/dev/en/integration/channel/github.md
+  s_e15ab986b6c865::t_8b0729ef285bfc 1-73
+docs/dev/en/integration/channel/gitlab.md
+  s_e15ab986b6c865::t_3b82bf9d5fea2a 1-65
+docs/dev/en/integration/channel/index.md
+  s_e15ab986b6c865::t_82326590aa74cc 1-47
+docs/dev/en/integration/channel/wecom.md
+  s_e15ab986b6c865::t_106dd18c58e0d6 1-72
+docs/dev/en/integration/distributed/index.md
+  s_e15ab986b6c865::t_8c3b9e21221cff 1-89
+docs/dev/en/integration/distributed/jdbc.md
+  s_e15ab986b6c865::t_e9859ee123feba 1-250
+docs/dev/en/integration/distributed/mongodb.md
+  s_e15ab986b6c865::t_f3e046acd37935 1-129
+docs/dev/en/integration/distributed/oss.md
+  s_e15ab986b6c865::t_1a2836c4ae8ee4 1-74
+docs/dev/en/integration/distributed/redis.md
+  s_e15ab986b6c865::t_952c88e173bb6a 1-113
+docs/dev/en/integration/ecosystem/chat-completions-web.md
+  s_e15ab986b6c865::t_acb8db7a701c24 1-77
+docs/dev/en/integration/ecosystem/index.md
+  s_e15ab986b6c865::t_529505d685e59a 1-13
+docs/dev/en/integration/ecosystem/overview.md
+  s_e15ab986b6c865::t_d627a236494247 1-12
+docs/dev/en/integration/ecosystem/studio.md
+  s_e15ab986b6c865::t_3d5ced8880ee50 1-76
+docs/dev/en/integration/ecosystem/training.md
+  s_e15ab986b6c865::t_c52c31eb0c2f81 1-90
+docs/dev/en/integration/infrastructure/higress.md
+  s_e15ab986b6c865::t_aa42452ff44059 1-68
+docs/dev/en/integration/infrastructure/index.md
+  s_e15ab986b6c865::t_1be48354af6d9a 1-13
+docs/dev/en/integration/infrastructure/nacos.md
+  s_e15ab986b6c865::t_e6aa10677aa92b 1-110
+docs/dev/en/integration/infrastructure/overview.md
+  s_e15ab986b6c865::t_ca13f422fd6c3e 1-19
+docs/dev/en/integration/infrastructure/scheduler.md
+  s_e15ab986b6c865::t_6e34829cc0957d 1-127
+docs/dev/en/integration/judge/openai-decisions.md
+  s_e15ab986b6c865::t_0cbabd6fb31230 1-194
+docs/dev/en/integration/memory/bailian.md
+  s_e15ab986b6c865::t_9b3cdf9bb8b585 1-94
+docs/dev/en/integration/memory/index.md
+  s_e15ab986b6c865::t_cf86ace13325fd 1-13
+docs/dev/en/integration/memory/mem0.md
+  s_e15ab986b6c865::t_d6ee5a91280889 1-109
+docs/dev/en/integration/memory/overview.md
+  s_e15ab986b6c865::t_94be469c6debfc 1-32
+docs/dev/en/integration/memory/reme.md
+  s_e15ab986b6c865::t_b74bc4d6355dd4 1-63
+docs/dev/en/integration/model/anthropic.md
+  s_e15ab986b6c865::t_9f790a32d40b90 1-114
+docs/dev/en/integration/model/dashscope.md
+  s_e15ab986b6c865::t_1b03d24c33b771 1-62
+docs/dev/en/integration/model/deepseek.md
+  s_e15ab986b6c865::t_3dea331a9294b6 1-55
+docs/dev/en/integration/model/gemini.md
+  s_e15ab986b6c865::t_f3b84dd87b3c80 1-99
+docs/dev/en/integration/model/glm.md
+  s_e15ab986b6c865::t_a8c88272d79dc8 1-66
+docs/dev/en/integration/model/index.md
+  s_e15ab986b6c865::t_cf64e948ac0f7b 1-17
+docs/dev/en/integration/model/kimi.md
+  s_e15ab986b6c865::t_c4f7d3f8420a73 1-68
+docs/dev/en/integration/model/minimax.md
+  s_e15ab986b6c865::t_35b9aa7ed31f61 1-57
+docs/dev/en/integration/model/ollama.md
+  s_e15ab986b6c865::t_795917af66ed48 1-66
+docs/dev/en/integration/model/openai-official.md
+  s_e15ab986b6c865::t_1516df0f0b92dd 1-118
+docs/dev/en/integration/model/openai.md
+  s_e15ab986b6c865::t_230a532503d4c5 1-55
+docs/dev/en/integration/overview.md
+  s_e15ab986b6c865::t_97037f3884b297 1-124
+docs/dev/en/integration/protocol/a2a.md
+  s_e15ab986b6c865::t_ed17bd498183b2 1-110
+docs/dev/en/integration/protocol/agent-protocol.md
+  s_e15ab986b6c865::t_45faac08676df0 1-306
+docs/dev/en/integration/protocol/agui.md
+  s_e15ab986b6c865::t_64a0c0ba75f64b 1-361
+docs/dev/en/integration/protocol/index.md
+  s_e15ab986b6c865::t_25132f6d58fbe9 1-13
+docs/dev/en/integration/protocol/overview.md
+  s_e15ab986b6c865::t_8a6c2bc0d263d5 1-22
+docs/dev/en/integration/rag/bailian.md
+  s_e15ab986b6c865::t_c1f173141cd3e4 1-94
+docs/dev/en/integration/rag/dify.md
+  s_e15ab986b6c865::t_b053de7b13246e 1-104
+docs/dev/en/integration/rag/haystack.md
+  s_e15ab986b6c865::t_5bf79825eef11d 1-72
+docs/dev/en/integration/rag/index.md
+  s_e15ab986b6c865::t_609d9a821247da 1-15
+docs/dev/en/integration/rag/overview.md
+  s_e15ab986b6c865::t_e5dd0f70e98128 1-45
+docs/dev/en/integration/rag/ragflow.md
+  s_e15ab986b6c865::t_d83c2942d0bc55 1-73
+docs/dev/en/integration/rag/simple.md
+  s_e15ab986b6c865::t_2d66b9e46fb539 1-112
+docs/dev/en/integration/session/index.md
+  s_e15ab986b6c865::t_a2270a13dc93d7 1-13
+docs/dev/en/integration/session/mysql.md
+  s_e15ab986b6c865::t_97a7dbd0b21954 1-148
+docs/dev/en/integration/session/oss.md
+  s_e15ab986b6c865::t_79d19bde0ff79c 1-73
+docs/dev/en/integration/session/overview.md
+  s_e15ab986b6c865::t_d7f713787f19f3 1-53
+docs/dev/en/integration/session/redis.md
+  s_e15ab986b6c865::t_64f9a07fa2ba9e 1-153
+docs/dev/en/integration/skill/git-repository.md
+  s_e15ab986b6c865::t_e2b7a00b6bac41 1-88
+docs/dev/en/integration/skill/index.md
+  s_e15ab986b6c865::t_40ba758162c828 1-13
+docs/dev/en/integration/skill/mysql-repository.md
+  s_e15ab986b6c865::t_3232e3650077a5 1-111
+docs/dev/en/integration/skill/overview.md
+  s_e15ab986b6c865::t_32407f41a0f109 1-61
+docs/dev/en/integration/skill/postgresql-repository.md
+  s_e15ab986b6c865::t_4ee2484f73d2b0 1-116
+docs/dev/en/intro.md
+  s_e15ab986b6c865::t_c35a3e2f94fcbe 1-151
+docs/dev/zh/blogs/best-practices/session-chat.md
+  s_e15ab986b6c865::t_c787ac878d930e 1-107
+docs/dev/zh/docs/building-blocks/agent.md
+  s_e15ab986b6c865::t_44fea4e1e54305 1-714
+docs/dev/zh/docs/building-blocks/capability-grant.md
+  s_e15ab986b6c865::t_eeb865064b3af8 1-121
+docs/dev/zh/docs/building-blocks/context.md
+  s_e15ab986b6c865::t_ece33257e0dc6a 1-377
+docs/dev/zh/docs/building-blocks/message-and-event.md
+  s_e15ab986b6c865::t_fc29eb83cf574c 1-487
+docs/dev/zh/docs/building-blocks/middleware.md
+  s_e15ab986b6c865::t_537ffd43dc9d3a 1-674
+docs/dev/zh/docs/building-blocks/model.md
+  s_e15ab986b6c865::t_3c9e2c5c0df36a 1-649
+docs/dev/zh/docs/building-blocks/permission-system.md
+  s_e15ab986b6c865::t_02cb216a8e8372 1-524
+docs/dev/zh/docs/building-blocks/tool.md
+  s_e15ab986b6c865::t_db59f028dd5751 1-673
+docs/dev/zh/docs/change-log.md
+  s_e15ab986b6c865::t_bc382145e46d8b 1-342
+docs/dev/zh/docs/harness/architecture.md
+  s_e15ab986b6c865::t_cf903e3e2fd8e5 1-88
+docs/dev/zh/docs/harness/channel.md
+  s_e15ab986b6c865::t_60fc109f139d10 1-336
+docs/dev/zh/docs/harness/context.md
+  s_e15ab986b6c865::t_cdd2e9935bbb60 1-424
+docs/dev/zh/docs/harness/durable.md
+  s_e15ab986b6c865::t_d93f791b0ea258 1-869
+docs/dev/zh/docs/harness/filesystem.md
+  s_e15ab986b6c865::t_ce09140498a2e8 1-543
+docs/dev/zh/docs/harness/jev/concepts.md
+  s_e15ab986b6c865::t_d32f40640232ac 1-40
+docs/dev/zh/docs/harness/jev/evaluation.md
+  s_e15ab986b6c865::t_dcafa3a960d0c7 1-69
+docs/dev/zh/docs/harness/jev/guides/agent-integration-example.md
+  s_e15ab986b6c865::t_55a69ff945b471 1-62
+docs/dev/zh/docs/harness/jev/guides/answer-refinement-api.md
+  s_e15ab986b6c865::t_473fa895a594ea 1-95
+docs/dev/zh/docs/harness/jev/guides/application-api.md
+  s_e15ab986b6c865::t_1e8cac4566f430 1-78
+docs/dev/zh/docs/harness/jev/guides/browser-execution-api.md
+  s_e15ab986b6c865::t_b540db4384510d 1-131
+docs/dev/zh/docs/harness/jev/guides/browser-proposals.md
+  s_e15ab986b6c865::t_ab4e552dfa2ac2 1-64
+docs/dev/zh/docs/harness/jev/guides/client.md
+  s_e15ab986b6c865::t_a7b87ab9591925 1-107
+docs/dev/zh/docs/harness/jev/guides/code-review-api.md
+  s_e15ab986b6c865::t_9160cba3259089 1-114
+docs/dev/zh/docs/harness/jev/guides/content-guardrail-api.md
+  s_e15ab986b6c865::t_365ecf84c8b177 1-88
+docs/dev/zh/docs/harness/jev/guides/context-archive.md
+  s_e15ab986b6c865::t_a17625cfa01381 1-60
+docs/dev/zh/docs/harness/jev/guides/context-compaction-api.md
+  s_e15ab986b6c865::t_fac79d8f7fe862 1-96
+docs/dev/zh/docs/harness/jev/guides/context-planner-api.md
+  s_e15ab986b6c865::t_a84625d1604bef 1-65
+docs/dev/zh/docs/harness/jev/guides/draft-pipeline-api.md
+  s_e15ab986b6c865::t_e58d68f486689a 1-88
+docs/dev/zh/docs/harness/jev/guides/evaluator-api.md
+  s_e15ab986b6c865::t_45236f99c13f2b 1-84
+docs/dev/zh/docs/harness/jev/guides/evidence-pipeline-api.md
+  s_e15ab986b6c865::t_04b6eaa922b105 1-111
+docs/dev/zh/docs/harness/jev/guides/harness-runtime.md
+  s_e15ab986b6c865::t_f0121495b5323c 1-80
+docs/dev/zh/docs/harness/jev/guides/judge-api.md
+  s_e15ab986b6c865::t_38a97a208b1520 1-95
+docs/dev/zh/docs/harness/jev/guides/knowledge-adapter-api.md
+  s_e15ab986b6c865::t_306e5df4d114aa 1-80
+docs/dev/zh/docs/harness/jev/guides/memory-api.md
+  s_e15ab986b6c865::t_0f8504da41fb46 1-62
+docs/dev/zh/docs/harness/jev/guides/metric-definitions.md
+  s_e15ab986b6c865::t_fd369715ff7406 1-78
+docs/dev/zh/docs/harness/jev/guides/model-routing-api.md
+  s_e15ab986b6c865::t_8826c7c601dd61 1-93
+docs/dev/zh/docs/harness/jev/guides/phase-routing-api.md
+  s_e15ab986b6c865::t_f9c80932458f8d 1-126
+docs/dev/zh/docs/harness/jev/guides/rag-api.md
+  s_e15ab986b6c865::t_e3ea8f8fbf5599 1-64
+docs/dev/zh/docs/harness/jev/guides/supervision-api.md
+  s_e15ab986b6c865::t_cbb915e7f24abf 1-105
+docs/dev/zh/docs/harness/jev/guides/supervision-evidence.md
+  s_e15ab986b6c865::t_aec607aaf13096 1-64
+docs/dev/zh/docs/harness/jev/guides/support-api.md
+  s_e15ab986b6c865::t_2865c2784a98c3 1-62
+docs/dev/zh/docs/harness/jev/guides/task-review.md
+  s_e15ab986b6c865::t_28444ca6d0416f 1-62
+docs/dev/zh/docs/harness/jev/guides/team-routing.md
+  s_e15ab986b6c865::t_de881e76337409 1-57
+docs/dev/zh/docs/harness/jev/guides/tool-guard-api.md
+  s_e15ab986b6c865::t_a3d25da4a66d67 1-126
+docs/dev/zh/docs/harness/jev/guides/tool-selection-api.md
+  s_e15ab986b6c865::t_ee6ae0c04a1697 1-103
+docs/dev/zh/docs/harness/jev/guides/trace-evaluation-api.md
+  s_e15ab986b6c865::t_f7bee2cb0422f5 1-153
+docs/dev/zh/docs/harness/jev/index.md
+  s_e15ab986b6c865::t_9b31fa62b5d99b 1-45
+docs/dev/zh/docs/harness/jev/operations.md
+  s_e15ab986b6c865::t_249df52b4f074f 1-55
+docs/dev/zh/docs/harness/jev/sdk-reference.md
+  s_e15ab986b6c865::t_08b438a97a632d 1-26
+docs/dev/zh/docs/harness/memory.md
+  s_e15ab986b6c865::t_ccc7b8a5f907b6 1-295
+docs/dev/zh/docs/harness/plan-mode.md
+  s_e15ab986b6c865::t_d909c4ee238548 1-207
+docs/dev/zh/docs/harness/sandbox.md
+  s_e15ab986b6c865::t_efd77c9f89d55d 1-303
+docs/dev/zh/docs/harness/session-log.md
+  s_e15ab986b6c865::t_66bdaf56acd748 1-144
+docs/dev/zh/docs/harness/skill.md
+  s_e15ab986b6c865::t_f58f37a3d19721 1-420
+docs/dev/zh/docs/harness/subagent.md
+  s_e15ab986b6c865::t_badee35ef1e74f 1-519
+docs/dev/zh/docs/harness/workspace.md
+  s_e15ab986b6c865::t_b859a5b384df82 1-494
+docs/dev/zh/docs/index.md
+  s_e15ab986b6c865::t_5ec79c9579d0d6 1-64
+docs/dev/zh/docs/others/faq.md
+  s_e15ab986b6c865::t_e596402f2d3a8f 1-41
+docs/dev/zh/docs/others/going-to-production.md
+  s_e15ab986b6c865::t_534e58d9c4f342 1-487
+docs/dev/zh/docs/others/release-notes.md
+  s_e15ab986b6c865::t_6ded711f71e00e 1-672
+docs/dev/zh/docs/quickstart.md
+  s_e15ab986b6c865::t_3c77079f0ff921 1-154
+docs/dev/zh/integration/channel/dingtalk.md
+  s_e15ab986b6c865::t_771410d605767a 1-90
+docs/dev/zh/integration/channel/feishu.md
+  s_e15ab986b6c865::t_cd1870e6dee4e8 1-71
+docs/dev/zh/integration/channel/github.md
+  s_e15ab986b6c865::t_03e0b5f7407c45 1-73
+docs/dev/zh/integration/channel/gitlab.md
+  s_e15ab986b6c865::t_2e7b92c4d3a5d6 1-65
+docs/dev/zh/integration/channel/index.md
+  s_e15ab986b6c865::t_c6b03995153849 1-42
+docs/dev/zh/integration/channel/wecom.md
+  s_e15ab986b6c865::t_2611a242c5b5cd 1-72
+docs/dev/zh/integration/distributed/index.md
+  s_e15ab986b6c865::t_2b7f6986a88a01 1-89
+docs/dev/zh/integration/distributed/jdbc.md
+  s_e15ab986b6c865::t_3b2070ec300056 1-251
+docs/dev/zh/integration/distributed/mongodb.md
+  s_e15ab986b6c865::t_36740110d99598 1-129
+docs/dev/zh/integration/distributed/oss.md
+  s_e15ab986b6c865::t_e7e1423d03fa3a 1-107
+docs/dev/zh/integration/distributed/redis.md
+  s_e15ab986b6c865::t_62348ad5da3ce9 1-120
+docs/dev/zh/integration/ecosystem/chat-completions-web.md
+  s_e15ab986b6c865::t_70415efcde5b0a 1-77
+docs/dev/zh/integration/ecosystem/index.md
+  s_e15ab986b6c865::t_fb1796913ce8c8 1-13
+docs/dev/zh/integration/ecosystem/overview.md
+  s_e15ab986b6c865::t_437c7d5d0b5471 1-12
+docs/dev/zh/integration/ecosystem/studio.md
+  s_e15ab986b6c865::t_3e6470d212f1e7 1-76
+docs/dev/zh/integration/ecosystem/training.md
+  s_e15ab986b6c865::t_f6cf73ed7f053b 1-90
+docs/dev/zh/integration/infrastructure/higress.md
+  s_e15ab986b6c865::t_a6f8a333f63470 1-68
+docs/dev/zh/integration/infrastructure/index.md
+  s_e15ab986b6c865::t_2a3327ef8e822d 1-13
+docs/dev/zh/integration/infrastructure/nacos.md
+  s_e15ab986b6c865::t_e961dcdc71ad4f 1-110
+docs/dev/zh/integration/infrastructure/overview.md
+  s_e15ab986b6c865::t_835eb4aee073eb 1-19
+docs/dev/zh/integration/infrastructure/scheduler.md
+  s_e15ab986b6c865::t_f49aadbfd48a63 1-127
+docs/dev/zh/integration/judge/openai-decisions.md
+  s_e15ab986b6c865::t_0e1e8d321eb0bd 1-194
+docs/dev/zh/integration/memory/bailian.md
+  s_e15ab986b6c865::t_4c65710aa7a0da 1-94
+docs/dev/zh/integration/memory/index.md
+  s_e15ab986b6c865::t_2adf54cd717950 1-13
+docs/dev/zh/integration/memory/mem0.md
+  s_e15ab986b6c865::t_37445df6600dcc 1-109
+docs/dev/zh/integration/memory/overview.md
+  s_e15ab986b6c865::t_2e3929eac9cb0a 1-32
+docs/dev/zh/integration/memory/reme.md
+  s_e15ab986b6c865::t_d75f39d21f3754 1-63
+docs/dev/zh/integration/model/anthropic.md
+  s_e15ab986b6c865::t_d8f0ae80323e8c 1-110
+docs/dev/zh/integration/model/dashscope.md
+  s_e15ab986b6c865::t_f5c19bbb51d782 1-62
+docs/dev/zh/integration/model/deepseek.md
+  s_e15ab986b6c865::t_0a93088690f11b 1-55
+docs/dev/zh/integration/model/gemini.md
+  s_e15ab986b6c865::t_84ee42eca449b6 1-103
+docs/dev/zh/integration/model/glm.md
+  s_e15ab986b6c865::t_4386f4e3818688 1-66
+docs/dev/zh/integration/model/index.md
+  s_e15ab986b6c865::t_4c0a6d31fdf04a 1-17
+docs/dev/zh/integration/model/kimi.md
+  s_e15ab986b6c865::t_7070427f249957 1-68
+docs/dev/zh/integration/model/minimax.md
+  s_e15ab986b6c865::t_0bae288c851893 1-57
+docs/dev/zh/integration/model/ollama.md
+  s_e15ab986b6c865::t_7445da8e789c05 1-66
+docs/dev/zh/integration/model/openai-official.md
+  s_e15ab986b6c865::t_147a3bba5223b2 1-118
+docs/dev/zh/integration/model/openai.md
+  s_e15ab986b6c865::t_c0d7df026f4ac8 1-55
+docs/dev/zh/integration/overview.md
+  s_e15ab986b6c865::t_816497186b366f 1-124
+docs/dev/zh/integration/protocol/a2a.md
+  s_e15ab986b6c865::t_08309f8e7bdee0 1-110
+docs/dev/zh/integration/protocol/agent-protocol.md
+  s_e15ab986b6c865::t_7fd888edc93d7e 1-305
+docs/dev/zh/integration/protocol/agui.md
+  s_e15ab986b6c865::t_006a34e3c25e3c 1-360
+docs/dev/zh/integration/protocol/index.md
+  s_e15ab986b6c865::t_8b944e2e3b48ba 1-13
+docs/dev/zh/integration/protocol/overview.md
+  s_e15ab986b6c865::t_9e27c90ba2d4d0 1-22
+docs/dev/zh/integration/rag/bailian.md
+  s_e15ab986b6c865::t_1e49df1cd99b99 1-94
+docs/dev/zh/integration/rag/dify.md
+  s_e15ab986b6c865::t_ea5374f4872d58 1-104
+docs/dev/zh/integration/rag/haystack.md
+  s_e15ab986b6c865::t_824d9d624a659a 1-72
+docs/dev/zh/integration/rag/index.md
+  s_e15ab986b6c865::t_fe1158119426f2 1-15
+docs/dev/zh/integration/rag/overview.md
+  s_e15ab986b6c865::t_a70e9d950f3390 1-45
+docs/dev/zh/integration/rag/ragflow.md
+  s_e15ab986b6c865::t_4e9e2a67ec0408 1-73
+docs/dev/zh/integration/rag/simple.md
+  s_e15ab986b6c865::t_4ad96b841b2324 1-112
+docs/dev/zh/integration/session/index.md
+  s_e15ab986b6c865::t_c25afe1b080b6e 1-13
+docs/dev/zh/integration/session/mysql.md
+  s_e15ab986b6c865::t_97ea64f6ef0d20 1-148
+docs/dev/zh/integration/session/oss.md
+  s_e15ab986b6c865::t_fda2017fb8a7b7 1-73
+docs/dev/zh/integration/session/overview.md
+  s_e15ab986b6c865::t_f50b2d3b07df8a 1-53
+docs/dev/zh/integration/session/redis.md
+  s_e15ab986b6c865::t_862355beb30ac3 1-153
+docs/dev/zh/integration/skill/git-repository.md
+  s_e15ab986b6c865::t_aa3d628c08a842 1-88
+docs/dev/zh/integration/skill/index.md
+  s_e15ab986b6c865::t_9cfb86ed02d74c 1-13
+docs/dev/zh/integration/skill/mysql-repository.md
+  s_e15ab986b6c865::t_9a06270cfa7d17 1-111
+docs/dev/zh/integration/skill/overview.md
+  s_e15ab986b6c865::t_87e993a782f98c 1-61
+docs/dev/zh/integration/skill/postgresql-repository.md
+  s_e15ab986b6c865::t_83b558cbf2cb9f 1-116
+docs/dev/zh/intro.md
+  s_e15ab986b6c865::t_ee8502bf47f9fa 1-151
+docs/docs.json
+  s_e15ab986b6c865::t_98dfa24918cdc3 5-7,38-39,48,73,102,106,108-109,113,116-117,119,121-142,146,158-160,164,167,169-210,214,217-222,224-232,236,238,240,357,365-375,398-724,728,879-880,889,914,943,947,949-950,954,957-958,960,962-983,987,999-1001,1005,1008,1010-1051,1055,1058-1063,1065-1073,1079,1081,1198,1206-1216,1239-1565,1569,1736-1738,1741-1743,1746-1748,1751-1753,1756-1758,1761-1763,1766-1768,1771-1773,1776-1778,1781-1783,1786-1788,1791-1793,1796-1798,1801-1803,1806-1808,1811-1813,1816-1818,1821-1823,1826-1828,1831-1833,1836-3669,3671-3672,3675-3676,3679-3680,3683-3684,3687-3688,3691-3692,3695-3696,3699-3700,3703-3704,3707-3708,3711-3712,3715-3716,3719-3720,3723-3724,3727-3728,3731-3732,3735-3736,3739-3740,3743-3744,3747-3748,3751-3752,3755-3756,3759-3760,3763-3764,3767-3768,3771-3772,3775-3776,3779-3780,3783-3784,3787-3788,3791-3792,3795-3796,3799-3800,3803-3804,3807-3808,3811-3812,3815-3816,3819-3820,3823-3824,3827-3828,3831-3832,3835-3836,3839-3961,3964-3966,3969-3971,3974-3976,3979-3981,3984-3986,3989-3991,3994-3996,3999-4001,4004-4006,4009-4011,4014-4016,4019-4021,4024-4026,4029-4031,4034-4036,4039-4041,4044-4046,4049-4051,4054-4056,4059-4061,4064-4066,4069-4071,4074-4076,4079-4081,4084-4086,4089-4091,4094-4096,4099-4101,4104-4106,4109-4111,4114-4116,4119-4121,4124-4126,4129-4131,4134-4136,4139-4141,4144-4146,4149-4151,4154-4156,4159-4161,4164-4166,4169-4171,4174-4176,4179-4181,4184-4186,4189-4191,4194-4196,4199-4201,4204-4206,4209-4211,4214-4216,4219-4221,4224-4226,4229-4231,4234-4236,4239-4241,4244-4246,4249-4251,4254-4256,4259-4261,4264-4266,4269-4271,4274-4276,4279-4281,4284-4286,4289-4291,4294-4296,4299-4301,4304-4306,4309-4311,4314-4316,4319-4321,4324-4326,4329-4331,4334-4336,4339-4341,4344-4346,4349-4350,4353-4354,4357-4359,4362-4364,4367-4369,4372-4374,4377-4379,4382-4384,4387-4389,4392-4394,4397-4399,4402-4404,4407-4409,4412-4414,4417-4419,4422-4424,4427-4429,4432-4434,4437-4439,4442-4444,4447-4449,4452-4454,4457-4459,4462-4464,4467-4469,4472-4474,4477-4479,4482-4484,4487-4489,4492-4494,4497-4499,4502-4504,4507-4509,4512-4514,4517-4519,4522-4524,4527-4529,4532-4534,4537-4539,4542-4544,4547-4549,4552-4554,4557-4559,4562-4564,4567-4569,4572-4574,4577-4579,4582-4584,4587-4589,4592-4594,4597-4599,4602-4604,4607-4609,4612-4614,4617-4619,4622-4624,4627-4629,4632-4634,4637-4639,4642-4644,4647-4649,4652-4654,4657-4659,4662-4664,4667-4669,4672-4674,4677-4679,4682-4684,4687-4689,4692-4694,4697-4699,4702-4704,4707-4709,4712-4714,4717-4719,4722-4724,4727-4728,4731-4732,4735-4736,4739-4740,4743-4744,4747-4748,4751-4752,4755-4756,4759-4760,4763-4764,4767-4768,4771-4772,4775-4776,4779-4780,4783-4784,4787-4788,4791-4792,4795-4796,4799-4800,4803-4804,4807-4808,4811-4812,4815-4816,4819-4820,4823-4824,4827-4828,4831-4832,4835-4836,4839-4840,4843-4844,4847-4848,4851-4852,4855-4856,4859-4860,4863-4864,4867-4868,4871-4872,4875-4876,4879-4880,4883-4884,4887-4888,4891-4892,4895-4896,4899-4900,4903-4904,4907-4908,4911-4912,4915-4916,4919-4920,4923-4924,4927-4928,4931-4932,4935-4936,4939-4940,4943-4944,4947-4948,4951-4952,4955-4956,4959-4960,4963-4964,4967-4968,4971-4972,4975-4976,4979-4980,4983-4984,4987-4988,4991-4992,4995-4996,4999-5000,5003-5004,5007-5008,5011-5012,5015-5016,5019-5020,5023-5024,5027-5028,5031-5032,5035-5036,5039-5040,5043-5044,5047-5048,5051-5052,5055-5056,5059-5060,5063-5064,5067-5068,5071-5072,5075-5076,5079-5080,5083-5084,5087-5088,5091-5092,5095-5096,5099-5100,5103-5104,5107-5108,5111-5112,5115-5116,5119-5120,5123-5124,5127-5129,5132-5134,5137-5139,5142-5144,5147-5149,5152-5154,5157-5159,5162-5164,5167-5169,5172-5174,5177-5179,5182-5184,5187-5189,5192-5194,5197-5199,5202-5204,5207-5209,5212-5214,5217-5219,5222-5224,5227-5229,5232-5234,5237-5239,5242-5244,5247-5249,5252-5254,5257-5259,5262-5264,5267-5269,5272-5279,5282-5284,5287-5289,5292-5294,5297-5299,5302-5304,5307-5309,5312-5314,5317-5319,5322-5324,5327-5329,5332-5334,5337-5339,5342-5344,5347-5349,5352-5354,5357-5359,5362-5364,5367-5369,5372-5374,5377-5379,5382-5384,5387-5389,5392-5394,5397-5399,5402-5404,5407-5409,5412-5414,5417-5419,5422-5424,5427-5429,5432-5434,5437-5439,5442-5444,5447-5449,5452-5454,5457-5459,5462-5464,5467-5469,5472-5474,5477-5479,5482-5484,5487-5489,5492-5494,5497-5499,5502-5504,5507-5509,5512-5514,5517-5519,5522-5524,5527-5528,5532-5533,5537-5539,5542-5544,5547-5549,5552-5554,5557-5559,5562-5564,5567-5569,5572-5574,5577-5579,5582-5584,5587-5589,5592-5594,5597-5599,5602-5604,5607-5609,5612-5614,5617-5619,5622-5624,5627-5629,5632-5634,5637-5639,5642-5644,5647-5649,5652-5654,5657-5659,5662-5664,5667-5669,5672-5674,5677-5679,5682-5684,5687-5689,5692-5694,5697-5699,5702-5704,5707-5709,5712-5714,5717-5719,5722-5724,5727-5729,5732-5734,5737-5739,5742-5744,5747-5749,5752-5754,5757-5759,5762-5764,5767-5769,5772-5774,5777-5779,5782-5784,5787-5789,5792-5794,5797-5799,5802-5804,5807-5809,5812-5814,5817-5819,5822-5824,5827-5829,5832-5834,5837-5839,5842-5844,5847-5849,5852-5854,5857-5859,5862-5864,5867-5869,5872-5874,5877-5879,5882-5884,5887-5889,5892-5894,5897-5899,5902-5904,5907-5909,5912-5914,5917-5919,5922-5924,5927-5929,5932-5934,5937-5939,5942-5944,5947-5949,5952-5954,5957-5959,5962-5964,5967-5969,5972-5974,5977-5979,5982-5984,5987-5989,5992-5994,5997-5999,6002-6004,6007-6009,6012-6014,6017-6019,6022-6024,6027-6029,6032-6034,6037-6039,6042-6044,6047-6049,6052-6054,6057-6059,6062-6064,6067-6069,6072-6074,6077-6079,6082-6084,6087-6089,6092-6094,6097-6099,6102-6104,6107-6109,6112-6114,6117-6119,6122-6124,6127-6129,6132-6134,6137-6139,6142-6144,6147-6149,6152-6154,6157-6159,6162-6164,6167-6169,6172-6174,6177-6179,6182-6184,6187-6189,6192-6194,6197-6199,6202-6204,6207-6209,6212-6214,6217-6219,6222-6224,6227-6229,6232-6234,6237-6239,6242-6244,6247-6249,6252-6254,6257-6259,6262-6264,6267-6269,6272-6274,6277-6279,6282-6284,6287-6289,6292-6294,6297-6299,6302-6304,6307-6309,6312-6314,6317-6319,6322-6324,6327-6329,6332-6334,6337-6339,6342-6344,6347-6349,6352-6354,6357-6359,6362-6364,6367-6369,6372-6374,6377-6379,6382-6384,6387-6389,6392-6394,6397-6399,6402-6404,6407-6409,6412-6414,6417-6419,6422-6424,6427-6429,6432-6434,6437-6439,6442-6444,6447-6449,6452-6454,6457-6459,6462-6464
+docs/examples/jev/tool-guard/README.md.txt
+  s_e15ab986b6c865::t_0e867b35a4195e 3
+docs/imgs/service/managed-agents-physical-overview.svg
+  s_e15ab986b6c865::t_a5100fe73ef467 1-108
+docs/package-lock.json
+  s_e15ab986b6c865::t_66c63d2b532dfc 12
+docs/package.json
+  s_e15ab986b6c865::t_228668ef26a4df 17
+docs/scripts/check-docs.mjs
+  s_e15ab986b6c865::t_c8581d19b0638b 9,88-90,92-96,109,174-178,183-188
+docs/scripts/tests/check-docs.test.mjs
+  s_e15ab986b6c865::t_dd7f41e523077d 69-137,184-207
+docs/style.css
+  s_e15ab986b6c865::t_2a41446e8eed1a 38-47,820-826
+docs/v1/en/docs/harness/overview.md
+  s_e15ab986b6c865::t_6d5434d7b3b26f 93,95,101,105
+docs/v1/en/docs/harness/session.md
+  s_e15ab986b6c865::t_b479f34a73bb61 106
+docs/v1/en/docs/task/a2a.md
+  s_e15ab986b6c865::t_941699086ebdf1 301
+docs/v1/en/docs/task/agui.md
+  s_e15ab986b6c865::t_5a525a281fca92 155-157,161-162
+docs/v1/en/docs/task/model.md
+  s_e15ab986b6c865::t_d22b6fa7077251 34
+docs/v1/en/docs/task/multimodal.md
+  s_e15ab986b6c865::t_204a1a9ee54358 235
+docs/v1/en/docs/task/observability.md
+  s_e15ab986b6c865::t_ff34bbd8cd2d53 331
+docs/v1/en/docs/task/rag.md
+  s_e15ab986b6c865::t_25d6db5ab0683e 549-554
+docs/v1/en/docs/task/session.md
+  s_e15ab986b6c865::t_02d02298d4338d 477
+docs/v1/en/docs/task/structured-output.md
+  s_e15ab986b6c865::t_2dd0596a40b13a 126
+docs/v1/en/docs/task/tool.md
+  s_e15ab986b6c865::t_ea0379a5c16fe6 407-409
+docs/v1/en/intro.md
+  s_e15ab986b6c865::t_23cbb465282146 24
+docs/v1/zh/blogs/agentscope-v1-builder.md
+  s_e15ab986b6c865::t_4b679e64a523b1 295-296
+docs/v1/zh/docs/harness/overview.md
+  s_e15ab986b6c865::t_a553e95da06633 93,95,101,105
+docs/v1/zh/docs/harness/session.md
+  s_e15ab986b6c865::t_fdba7e3c0b415f 106
+docs/v1/zh/docs/task/a2a.md
+  s_e15ab986b6c865::t_7d32861bfff2a0 301
+docs/v1/zh/docs/task/agui.md
+  s_e15ab986b6c865::t_72ccef7d8406f6 155-157,161-162
+docs/v1/zh/docs/task/hook.md
+  s_e15ab986b6c865::t_99c3e2dd65edd6 208
+docs/v1/zh/docs/task/model.md
+  s_e15ab986b6c865::t_8288f90c8fbb38 34
+docs/v1/zh/docs/task/multimodal.md
+  s_e15ab986b6c865::t_1a8b72eba4fbac 235
+docs/v1/zh/docs/task/observability.md
+  s_e15ab986b6c865::t_275219875585f6 329
+docs/v1/zh/docs/task/plan.md
+  s_e15ab986b6c865::t_8d04b2a3285435 88
+docs/v1/zh/docs/task/rag.md
+  s_e15ab986b6c865::t_9bc800d2096e08 549-554
+docs/v1/zh/docs/task/session.md
+  s_e15ab986b6c865::t_be5749c405b975 477
+docs/v1/zh/docs/task/structured-output.md
+  s_e15ab986b6c865::t_bc907f88c9e092 126
+docs/v1/zh/docs/task/tool.md
+  s_e15ab986b6c865::t_176907a51a2442 405-407
+docs/v1/zh/intro.md
+  s_e15ab986b6c865::t_659adebe2dff6c 24
+docs/v2/assets/examples/service/order-fulfillment/business-data.json.txt
+  s_e15ab986b6c865::t_80bd9a595a967e 1-73
+docs/v2/assets/examples/service/presales-team/customer-brief.txt
+  s_e15ab986b6c865::t_0f02f576eca304 1-12
+docs/v2/assets/examples/service/presales-team/delivery-guide.txt
+  s_e15ab986b6c865::t_f519c85f815ac5 1-13
+docs/v2/assets/examples/service/presales-team/product-knowledge.txt
+  s_e15ab986b6c865::t_1cfaafdc2d6011 1-17
+docs/v2/assets/examples/service/sdlc-team/issue.md.txt
+  s_e15ab986b6c865::t_b2dd3802c853ad 1-21
+docs/v2/en/blogs/agentscope-service-release-tech.md
+  s_e15ab986b6c865::t_70073109788b35 242,301
+docs/v2/en/blogs/agentscope-v1-builder.md
+  s_e15ab986b6c865::t_ee8077b2495349 286-287
+docs/v2/en/blogs/agentscope-v2-coding-agent.md
+  s_e15ab986b6c865::t_0101e7f6d38043 209
+docs/v2/en/blogs/managed-agents-agentscope-rumtime.md
+  s_e15ab986b6c865::t_27134d7a86e9bb 374
+docs/v2/en/community/contributors.md
+  s_e15ab986b6c865::t_3f082f6d3c1e57 103
+docs/v2/en/docs/building-blocks/agent.md
+  s_e15ab986b6c865::t_7e38faa89033c7 9,11,13-16,28,32,63,75,83-84,98,109-110,129-132,135,140-141,169-171,173,175,178,181-182,184-191,193-195,197-198,201,204,206,208,211,213,235,258,267-318,356,387,392,395-398,404,415-418,430,434,450,529,541
+docs/v2/en/docs/building-blocks/context.md
+  s_e15ab986b6c865::t_7c38972e6e191f 10,12-23,26,28-33,47,52,62,67-68,80,89,91,117,122,124,150-152,154,171,175,198-199,211-212,231,239,242-264,267-277,284,305,322,332
+docs/v2/en/docs/building-blocks/message-and-event.md
+  s_e15ab986b6c865::t_0cc306447aad0a 316,341,424
+docs/v2/en/docs/building-blocks/middleware.md
+  s_e15ab986b6c865::t_d050f5579a3b78 11,21,26,47,79
+docs/v2/en/docs/building-blocks/model.md
+  s_e15ab986b6c865::t_ffaf370e721ea8 105,373,384,388-394,396,412
+docs/v2/en/docs/building-blocks/permission-system.md
+  s_e15ab986b6c865::t_46055006bff0b9 212-213,217-218,223-240,393-394
+docs/v2/en/docs/building-blocks/tool.md
+  s_e15ab986b6c865::t_4ddc8732bf7674 11-12,122,273,392-396,413-415,417,433-436,528,531,545-560,620-624,631-635,649,733
+docs/v2/en/docs/change-log.md
+  s_e15ab986b6c865::t_5bfd548fa8f3d7 180,255-256,260,268
+docs/v2/en/docs/harness/architecture.md
+  s_e15ab986b6c865::t_f9cbefeeca90cf 3-4,8,10,12,16,18-19,21-22,24-26,28-29,33,35,38,40-41,55-56,60,62,74,77
+docs/v2/en/docs/harness/compaction.md
+  s_e15ab986b6c865::t_f466a0b7c03be0 1-119
+docs/v2/en/docs/harness/filesystem.md
+  s_e15ab986b6c865::t_de1841799ff27a 107,140,274,369-371,524-526,556-558
+docs/v2/en/docs/harness/memory.md
+  s_e15ab986b6c865::t_e1f23c864e49d5 13,41,44,51,63,65,84,86,88,92,131,178,211,216,235,237,248,269,276
+docs/v2/en/docs/harness/plan-mode.md
+  s_e15ab986b6c865::t_e7fe84fca78b39 12,69,72-73,131-143,165-168,170
+docs/v2/en/docs/harness/sandbox.md
+  s_e15ab986b6c865::t_459dfdc57d209f 69-70,79,195-202,238-239,244-249,262-264,317-325
+docs/v2/en/docs/harness/skill.md
+  s_e15ab986b6c865::t_80fd78d69be875 177,204,208,275,295,307,311,319,323,348,382,384-385,418
+docs/v2/en/docs/harness/subagent.md
+  s_e15ab986b6c865::t_7ed35315e3ea4d 468-473
+docs/v2/en/docs/harness/workspace.md
+  s_e15ab986b6c865::t_f14e6a938c2466 27,33,37,41,47,49,53,66,68,91-93,166-167,170,172,178,180,182-191,193,195-197,216,238,302,306-317,319,321,323,325-326,328-330,338,347,374,377-378,380,392,402,466,474-476,481,483,489,497
+docs/v2/en/docs/index.md
+  s_e15ab986b6c865::t_e69ce5ffd42ae4 3-4,8-10,13,16,18,20,23,25,28,32,35,37,41,44,46,50-187,189,191
+docs/v2/en/docs/others/going-to-production.md
+  s_e15ab986b6c865::t_9e8725c599afa8 15,24,28-29,35,37,47,63,65,75,94,116,167,185-186,306,343,421,443-444,457,462-463,466,470-473,491
+docs/v2/en/docs/others/release-notes.md
+  s_e15ab986b6c865::t_2a9683eda13a20 11-18,21,252
+docs/v2/en/docs/quickstart.md
+  s_e15ab986b6c865::t_dad35eda54ecf2 3-4,27,32,48,54-55,59-82,87-107,110,114,121-132,136,138,140,143,145,147-172,174,178-181
+docs/v2/en/integration/distributed/index.md
+  s_e15ab986b6c865::t_ea54a1d1cef63d 26,28,40,43,45-46,87,91,93
+docs/v2/en/integration/distributed/mysql.md
+  s_e15ab986b6c865::t_c07fc5979f73ad 1-95
+docs/v2/en/integration/distributed/redis.md
+  s_e15ab986b6c865::t_21a63d6da6cf3b 186-199
+docs/v2/en/integration/model/dashscope.md
+  s_e15ab986b6c865::t_e5c46b9f7169e3 50-125
+docs/v2/en/integration/model/deepseek.md
+  s_e15ab986b6c865::t_29fb8a9ac95fa4 51
+docs/v2/en/integration/model/index.md
+  s_e15ab986b6c865::t_ea9cc32c1f6927 8-23
+docs/v2/en/integration/model/openai-official.md
+  s_e15ab986b6c865::t_9215c2126b5137 47
+docs/v2/en/integration/model/openai.md
+  s_e15ab986b6c865::t_afadfb4dc26dee 43-46
+docs/v2/en/integration/overview.md
+  s_e15ab986b6c865::t_4c0dcfc5381aec 41
+docs/v2/en/integration/protocol/a2a.md
+  s_e15ab986b6c865::t_453d236aba898e 55-60,160-162,168-169,197-225
+docs/v2/en/integration/protocol/agent-protocol.md
+  s_e15ab986b6c865::t_96d3d3fadb76bb 69,219-224
+docs/v2/en/integration/protocol/agui.md
+  s_e15ab986b6c865::t_27d9819dba9d8e 14,16,61-64,205,253,347,351-352
+docs/v2/en/integration/session/mysql.md
+  s_e15ab986b6c865::t_fde9fdd3d4aaa5 8,77-78
+docs/v2/en/integration/session/overview.md
+  s_e15ab986b6c865::t_ee011341da7d5d 27,43
+docs/v2/en/intro.md
+  s_e15ab986b6c865::t_3daefe716855ae 2-3,9-24,27,32-41,43-45,48-49,51,53,55,57,59,63-71,76-78,81-83,130,132,134-462
+docs/v2/en/jev/index.md
+  s_e15ab986b6c865::t_1a6b7a89eb449c 2,6-8,11,13,15-17,19,21-26,29,31-39,41-47,49-59,61,63-233
+docs/v2/en/service/access.md
+  s_e15ab986b6c865::t_59842ea37aff58 2,10,14,16,18,20,22,24,26,28,30,32,34-37,39
+docs/v2/en/service/agents.md
+  s_e15ab986b6c865::t_f5e73c1b62d531 1-67
+docs/v2/en/service/api-reference.md
+  s_e15ab986b6c865::t_3440e555a3df84 2,6-10,14-23,25,27,29,31,33-62,64,66,68,70,72-76,78-84,86,88,90,92-98,100
+docs/v2/en/service/automation.md
+  s_e15ab986b6c865::t_98cdf8aa0b7877 2,10,12,14-16,18,20,22-24,27,29,31-40,42,44,46,48,50,52,55,58-60,63,65,67,69,71,73,75
+docs/v2/en/service/cases/order-fulfillment.md
+  s_e15ab986b6c865::t_ae96a27775f8a6 1-144
+docs/v2/en/service/cases/presales-team.md
+  s_e15ab986b6c865::t_bebc95ed3b0745 1-133
+docs/v2/en/service/cases/sdlc-team.md
+  s_e15ab986b6c865::t_526e408ad5a6d3 1-140
+docs/v2/en/service/channels.md
+  s_e15ab986b6c865::t_2f0fe5ab12a82e 2,10,12,14-16,18,20,22,24,26,28,30,32,34,36,38,40
+docs/v2/en/service/configuration.md
+  s_e15ab986b6c865::t_4e530d7cac5cba 18-19,24-25,34,50,54
+docs/v2/en/service/connect-hosted-agent.md
+  s_e15ab986b6c865::t_706a3c6f18f580 2,7,10,12,14,17-19,22,24,26-29,31,33,35,37,39
+docs/v2/en/service/create-managed-agent.md
+  s_e15ab986b6c865::t_9c03d11fae067a 2,6-8,10,12,14-17,19-21,24-26,28,30,32,34,36,38,40
+docs/v2/en/service/create-team.md
+  s_e15ab986b6c865::t_3335a741a20aa2 2,10,14,16-18,20,23-25,28,30,32,34,36,38,40,42
+docs/v2/en/service/endpoints.md
+  s_e15ab986b6c865::t_37f58b31c7f4b4 1-68
+docs/v2/en/service/environments.md
+  s_e15ab986b6c865::t_878eb33e3dcedd 10,12,14-18,31,33,35,37,39,41,43,45,47,79,81,83-95,97,99
+docs/v2/en/service/external-agent-configuration.md
+  s_e15ab986b6c865::t_f7ea41a6eed9d1 1-52
+docs/v2/en/service/external-agent-execution.md
+  s_e15ab986b6c865::t_0cb49917cdcd32 1-47
+docs/v2/en/service/external-agent-frameworks.md
+  s_e15ab986b6c865::t_5b4e96b2965ce0 1-50
+docs/v2/en/service/external-agent.md
+  s_e15ab986b6c865::t_9eacbebbeba747 2,12,14,16-18,27,38,46-56,65,67,72,79,81,84-89,97,99,101,103,105,107,109,111
+docs/v2/en/service/first-session.md
+  s_e15ab986b6c865::t_7bebc536df4b67 1-185
+docs/v2/en/service/hosted-agent-configuration.md
+  s_e15ab986b6c865::t_c669610b4499aa 2,10,15,19,32,43,51,53,61
+docs/v2/en/service/hosted-agent-execution.md
+  s_e15ab986b6c865::t_65425806de377b 1-46
+docs/v2/en/service/hosted-agent-providers.md
+  s_e15ab986b6c865::t_b762db1b95a0f8 1-44
+docs/v2/en/service/hosted-agent.md
+  s_e15ab986b6c865::t_eb0562ca056634 1-55
+docs/v2/en/service/inbox.md
+  s_e15ab986b6c865::t_7288ca571aff14 1-53
+docs/v2/en/service/index.md
+  s_e15ab986b6c865::t_23f15f259e9bfd 7,11-13,15,17,20-30,33-35,37,39,41,43,45,47,49,51,53,55,57,59,61-67,69,71-78,80,82,84,86,88,90,92
+docs/v2/en/service/integrations.md
+  s_e15ab986b6c865::t_346153432feedb 1-47
+docs/v2/en/service/issues.md
+  s_e15ab986b6c865::t_93b25da6d7e15a 2,10,12,14-16,18,20,22,24,26,28,30,32-35,38,40,42,44,46,48-55,57,59,61,63,65,67,69,71-73,75,77,79-82,84,86,88,90,92,94,96,98,100-104,106,108,110,112,114
+docs/v2/en/service/kubernetes.md
+  s_e15ab986b6c865::t_893ab8ea0f2508 7,16,57,60-61,63,68,83
+docs/v2/en/service/managed-agent-capabilities.md
+  s_e15ab986b6c865::t_49428293f6a6ac 1-52
+docs/v2/en/service/managed-agent-configuration.md
+  s_e15ab986b6c865::t_6752584bf84f91 2,6-8,10,12,14,16,18-29,33,35,39-41,45,47,49,55,59,63-68
+docs/v2/en/service/managed-agent-execution.md
+  s_e15ab986b6c865::t_76bb8b819e0ee7 1-45
+docs/v2/en/service/managed-agent.md
+  s_e15ab986b6c865::t_d25c0c471b05a1 1-63
+docs/v2/en/service/managed-harness-task-outcomes.md
+  s_e15ab986b6c865::t_c5309ca0c6d17e 1-47
+docs/v2/en/service/memory.md
+  s_e15ab986b6c865::t_d3002ebf9eb691 10,12,14-16,18,20,22,24,28-30,32,34,36,38,40,42,44,46,48
+docs/v2/en/service/operations.md
+  s_e15ab986b6c865::t_15935fcf793d0f 2,7,61,65,67-69
+docs/v2/en/service/quickstart.md
+  s_e15ab986b6c865::t_1ec71fc60005d9 2,6-8,10,12,14,16,18,21,23-34,37-41,45,48,50,52,54-68,70,72,74,76-83,85,87,89,91,93,95
+docs/v2/en/service/register-agentscope-agent.md
+  s_e15ab986b6c865::t_622a7ed9d02b46 2,7,10,12,14,16-21,23,25-29,31,33,35,37,39
+docs/v2/en/service/releasing.md
+  s_e15ab986b6c865::t_afb9400e91b025 1-56
+docs/v2/en/service/runtime-host.md
+  s_e15ab986b6c865::t_90cdd327403085 2,7,12,14,16-18,20,23-26,29,34-36,44-46,51,55-67,73,82-88
+docs/v2/en/service/sessions.md
+  s_e15ab986b6c865::t_e0bf7c69902d10 10,14,39,47
+docs/v2/en/service/sse-events.md
+  s_e15ab986b6c865::t_b2f9f0c22a3205 2,6-8,10,12,14-17,19,21,23,25-28,32-37,39,41-42,44,46,48,50-57,59,61,63-66,70,72,74,77-79,82,84,86-91,93,95,97,99,102-103,106-108,110,112,114
+docs/v2/en/service/team-collaboration.md
+  s_e15ab986b6c865::t_9c2587b8f0d76b 1-66
+docs/v2/en/service/team-configuration.md
+  s_e15ab986b6c865::t_eabc48dbe109c7 10,44,77,81
+docs/v2/en/service/team-execution.md
+  s_e15ab986b6c865::t_627b5f46b8c3ac 1-59
+docs/v2/en/service/teams.md
+  s_e15ab986b6c865::t_ecba2dc83e0502 1-52
+docs/v2/en/service/troubleshooting.md
+  s_e15ab986b6c865::t_d6ee3cd3531b6f 1-50
+docs/v2/en/service/usecases.md
+  s_e15ab986b6c865::t_31cb8fb556046e 2,6-8,10,12-16,18,20,22,24
+docs/v2/en/service/vault.md
+  s_e15ab986b6c865::t_212fff7770dd17 10,12,14-16,18,22,34,50,54,60
+docs/v2/en/service/workflows.md
+  s_e15ab986b6c865::t_9355f29d272975 2,10,12,14-16,18,20,22-26,28,30,32-41,43,45,47,49,51,53,55,57,59
+docs/v2/en/service/workspaces.md
+  s_e15ab986b6c865::t_1157b894f09b85 2,10,12,14-16,18,20,22,24,26-27,29-31,34,36,38-40,42
+"docs/v2/zh/blogs/Managed Agents Brain Harness 内核设计.md"
+  s_e15ab986b6c865::t_baa99f58866654 1-235
+"docs/v2/zh/blogs/Managed Agents MQ 与 Redis 架构设计 v2.md"
+  s_e15ab986b6c865::t_8b2f08f05ede7f 1-2026
+"docs/v2/zh/blogs/Managed Agents MQ 与 Redis 架构设计.md"
+  s_e15ab986b6c865::t_5e8b418cfd9b0d 1-1801
+"docs/v2/zh/blogs/Managed Agents POC 设计.md"
+  s_e15ab986b6c865::t_1bf0efab58948a 1-1019
+"docs/v2/zh/blogs/Managed Agents RocketMQ 架构与流程.md"
+  s_e15ab986b6c865::t_2302277872174d 1-604
+"docs/v2/zh/blogs/Managed Agents Sticky Session 设计.md"
+  s_e15ab986b6c865::t_5f62b89c9765a2 1-69
+"docs/v2/zh/blogs/Managed Agents 改造待办.md"
+  s_e15ab986b6c865::t_45a4904ca8e0c7 1-523
+docs/v2/zh/blogs/agentscope-service-release-tech.md
+  s_e15ab986b6c865::t_340188bd647bdf 241,300
+docs/v2/zh/blogs/agentscope-v1-builder.md
+  s_e15ab986b6c865::t_aa2631911383b1 296-297
+docs/v2/zh/blogs/agentscope-v2-coding-agent.md
+  s_e15ab986b6c865::t_d5d3f2535dae60 209
+docs/v2/zh/blogs/harness-design.md
+  s_e15ab986b6c865::t_d02e47839d4344 1-583
+docs/v2/zh/blogs/managed-agents-agentscope-rumtime.md
+  s_e15ab986b6c865::t_962f2105f9175e 356
+docs/v2/zh/blogs/output/long-tool.txt
+  s_e15ab986b6c865::t_6e5725043d47b8 1
+docs/v2/zh/blogs/session-execution-control.md
+  s_e15ab986b6c865::t_635270c2a22187 2-3,6,8-11,13-14,16,18,21-33,36-38,40-41,43,45,48-49,51-52,55-57,59-60,62,64-66,68-69,71-72
+docs/v2/zh/community/contributors.md
+  s_e15ab986b6c865::t_9eeda7ae2add55 103
+docs/v2/zh/docs/building-blocks/agent.md
+  s_e15ab986b6c865::t_e7c808b88343fa 9,11,13-16,28,32,63,75,83-84,98,109-110,129-132,135,140-141,169-171,173,175,178,181-182,184-191,193-195,197-198,201,204,206,208,213,235,258,267-318,356,387,392,395-398,404,415-418,430,434,450,529,541
+docs/v2/zh/docs/building-blocks/context.md
+  s_e15ab986b6c865::t_2ead709b68e0d9 9,11-22,25,27-32,46,51,58,61,66-67,79,88,90,116,121,123,149-151,153,170,174,197,209,228,236,239-261,264-274,281,302,319,329
+docs/v2/zh/docs/building-blocks/message-and-event.md
+  s_e15ab986b6c865::t_1d5312124ee33a 316,341,424
+docs/v2/zh/docs/building-blocks/middleware.md
+  s_e15ab986b6c865::t_114ad30848ab57 11,21,26,47,79
+docs/v2/zh/docs/building-blocks/model.md
+  s_e15ab986b6c865::t_1596ce684b9195 105,371,382,386-392,394,410
+docs/v2/zh/docs/building-blocks/permission-system.md
+  s_e15ab986b6c865::t_cc594d0f0525ce 214-215,219-220,225-242,395-396
+docs/v2/zh/docs/building-blocks/tool.md
+  s_e15ab986b6c865::t_c70806541b36ac 11-12,122,273,392-396,413-415,417,433-436,528,531,545-559,619-623,630-634,723
+docs/v2/zh/docs/change-log.md
+  s_e15ab986b6c865::t_ce6753c070b246 180,255-256,260,268
+docs/v2/zh/docs/harness/architecture.md
+  s_e15ab986b6c865::t_702dca9ac9c054 3,7,9,11,15,17-18,20-21,23-25,27-28,32,34,37,39-40,54-55,59,61,73,76
+docs/v2/zh/docs/harness/compaction.md
+  s_e15ab986b6c865::t_e84ff52d5c96e3 1-118
+docs/v2/zh/docs/harness/filesystem.md
+  s_e15ab986b6c865::t_1714950f07c4e7 106,139,268,363-365,518-520,550-552
+docs/v2/zh/docs/harness/memory.md
+  s_e15ab986b6c865::t_2213c353fb6ed3 12,40,43,50,62,64,83,85,87,91,130,177,210,215,234,236,247,268,275
+docs/v2/zh/docs/harness/plan-mode.md
+  s_e15ab986b6c865::t_b9411bae905d09 11,68,71-72,130-142,164-167,169
+docs/v2/zh/docs/harness/sandbox.md
+  s_e15ab986b6c865::t_4e17e7c4479a2a 69-70,79,194-201,237-238,243-248,261-263,316-324
+docs/v2/zh/docs/harness/skill.md
+  s_e15ab986b6c865::t_4f4baa7629e848 177,204,208,275,295,307,311,319,323,326,348,351,382,384-385,418
+docs/v2/zh/docs/harness/subagent.md
+  s_e15ab986b6c865::t_9944403a0e1056 460-464
+docs/v2/zh/docs/harness/workspace.md
+  s_e15ab986b6c865::t_c95218bc052b5f 25,31,35,39,45,47,51,64,66,89-91,161-162,165,167,173,175,177-186,188,190-192,211,233,297,301-312,314,316,318,320-321,323-325,333,342,369,372-373,375,387,397,461,469-471,476,478,484,492
+docs/v2/zh/docs/index.md
+  s_e15ab986b6c865::t_7dc1364422b254 3,7-9,12,15,17,19,22,24,27,31,34,36,40,43,45,49-186,188,190
+docs/v2/zh/docs/others/going-to-production.md
+  s_e15ab986b6c865::t_05983993252ab7 14,23,27-28,34,36,46,62,64,74,93,115,166,184-185,307,344,422,444-445,458,463-464,467,471-474,492
+docs/v2/zh/docs/others/release-notes.md
+  s_e15ab986b6c865::t_ba83ecebf465a8 11-18,21,252
+docs/v2/zh/docs/quickstart.md
+  s_e15ab986b6c865::t_c02b0d7abf768a 3,26,31,47,53-54,58-81,86-106,109,113,120-131,135,137,139,142,144,146-171,173,177-180
+docs/v2/zh/integration/distributed/index.md
+  s_e15ab986b6c865::t_d3dc15cd749733 26,28,40,43,45-46,87,91,93
+docs/v2/zh/integration/distributed/mysql.md
+  s_e15ab986b6c865::t_99340ca8743b5d 1-115
+docs/v2/zh/integration/distributed/redis.md
+  s_e15ab986b6c865::t_863db1421c1f28 177-190
+docs/v2/zh/integration/model/dashscope.md
+  s_e15ab986b6c865::t_782c07c1eb6e14 50-120
+docs/v2/zh/integration/model/deepseek.md
+  s_e15ab986b6c865::t_e474ca512d1447 51
+docs/v2/zh/integration/model/index.md
+  s_e15ab986b6c865::t_3b6dc76e3b4e41 8-23
+docs/v2/zh/integration/model/openai-official.md
+  s_e15ab986b6c865::t_b5645af583b6f1 47
+docs/v2/zh/integration/model/openai.md
+  s_e15ab986b6c865::t_11b1fd13115e0a 43-46
+docs/v2/zh/integration/overview.md
+  s_e15ab986b6c865::t_83eecb14ca1c40 41
+docs/v2/zh/integration/protocol/a2a.md
+  s_e15ab986b6c865::t_535ed30e480411 55-60,160-161,167-168,196-224
+docs/v2/zh/integration/protocol/agent-protocol.md
+  s_e15ab986b6c865::t_f5d81985fb8da5 68,218-221
+docs/v2/zh/integration/protocol/agui.md
+  s_e15ab986b6c865::t_d68f465f5cbedc 14,16,61-64,205,252,346,350-351
+docs/v2/zh/integration/session/mysql.md
+  s_e15ab986b6c865::t_9c6af0de5707b8 8,77-78
+docs/v2/zh/integration/session/overview.md
+  s_e15ab986b6c865::t_5639c9ba394e84 27,43
+docs/v2/zh/intro.md
+  s_e15ab986b6c865::t_ab84598baad6c3 2-3,9-24,27,32-41,43-45,48-49,51,53,55,57,59,63-71,76-78,81-83,130,132,134-462
+docs/v2/zh/jev/index.md
+  s_e15ab986b6c865::t_6bb9f6b8fcf43f 2,6-8,11,13,15-17,19,21-27,29,31-39,41-47,49-59,61,63-223
+docs/v2/zh/service/access.md
+  s_e15ab986b6c865::t_1365487cdd8c87 2,10,14,16,20,22,24,26,28,30,32,34-37,39
+docs/v2/zh/service/agents.md
+  s_e15ab986b6c865::t_5dbcd8b9a2865e 1-67
+docs/v2/zh/service/api-reference.md
+  s_e15ab986b6c865::t_2cd5fe850bd3c7 2,6-8,10,12,14-25,27,29,31,33-62,64,66,68,70,72-76,78-84,86,88,90,92-98,100
+docs/v2/zh/service/automation.md
+  s_e15ab986b6c865::t_c1b2d444b65b04 2,10,12,14-16,18,20,22-24,27,29,31-40,42,44,46,48,50,52,55,58-60,63,65,67,69,71,73,75
+docs/v2/zh/service/cases/order-fulfillment.md
+  s_e15ab986b6c865::t_5bbe435a7d77d3 1-146
+docs/v2/zh/service/cases/presales-team.md
+  s_e15ab986b6c865::t_5d143b8a4a5198 1-133
+docs/v2/zh/service/cases/sdlc-team.md
+  s_e15ab986b6c865::t_88b42fb99bd385 1-142
+docs/v2/zh/service/channels.md
+  s_e15ab986b6c865::t_d0ec0f900e91c0 2,10,12,14-16,18,20,22,24,26,28,30,32,34,36,38,40
+docs/v2/zh/service/configuration.md
+  s_e15ab986b6c865::t_8793095b728d14 18-19,24-25,34,50,54
+docs/v2/zh/service/connect-hosted-agent.md
+  s_e15ab986b6c865::t_df1ee2e170c632 2,7,10,12,14,17-19,22,26-29,31,33,35,37,39
+docs/v2/zh/service/create-managed-agent.md
+  s_e15ab986b6c865::t_7f654abb460591 2,6-8,10,12,14-17,19-21,24-26,28,30,32,34,36,38,40
+docs/v2/zh/service/create-team.md
+  s_e15ab986b6c865::t_a381999259d48f 2,10,14,16-18,20,23-25,28,30,32,34,36,38,40,42
+docs/v2/zh/service/endpoints.md
+  s_e15ab986b6c865::t_389c1da5eddfa3 1-68
+docs/v2/zh/service/environments.md
+  s_e15ab986b6c865::t_573d4e2af1a71e 10,12,14-18,31,33,35,37,39,41,43,45,47,79,81,83-95,97,99
+docs/v2/zh/service/external-agent-configuration.md
+  s_e15ab986b6c865::t_7ce16b3fecfdb6 1-52
+docs/v2/zh/service/external-agent-execution.md
+  s_e15ab986b6c865::t_e91ed76e4fa023 1-47
+docs/v2/zh/service/external-agent-frameworks.md
+  s_e15ab986b6c865::t_fff3e9ad2f4ddc 1-50
+docs/v2/zh/service/external-agent.md
+  s_e15ab986b6c865::t_8306f337baff6d 2,12,14,16-18,27,38,46-56,65,67,69,72,79,81,84-89,97,99,101,103,105,107,109,111
+docs/v2/zh/service/first-session.md
+  s_e15ab986b6c865::t_70d4a66c0235ef 1-184
+docs/v2/zh/service/hosted-agent-configuration.md
+  s_e15ab986b6c865::t_9826fedbf2f11b 2,10,15,19,32,43,51,53,61
+docs/v2/zh/service/hosted-agent-execution.md
+  s_e15ab986b6c865::t_277910f2a5c279 1-46
+docs/v2/zh/service/hosted-agent-providers.md
+  s_e15ab986b6c865::t_24104544813fbe 1-44
+docs/v2/zh/service/hosted-agent.md
+  s_e15ab986b6c865::t_a282755b726680 1-55
+docs/v2/zh/service/inbox.md
+  s_e15ab986b6c865::t_063d1372d47224 1-53
+docs/v2/zh/service/index.md
+  s_e15ab986b6c865::t_440c957fc1c785 2,7,11-13,15,17,20-30,33-35,37,39,41,43,45,47,49,51,53,55,57,59,61-67,69,71-78,80,82,84,86,88,90,92
+docs/v2/zh/service/integrations.md
+  s_e15ab986b6c865::t_4b9a04f98fac5b 1-47
+docs/v2/zh/service/issues.md
+  s_e15ab986b6c865::t_6edf490707982e 2,10,12,14-16,18,20,22,24,26,28,30,32-35,38,40,42,44,46,48-55,57,59,61,63,65,67,69,71-73,75,77,79-82,84,86,88,90,92,94,96,98,100-104,106,108,110,112,114
+docs/v2/zh/service/kubernetes.md
+  s_e15ab986b6c865::t_0bb4257ca80889 7,16,57,60-61,63,68,83
+docs/v2/zh/service/managed-agent-capabilities.md
+  s_e15ab986b6c865::t_dd689dd28af857 1-52
+docs/v2/zh/service/managed-agent-configuration.md
+  s_e15ab986b6c865::t_106d55a0f1ce2f 2,6-8,10,14,16,18-29,31,33,35,39-41,45,49,55,59,63-68
+docs/v2/zh/service/managed-agent-execution.md
+  s_e15ab986b6c865::t_97203228d0b12e 1-45
+docs/v2/zh/service/managed-agent.md
+  s_e15ab986b6c865::t_7f2d092c786bd4 1-63
+docs/v2/zh/service/managed-harness-task-outcomes.md
+  s_e15ab986b6c865::t_db00a061430243 1-47
+docs/v2/zh/service/memory.md
+  s_e15ab986b6c865::t_ab72961227dfe5 10,12,14-16,18,20,22,24,28-30,32,34,36,38,40,42,44,46,48
+docs/v2/zh/service/operations.md
+  s_e15ab986b6c865::t_8d776c6356a06e 2,7,61,65,67-69
+docs/v2/zh/service/quickstart.md
+  s_e15ab986b6c865::t_96edb5cbc38163 2,6-8,10,12,14,16,18,21,23-34,37-41,45,48,50,52,54-68,70,72,74,76-83,85,87,89,91,93,95
+docs/v2/zh/service/register-agentscope-agent.md
+  s_e15ab986b6c865::t_9eae17d27b0a3a 2,10,12,14,16-21,23,25-29,31,33,35,37,39
+docs/v2/zh/service/releasing.md
+  s_e15ab986b6c865::t_bcb222bc774493 1-56
+docs/v2/zh/service/runtime-host.md
+  s_e15ab986b6c865::t_115eba627de2ba 2,7,12,14,16-18,20,23-26,29,34-36,44-46,51,60,69-75
+docs/v2/zh/service/sessions.md
+  s_e15ab986b6c865::t_e44ba16f00ef28 10,14,39,47
+docs/v2/zh/service/sse-events.md
+  s_e15ab986b6c865::t_6aaf9c58231790 2,6-8,10,12,14-17,19,21,23,25-28,32-37,39,41-42,44,46,48,50-57,59,61,63-66,70,72,74,77-79,82,84,86-91,93,95,97,99,102-103,106-108,110,112,114
+docs/v2/zh/service/team-collaboration.md
+  s_e15ab986b6c865::t_dc7dd0dbd0b135 1-66
+docs/v2/zh/service/team-configuration.md
+  s_e15ab986b6c865::t_d8f90c1b612857 10,44,77,81
+docs/v2/zh/service/team-execution.md
+  s_e15ab986b6c865::t_0b77f7b1848313 1-59
+docs/v2/zh/service/teams.md
+  s_e15ab986b6c865::t_df15a942744ebc 1-52
+docs/v2/zh/service/troubleshooting.md
+  s_e15ab986b6c865::t_bd715f7eed540a 1-50
+docs/v2/zh/service/usecases.md
+  s_e15ab986b6c865::t_a7539173ecbe51 6-8,10,12-16,18,20,22,24
+docs/v2/zh/service/vault.md
+  s_e15ab986b6c865::t_c7637e7974906b 10,12,14-16,18,22,34,50,54,60
+docs/v2/zh/service/workflows.md
+  s_e15ab986b6c865::t_4e1d85b7a19550 2,10,12,14-16,18,20,22-26,28,30,32-41,43,45,47,49,51,53,55,57,59
+docs/v2/zh/service/workspaces.md
+  s_e15ab986b6c865::t_b6362a0c9a461f 2,10,12,14-16,18,20,22,24,26-27,29-31,34,36,38-40,42
+pom.xml
+  s_e15ab986b6c865::t_a8930329f40d37 64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bfd59810bc84f3757a8b7f5d8bca7917b7ff60a4",
+  "prompts": {},
+  "sessions": {
+    "s_e15ab986b6c865": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07f78-da48-7ef2-85c9-99cb7d94caab",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "jllin5 <jllin5@leqee.com>"
+    }
+  }
+}
